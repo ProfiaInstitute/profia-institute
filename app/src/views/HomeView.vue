@@ -12,7 +12,7 @@
     <div v-if="users.error" class="text-danger">
       Error loading users: {{ users.error }}
     </div>
-    <button
+    <!-- <button
       class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded me-2"
       @click="authStore.test()"
     >
@@ -23,7 +23,7 @@
       @click="authStore.logout()"
     >
       Logout
-    </button>
+    </button> -->
   </div>
 </template>
 
