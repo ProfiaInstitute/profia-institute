@@ -1,69 +1,59 @@
-// import { ROOT_URL } from "../../config/urls";
 import axios from "axios";
 import { useLocalStorage } from "@vueuse/core";
 
-/**Import API URL from .env */
-const ROOT_URL = `${import.meta.env.VITE_API_URL}`;
+/** Import API URL from .env */
+const ROOT_URL = import.meta.env.VITE_API_URL;
 
-/**Capture the access token from local storage */
+/** Capture the access token from local storage */
 const access_token = useLocalStorage("x-token", null);
 
-/**Create an axios instance */
+/** Create an axios instance */
 const axiosInstance = axios.create({
   baseURL: ROOT_URL,
 });
 
-/**Create a request interceptor  */
+/** Create a request interceptor */
 axiosInstance.interceptors.request.use(
   (config) => {
-    //Add token to header if exists
-    if (access_token) {
+    // Add token to header if exists
+    if (access_token.value) {
       config.headers["Authorization"] = `Bearer ${access_token.value}`;
     }
-
     return config;
   },
   (error) => {
-    // Do something with request error
+    // Handle request error
     return Promise.reject(error);
   }
 );
 
+/** Create a response interceptor */
 axiosInstance.interceptors.response.use(
-  (response) => {
-    return response;
-  },
+  (response) => response,
   (error) => {
-    console.log(error);
     // Handle 401 Unauthorized error
-    if (error.response.status === 401) {
-      // Perform logout or redirect to the login page
+    if (error.response?.status === 401) {
       console.log("Unauthorized access. Logging out...");
-      // router.push("/login"); // Redirect to login page
+      // Perform logout or redirect to login page
+      // router.push("/login");
     }
 
     // Handle 403 Forbidden error
-    if (error.response.status === 403) {
-      // Perform logout or redirect to the login page
+    if (error.response?.status === 403) {
       console.log("Access forbidden. Logging out...");
-      // router.push("/login"); // Redirect to login page
+      // Perform logout or redirect to login page
+      // router.push("/login");
     }
 
     return Promise.reject(error);
   }
 );
 
-/**Global method to get */
-export const get = (uri) => {
-  return axiosInstance.get(`${uri}`);
-};
+/** Global method to get */
+export const get = (uri) => axiosInstance.get(uri);
 
-/**Global method to post */
-export const post = (uri, payload) => {
-  return axiosInstance.post(`${uri}`, payload);
-};
+/** Global method to post */
+export const post = (uri, payload) => axiosInstance.post(uri, payload);
 
-/**Global method to delete */
-export const deleteItem = (uri) => {
-  return axiosInstance.delete(`${uri}`);
-};
+/** Global method to delete */
+export const deleteItem = (uri) => axiosInstance.delete(uri);

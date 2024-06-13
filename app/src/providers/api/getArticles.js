@@ -1,16 +1,16 @@
 import { ref } from 'vue';
 import { get } from './main';
 
-export const getPosts = () => {
+export const getArticles = () => {
   const isLoading = ref(true);
-  const posts = ref([]);
+  const articles = ref([]);
   const error = ref(null);
 
   const load = async () => {
     try {
-      const response = await get('posts');
-      posts.value = response.data;  // Ensure data exists in the response
-      console.log(posts.value);
+      const response = await get('articles');
+      articles.value = response.data;  // Ensure data exists in the response
+      console.log(articles.value);
     } catch (err) {
       console.error(err);
       error.value = err;  // Store the error in the ref
@@ -23,16 +23,16 @@ export const getPosts = () => {
   return { posts, error, load, isLoading };
 };
 
-export const getPost = (id) => {
+export const getArticle = (id) => {
   const isLoading = ref(true);
-  const post = ref(null);
+  const article = ref(null);
   const error = ref(null);
 
   const load = async () => {
     try {
-      const response = await get(`posts/${id}`);
-      post.value = response.data;  // Ensure data exists in the response
-      console.log(post.value);
+      const response = await get(`articles/${id}`);
+      article.value = response.data;  // Ensure data exists in the response
+      console.log(article.value);
     } catch (err) {
       console.error(err);
       error.value = err;  // Store the error in the ref
