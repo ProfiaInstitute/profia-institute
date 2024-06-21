@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
       <div class="rounded-2xl p-6 border-2 border-gray-200 md:col-span-8">
         <h1
-          class="mb-3 font-bold text-gray-900 text-xl md:text-2xl text-center"
+          class="mb-3 font-bold text-gray-900 text-2xl md:text-3xl text-center"
         >
           Faculty Staff
         </h1>
@@ -16,11 +16,6 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
           voluptate excepturi aut cum ullam, doloribus optio enim dolorem
           fugiat, ad, corporis quibusdam! Nihil quae aliquid dolore nostrum
-          sequi rem unde. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Harum, unde. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Repudiandae voluptate excepturi aut cum ullam, doloribus optio
-          enim dolorem fugiat, ad, corporis quibusdam! Nihil quae aliquid dolore
-          nostrum sequi rem unde.
         </p>
       </div>
       <div
@@ -30,7 +25,6 @@
           Tech Hub
         </h1>
         <p class="text-lg text-gray-900">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, unde.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, unde.
         </p>
       </div>
