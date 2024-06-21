@@ -1,3 +1,4 @@
 import HomeView from "./HomeView.vue";
+import TechHubView from "./TechHubView.vue";
 
-export { HomeView, };
+export { HomeView, TechHubView };
