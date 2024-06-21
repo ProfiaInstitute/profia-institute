@@ -7,7 +7,7 @@
         >
           Faculty Staff
         </h1>
-        <!-- Image -->
+
         <div
           class="h-80 w-full sm:w-4/5 bg-gray-200 mx-auto rounded-3xl my-4"
         ></div>
@@ -21,7 +21,7 @@
         </p>
       </div>
       <div
-        class="rounded-2xl p-4 border-2 border-gray-200 md:col-span-4 max-h-max"
+        class="rounded-2xl p-4 border-2 border-gray-200 md:col-span-4 md:h-1/2"
       >
         <h1 class="mb-3 font-bold text-gray-900 text-xl md:text-2xl">
           Tech Hub
