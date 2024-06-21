@@ -11,7 +11,7 @@
       <div class="bg-gray-200 aspect-square w-full rounded-3xl"></div>
       <div class="bg-gray-200 aspect-square w-full rounded-3xl"></div>
     </div>
-    <p class="text-lg font-semibold text-gray-800 pt-5">
+    <p class="text-lg font-semibold text-gray-800 pt-5 text-center">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque impedit
       inventore eius expedita officiis ipsam deleniti placeat esse, facilis
       ipsum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
