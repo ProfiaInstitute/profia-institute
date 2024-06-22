@@ -9,8 +9,8 @@
         </h1>
         <img
           src="@/assets/images/photo-faculty.avif"
-          alt=""
-          class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-3xl"
+          alt="staff"
+          class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-2xl"
           loading="lazy"
         />
         <p class="text-lg text-gray-900 text-center">
