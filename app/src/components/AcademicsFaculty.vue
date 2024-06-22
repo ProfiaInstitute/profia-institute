@@ -7,10 +7,12 @@
         >
           Faculty Staff
         </h1>
-
-        <div
-          class="h-80 w-full sm:w-4/5 bg-gray-200 mx-auto rounded-3xl my-4"
-        ></div>
+        <img
+          src="@/assets/images/photo-faculty.avif"
+          alt=""
+          class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-3xl"
+          loading="lazy"
+        />
         <p class="text-lg text-gray-900 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, unde.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
