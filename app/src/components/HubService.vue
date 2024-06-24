@@ -5,7 +5,7 @@
       <!-- div that hold the service title -->
       <div class="justify-center flex mb-2">
         <h1
-          class="py-1 px-5 border-2 rounded-xl text-2xl text-blue-700 font-bold tracking-tighter lg:text-5xl"
+          class="py-1 px-5 border-2 rounded-xl text-2xl text-yellow-800 font-bold tracking-tighter lg:text-5xl"
         >
           Our Services
         </h1>
