@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { HomeView, TechHubView, Academics } from "../views";
-import NewsView from "../views/NewsView.vue";
+import { HomeView, TechHubView, Academics, NewsView } from "../views";
+// import NewsView from "../views/NewsView.vue";
 // import { useAuthStore } from "../store";
 
 const routes = [
@@ -8,7 +8,6 @@ const routes = [
   { path: "/techhub", name: "techhub", component: TechHubView },
   { path: "/academics", name: "academics", component: Academics },
   { path: "/news", name: "news", component: NewsView },
-  // { path: "/news", name: "news", component: NewsView },
 ];
 
 /**Initialize here */
