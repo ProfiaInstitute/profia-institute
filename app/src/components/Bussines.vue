@@ -62,7 +62,7 @@
         <p class="text-gray-600">2 modules | 80 hours</p>
       </header>
     </div>
-    
+
     <div
       class="bg-gray-100 border border-black rounded-lg p-4 max-w-7xl mx-auto w-auto h-auto"
     >
