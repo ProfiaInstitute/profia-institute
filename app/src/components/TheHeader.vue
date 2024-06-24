@@ -1,7 +1,7 @@
 <template>
   <div>
     <header
-      class="h-14 lg:h-20 fixed w-full top-14 lg:top-28 inset-0 z-20 bg-white"
+      class="h-14 lg:h-20 fixed w-full top-0  inset-0 z-20 bg-white"
     >
       <!-- Header content -->
       <div
@@ -34,7 +34,7 @@
             </li>
             <!-- Academics dropdown -->
             <li class="relative group">
-              <router-link to="#" class="hover:text-gray-400"
+              <router-link to="academics" class="hover:text-gray-400"
                 >Academics</router-link
               >
               <div
@@ -110,7 +110,12 @@
             </li>
             <!-- Other navigation items -->
             <li>
-              <router-link to="#" class="hover:text-gray-400"
+              <router-link to="/techhub" class="hover:text-gray-400"
+                >Tech-hub</router-link
+              >
+            </li>
+            <li>
+              <router-link to="news" class="hover:text-gray-400"
                 >News & updates</router-link
               >
             </li>
