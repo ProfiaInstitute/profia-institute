@@ -4,7 +4,9 @@
       class="h-14 lg:h-20 fixed w-full top-14 lg:top-28 inset-0 z-20 bg-white"
     >
       <!-- Header content -->
-      <div class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0">
+      <div
+        class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
+      >
         <!-- Logo and menu toggle button -->
         <div class="flex items-center gap-6 font-mono">
           <button
@@ -13,10 +15,9 @@
           >
             {{ close2 ? "☰" : "✘" }}
           </button>
-          <router-link
-            to="/"
-            class="text-2xl text-black font-bold"
-          >Logo</router-link>
+          <router-link to="/" class="text-2xl text-black font-bold"
+            >Logo</router-link
+          >
         </div>
 
         <!-- Navigation menu -->
@@ -119,7 +120,7 @@
               >
             </li>
             <li>
-              <router-link to="#" class="hover:text-gray-400"
+              <router-link to="contact" class="hover:text-gray-400"
                 >Contact Us</router-link
               >
             </li>
@@ -137,8 +138,7 @@
         </nav>
 
         <!-- Empty div for spacing -->
-        <div class="flex items-center gap-6 font-mono">
-        </div>
+        <div class="flex items-center gap-6 font-mono"></div>
       </div>
     </header>
   </div>
