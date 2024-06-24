@@ -23,7 +23,7 @@
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-blue-500 lg:bg-white lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute lg:relative top-14 lg:top-0 left-0 w-full lg:w-auto"
+          class="bg-blue-500 lg:bg-white lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
           <ul
             class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black font-mono mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
