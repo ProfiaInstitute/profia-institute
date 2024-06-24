@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { HomeView, TechHubView, Academics } from "../views";
-import NewsView from "../views/NewsView.vue";
+import { HomeView, TechHubView, Academics, NewsView } from "../views";
 // import { useAuthStore } from "../store";
 
 const routes = [

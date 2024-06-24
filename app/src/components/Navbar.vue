@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <header class="h-14 lg:h-20 w-full top-0 inset-0 z-20 bg-blue-500">
     <div class="container mx-auto max-w-7xl px-4 lg:px-6">
       <div class="flex justify-between items-center h-full">
@@ -34,4 +34,17 @@
       </div>
     </div>
   </header>
+</template> -->
+<template>
+    <div>
+
+    </div>
 </template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>
