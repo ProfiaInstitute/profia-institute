@@ -3,5 +3,6 @@ import TechHubView from "./TechHubView.vue";
 import Academics from "./Academics.vue";
 import SchoolofBus from "./SchoolofBus.vue";
 import NewsView from "./NewsView.vue";
+import AboutusView from "./AboutusView.vue";
 
-export { HomeView, TechHubView, Academics,SchoolofBus, NewsView };
+export { HomeView, TechHubView, Academics,SchoolofBus, NewsView, AboutusView};

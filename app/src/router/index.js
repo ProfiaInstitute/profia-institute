@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { HomeView, TechHubView, Academics,SchoolofBus, NewsView } from "../views";
+import { HomeView, TechHubView, Academics,SchoolofBus, NewsView, AboutusView } from "../views";
 // import { useAuthStore } from "../store";
 
 const routes = [
@@ -8,6 +8,7 @@ const routes = [
   { path: "/academics", name: "academics", component: Academics },
   { path: "/scholofbus", name: "schoolofbus", component: SchoolofBus },
   { path: "/news", name: "news", component: NewsView },
+  { path: "/aboutus", name: "aboutus", component: AboutusView },
 ];
 
 /**Initialize here */
