@@ -1,6 +1,6 @@
 <template>
   <!-- This is the section that holds the service of the hub -->
-  <section class="w-full mt-5 mx-auto lg:max-w-7xl">
+  <section class="w-full py-10 mx-auto lg:max-w-7xl">
     <div class="flex flex-col justify-center m-2">
       <!-- div that hold the service title -->
       <div class="justify-center flex mb-2">
