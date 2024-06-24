@@ -1,7 +1,7 @@
 <template>
   <div>
     <header
-      class="h-14 lg:h-20 fixed w-full top-0  inset-0 z-20 bg-white"
+      class="h-14 lg:h-20 fixed w-full top-0 inset-0 z-20 bg-white shadow-md"
     >
       <!-- Header content -->
       <div
@@ -22,11 +22,11 @@
 
         <!-- Navigation menu -->
         <nav
-          :class="{ hidden: close2, flex: open2 }"
-          class="bg-blue-500 lg:bg-white lg:static lg:flex lg:items-center font-mono flex-1 justify-center"
+          :class="{ hidden: close2, flex: !close2 }"
+          class="bg-blue-500 lg:bg-white lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
           <ul
-            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black font-mono mt-4 lg:mt-0"
+            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black font-mono mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
           >
             <!-- Navigation items -->
             <li>
@@ -38,7 +38,7 @@
                 >Academics</router-link
               >
               <div
-                class="absolute hidden group-hover:block bg-blue-500 text-black p-4 rounded shadow-lg mt-2 lg:mt-0"
+                class="absolute hidden group-hover:block bg-white text-black p-4 rounded shadow-lg mt-2"
               >
                 <!-- Dropdown content -->
                 <ul>
@@ -154,13 +154,11 @@ export default {
   data() {
     return {
       close2: true, // Variable to control menu visibility on small screens
-      open2: false, // Variable to control menu visibility on large screens
     };
   },
   methods: {
     toggleMenu2() {
       this.close2 = !this.close2;
-      this.open2 = !this.open2;
     },
   },
 };

@@ -1,5 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { HomeView, TechHubView, Academics,SchoolofBussines, NewsView, AboutusView, Contact } from "../views";
+import {
+  HomeView,
+  TechHubView,
+  Academics,
+  SchoolofBussines,
+  NewsView,
+  AboutusView,
+  Contact,
+} from "../views";
 // import { useAuthStore } from "../store";
 
 const routes = [
