@@ -1,5 +1,11 @@
 <template>
-  <div class="px-8"></div>
+  <div>
+    <Navbar />
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Navbar from "../components/Navbar.vue";
+</script>
+
+<style lang="scss" scoped></style>
