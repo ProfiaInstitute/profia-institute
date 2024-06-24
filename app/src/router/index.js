@@ -1,11 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { HomeView, TechHubView, Academics } from "../views";
+import NewsView from "../views/NewsView.vue";
 // import { useAuthStore } from "../store";
 
 const routes = [
   { path: "/", name: "home", component: HomeView },
   { path: "/techhub", name: "techhub", component: TechHubView },
   { path: "/academics", name: "academics", component: Academics },
+  { path: "/news", name: "news", component: NewsView },
+  // { path: "/news", name: "news", component: NewsView },
 ];
 
 /**Initialize here */

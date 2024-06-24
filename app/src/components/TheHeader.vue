@@ -33,7 +33,7 @@
             </li>
             <!-- Academics dropdown -->
             <li class="relative group">
-              <router-link to="#" class="hover:text-gray-400"
+              <router-link to="academics" class="hover:text-gray-400"
                 >Academics</router-link
               >
               <div
@@ -109,7 +109,7 @@
             </li>
             <!-- Other navigation items -->
             <li>
-              <router-link to="#" class="hover:text-gray-400"
+              <router-link to="news" class="hover:text-gray-400"
                 >News & updates</router-link
               >
             </li>
