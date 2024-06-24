@@ -4,5 +4,6 @@ import Academics from "./Academics.vue";
 import SchoolofBus from "./SchoolofBussines.vue";
 import NewsView from "./NewsView.vue";
 import AboutusView from "./AboutusView.vue";
+import Contact from "./Contact.vue"
 
 export { HomeView, TechHubView, Academics, SchoolofBussines, NewsView, AboutusView};

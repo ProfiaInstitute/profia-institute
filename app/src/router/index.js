@@ -9,6 +9,7 @@ const routes = [
   { path: "/scholofbus", name: "schoolofbus", component: SchoolofBussines },
   { path: "/news", name: "news", component: NewsView },
   { path: "/aboutus", name: "aboutus", component: AboutusView },
+  { path: "/contact", name: "contact", component: Contact },
 ];
 
 /**Initialize here */
