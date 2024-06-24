@@ -5,4 +5,4 @@ import SchoolofBus from "./SchoolofBussines.vue";
 import NewsView from "./NewsView.vue";
 import AboutusView from "./AboutusView.vue";
 
-export { HomeView, TechHubView, Academics,SchoolofBus, NewsView, AboutusView};
+export { HomeView, TechHubView, Academics, SchoolofBussines, NewsView, AboutusView};
