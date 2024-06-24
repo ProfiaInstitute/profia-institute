@@ -1,11 +1,11 @@
 <template>
   <!-- This is the section that holds the service of the hub -->
-  <section class="w-full mt-5 mx-auto lg:max-w-7xl">
+  <section class="w-full py-10 mx-auto lg:max-w-7xl">
     <div class="flex flex-col justify-center m-2">
       <!-- div that hold the service title -->
       <div class="justify-center flex mb-2">
         <h1
-          class="py-1 px-5 border-2 rounded-xl text-2xl text-blue-700 font-bold tracking-tighter lg:text-5xl"
+          class="py-1 px-5 border-2 rounded-xl text-2xl text-yellow-800 font-bold tracking-tighter lg:text-5xl"
         >
           Our Services
         </h1>

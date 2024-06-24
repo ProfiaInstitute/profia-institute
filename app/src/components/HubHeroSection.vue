@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pb-10">
     <!-- container div -->
     <div class="flex flex-col-reverse w-full h-[50vh] mx-auto relative lg:h-[80vh] lg:max-w-7xl">
       <!-- div that holds the image  -->
@@ -15,7 +15,7 @@
         class="p-2 bg-slate-50 bottom-1 rounded-xl right-3 w-full h-[20vh] lg:w-1/2 lg:absolute shadow-2xl lg:h-[30vh] shadow-blue-200"
       >
         <h1
-          class="text-2xl text-blue-700 sm:p-2 text-center tracking-tighter font-bold lg:text-5xl"
+          class="text-2xl text-yellow-800 sm:p-2 text-center tracking-tighter font-bold lg:text-5xl"
         >
           Profia Tech Hub
         </h1>
