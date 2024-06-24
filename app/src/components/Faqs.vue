@@ -8,7 +8,7 @@
             >
               Frequently
               <span
-                class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700"
+                class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-800 to-gray-700"
               >
                 Asked
               </span>
