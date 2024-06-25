@@ -1,14 +1,11 @@
 <template>
-    <div>
-<Academicachievements.vue/>
-    </div>
+  <div>
+    <!-- <Academicachievements /> -->
+  </div>
 </template>
 
 <script setup>
-import Academicachievements from "../components/Academicachievements.vue";
-
+// import Academicachievements from "../components/Academicachievements.vue";
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
