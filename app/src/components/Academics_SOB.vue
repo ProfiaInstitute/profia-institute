@@ -16,8 +16,8 @@
           value="APPLY HERE"
         />
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 mt-10">
-        <div class="md:col-span-8 mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 mt-10">
+        <div class="lg:col-span-8 mx-auto">
           <div>
             <img
               src="@/assets/images/photo-faculty.avif"
@@ -28,7 +28,7 @@
           </div>
 
           <div
-            class="mt-4 text-center border rounded-xl w-[840px] h-[400px] space-y-5 p"
+            class="mt-4 text-center border rounded-xl w-auto h-auto space-y-5 p"
           >
             <h1 class="text-2xl font-bold py-5">Message From The Principal</h1>
             <p class="text-lg ">
@@ -46,8 +46,8 @@
             </p>
           </div>
         </div>
-        <div class="md:col-span-4 mx-auto space-y-5 my-4 ">
-          <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
+        <div class="lg:col-span-4 mx-auto space-y-5 my-4 ">
+          <div class="border border-black w-auto h-auto rounded-xl px-5">
             <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
             <h2 class="text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
@@ -59,7 +59,7 @@
               value="APPLY HERE"
             />
           </div>
-          <div class=" border border-black rounded-lg w-[400px] h-[730px] px-5 space-y-4">
+          <div class=" border border-black rounded-lg w-auto h-auto px-5 space-y-4">
             <div class="">
               <h1 class="text-xl font-bold">School of Business</h1>
               <p class="text-lg">
