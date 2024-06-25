@@ -22,7 +22,7 @@
           Profia Tech Hub
         </h1>
         <p
-          class="text-justify text-xl tracking-tighter font-serif sm:text-2xl  p-1"
+          class="text-justify text-xl tracking-tighter font-serif sm:text-xl xl:text-2xl p-1"
         >
           Profia Institute's Tech Hub is central to our focus on innovation and
           technology. We explore AI, Data Categorization, 3D & 2D Annotation,
