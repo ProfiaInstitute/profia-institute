@@ -1,10 +1,7 @@
 <template>
   <div class="text-gray-800">
 
-    
-
     <section class="max-w-7xl mx-auto space-y-40">
-
 
       <h1 class="text-gray-700 text-center text-4xl font-bold py-5">
         Academic Achievements

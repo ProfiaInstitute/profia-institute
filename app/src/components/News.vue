@@ -51,7 +51,7 @@
         >
           <div>
             <h1 class="text-2xl font-semibold text-white">3rd event</h1>
-            <p class="text-white py-3">Most current</p>
+            <p class="text-white py-3">Most current</p> 
           </div>
         </div>
         <img
