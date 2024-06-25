@@ -3,10 +3,8 @@
     <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-blue-500':
-          isHomePage,
-        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-blue-500':
-          !isHomePage,
+        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-blue-500': isHomePage,
+        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-blue-500': !isHomePage,
       }"
     >
       <!-- Navigation specific to homepage -->
@@ -57,78 +55,82 @@
             </li>
             <!-- Academics dropdown -->
             <li class="relative group">
-              <router-link to="academics" class="hover:text-gray-400"
-                >Academics</router-link
+              <router-link
+                to="academics"
+                class="hover:text-gray-400 flex items-center"
               >
+                <span>Academics</span>
+                <span class="ml-1">&#9662;</span>
+              </router-link>
               <div
-                class="absolute hidden group-hover:block bg-blue-500 text-black p-4 rounded shadow-lg mt-2 lg:mt-0"
+                class="absolute hidden group-hover:block bg-blue-500 text-black p-4 rounded mt-2 lg:w-96 left-0 w-full"
               >
                 <!-- Dropdown content -->
-                <ul>
+                <div class="grid grid-cols-3 gap-4">
                   <!-- School of Business -->
-                  <li class="mb-2">
+                  <div>
                     <h3 class="font-semibold">School of Business</h3>
                     <ul class="ml-4">
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Undergraduate</router-link
+                          >link 1</router-link
                         >
                       </li>
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Postgraduate</router-link
+                          >link 2</router-link
                         >
                       </li>
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >PhD</router-link
+                          >link 3</router-link
                         >
                       </li>
                     </ul>
-                  </li>
+                  </div>
                   <!-- School of ICT -->
-                  <li class="mb-2">
+                  <div>
                     <h3 class="font-semibold">School of ICT</h3>
                     <ul class="ml-4">
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Undergraduate</router-link
+                          >link 1</router-link
                         >
                       </li>
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Postgraduate</router-link
+                          >link 2</router-link
                         >
                       </li>
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >PhD</router-link
+                          >link 3</router-link
                         >
                       </li>
                     </ul>
-                  </li>
+                  </div>
                   <!-- School of Hospitality -->
-                  <li>
+                  <div>
                     <h3 class="font-semibold">School of Hospitality</h3>
                     <ul class="ml-4">
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Undergraduate</router-link
+                          >link 1</router-link
                         >
                       </li>
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Postgraduate</router-link
+                          >link 2</router-link
                         >
                       </li>
                       <li>
                         <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >PhD</router-link
+                          >link 3</router-link
                         >
                       </li>
                     </ul>
-                  </li>
-                </ul>
+                  </div>
+                </div>
               </div>
             </li>
             <!-- Other navigation items -->
@@ -186,3 +188,7 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+/* Add any necessary styling here */
+</style>
