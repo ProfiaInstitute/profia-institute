@@ -1,8 +1,27 @@
 <template>
   <div>
+    
     <header
-      class="h-14 lg:h-20 fixed w-full top-0 inset-0 z-20 bg-white shadow-md"
+      class="h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-white shadow-md"
     >
+    <section class="bg-yellow-700 py-4 lg">
+      <div class="flex justify-end items-center list-none px-5 space-x-10">
+        <li>
+              <router-link to="/techhub" class="hover:text-gray-400"
+                >Tech-hub</router-link
+              >
+            </li>
+            <li>
+              <router-link to="/enquiries" class="text-white hover:text-gray-400"
+                >Enquiries</router-link
+              >
+            </li>
+
+
+      </div>
+
+
+    </section>
       <!-- Header content -->
       <div
         class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
@@ -115,15 +134,20 @@
               >
             </li>
             <li>
+              <router-link to="/aboutus" class="hover:text-gray-400"
+                >About Us</router-link
+              >
+            </li>
+            <li>
               <router-link to="news" class="hover:text-gray-400"
                 >News & updates</router-link
               >
             </li>
-            <li>
+            <!-- <li>
               <router-link to="#" class="hover:text-gray-400"
                 >Research</router-link
               >
-            </li>
+            </li> -->
             <li>
               <router-link to="contact" class="hover:text-gray-400"
                 >Contact Us</router-link
