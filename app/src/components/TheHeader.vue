@@ -3,16 +3,16 @@
     <header
       class="h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-white shadow-md"
     >
-      <section class="bg-yellow-700 py-4 lg">
+      <section v-if="isHomePage" class="bg-yellow-700 py-4 lg">
         <div class="flex justify-end items-center list-none px-5 space-x-10">
           <!-- Conditionally render Tech-hub link only on the homepage -->
-          <li v-if="isHomePage">
+          <li>
             <router-link to="/techhub" class="hover:text-gray-400"
               >Tech-hub</router-link
             >
           </li>
           <!-- Conditionally render Enquiries link only on the homepage -->
-          <li v-if="isHomePage">
+          <li>
             <router-link to="/enquiries" class="text-white hover:text-gray-400"
               >Enquiries</router-link
             >
