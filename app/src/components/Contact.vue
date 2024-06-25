@@ -53,7 +53,7 @@
       </form>
 
       <div
-        class="min-h-56 w-full lg:w-6/12 bg-green-500 flex text-white justify-center items-center p-4 lg:p-8 hidden md:block lg:block"
+        class="min-h-56 w-full lg:w-6/12 bg-green-500  text-white justify-center items-center p-4 lg:p-8 hidden md:block lg:block"
       >
         map goes here <br />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque beatae,

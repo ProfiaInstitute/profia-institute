@@ -3,12 +3,14 @@
     <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-white shadow-md': isHomePage,
-        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white shadow-md': !isHomePage
+        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-blue-500':
+          isHomePage,
+        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-blue-500':
+          !isHomePage,
       }"
     >
       <!-- Navigation specific to homepage -->
-      <section v-if="isHomePage" class="bg-yellow-700 py-4 lg">
+      <section v-if="isHomePage" class="bg-yellow-500 py-4 lg">
         <div class="flex justify-end items-center list-none px-5 space-x-10">
           <li>
             <router-link to="/techhub" class="hover:text-gray-400"
@@ -43,13 +45,12 @@
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-blue-500 lg:bg-white lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+          class="bg-blue-500 lg lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
           <!-- Navigation items -->
           <ul
             class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black font-mono mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
           >
-
             <!-- Navigation items -->
             <li>
               <router-link to="/" class="hover:text-gray-400">Home</router-link>
