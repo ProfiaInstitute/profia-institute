@@ -17,12 +17,12 @@
         class="p-4 bg-slate-50 rounded-xl -bottom-5 right-3 w-full lg:w-1/2 lg:absolute lg:shadow-2xl lg:h-[25vh] shadow-blue-200"
       >
         <h1
-          class="text-3xl text-yellow-800 font-serif text-center tracking-tighter sm:text-4xl font-bold "
+          class="text-3xl text-yellow-800 font-serif text-center tracking-tighter sm:text-4xl font-bold"
         >
           Profia Tech Hub
         </h1>
         <p
-          class="text-justify text-xl tracking-tighter font-serif sm:text-2xl  p-1"
+          class="text-justify text-xl tracking-tighter font-serif sm:text-xl xl:text-2xl p-1"
         >
           Profia Institute's Tech Hub is central to our focus on innovation and
           technology. We explore AI, Data Categorization, 3D & 2D Annotation,

@@ -1,8 +1,28 @@
 <template>
   <div>
+    <!-- Header section -->
     <header
-      class="h-14 lg:h-20 fixed w-full top-0 inset-0 z-20 bg-white shadow-md"
+      :class="{
+        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-gray-400': isHomePage,
+        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-gray-400': !isHomePage,
+      }"
     >
+      <!-- Navigation specific to homepage -->
+      <section v-if="isHomePage" class="bg-yellow-700 py-4 lg">
+        <div class="flex justify-end items-center list-none px-5 space-x-10">
+          <li>
+            <router-link to="/techhub" class="hover:text-gray-400"
+              >Tech-hub</router-link
+            >
+          </li>
+          <li>
+            <router-link to="/enquiries" class="text-white hover:text-gray-400"
+              >Enquiries</router-link
+            >
+          </li>
+        </div>
+      </section>
+
       <!-- Header content -->
       <div
         class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
@@ -23,114 +43,114 @@
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-blue-500 lg:bg-white lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+          class="bg-gray-400 lg lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
+          <!-- Navigation items -->
           <ul
             class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black font-mono mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
           >
             <!-- Navigation items -->
             <li>
-              <router-link to="/" class="hover:text-gray-400">Home</router-link>
+              <router-link to="/" class="hover:text-white">Home</router-link>
             </li>
             <!-- Academics dropdown -->
             <li class="relative group">
-              <router-link to="academics" class="hover:text-gray-400"
-                >Academics</router-link
+              <router-link
+                to="academics"
+                class="hover:text-white flex items-center"
               >
+                <span>Academics</span>
+                <span class="ml-1">&#9662;</span>
+              </router-link>
               <div
-                class="absolute hidden group-hover:block bg-white text-black p-4 rounded shadow-lg mt-2"
+                class="absolute hidden group-hover:block bg-blue-500 text-black p-4 rounded mt-2 lg:w-96 left-0 w-full"
               >
                 <!-- Dropdown content -->
-                <ul>
+                <div class="grid grid-cols-3 gap-4">
                   <!-- School of Business -->
-                  <li class="mb-2">
+                  <div>
                     <h3 class="font-semibold">School of Business</h3>
                     <ul class="ml-4">
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Undergraduate</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 1</router-link
                         >
                       </li>
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Postgraduate</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 2</router-link
                         >
                       </li>
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >PhD</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 3</router-link
                         >
                       </li>
                     </ul>
-                  </li>
+                  </div>
                   <!-- School of ICT -->
-                  <li class="mb-2">
+                  <div>
                     <h3 class="font-semibold">School of ICT</h3>
                     <ul class="ml-4">
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Undergraduate</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 1</router-link
                         >
                       </li>
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Postgraduate</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 2</router-link
                         >
                       </li>
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >PhD</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 3</router-link
                         >
                       </li>
                     </ul>
-                  </li>
+                  </div>
                   <!-- School of Hospitality -->
-                  <li>
+                  <div>
                     <h3 class="font-semibold">School of Hospitality</h3>
                     <ul class="ml-4">
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Undergraduate</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 1</router-link
                         >
                       </li>
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >Postgraduate</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 2</router-link
                         >
                       </li>
                       <li>
-                        <router-link to="#" class="block py-1 hover:bg-gray-100"
-                          >PhD</router-link
+                        <router-link to="#" class="block py-1 hover:bg-white"
+                          >link 3</router-link
                         >
                       </li>
                     </ul>
-                  </li>
-                </ul>
+                  </div>
+                </div>
               </div>
             </li>
             <!-- Other navigation items -->
             <li>
-              <router-link to="/techhub" class="hover:text-gray-400"
-                >Tech-hub</router-link
+              <router-link to="aboutus" class="hover:text-white"
+                >About Us</router-link
               >
             </li>
             <li>
-              <router-link to="news" class="hover:text-gray-400"
+              <router-link to="news" class="hover:text-white"
                 >News & updates</router-link
               >
             </li>
             <li>
-              <router-link to="#" class="hover:text-gray-400"
-                >Research</router-link
-              >
-            </li>
-            <li>
-              <router-link to="contact" class="hover:text-gray-400"
+              <router-link to="contact" class="hover:text-white"
                 >Contact Us</router-link
               >
             </li>
             <li>
-              <router-link to="#" class="hover:text-gray-400 relative"
+              <router-link to="#" class="hover:text-white relative"
                 >Admission
                 <img
                   src="@/assets/Search.png"
@@ -153,8 +173,13 @@
 export default {
   data() {
     return {
-      close2: true, // Variable to control menu visibility on small screens
+      close2: true,
     };
+  },
+  computed: {
+    isHomePage() {
+      return this.$route.path === "/";
+    },
   },
   methods: {
     toggleMenu2() {

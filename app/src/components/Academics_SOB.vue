@@ -49,7 +49,7 @@
         <div class="md:col-span-4 mx-auto space-y-5 my-4 ">
           <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
             <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
-            <h2 class="text-lg ">
+            <h2 class="text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
               eligendi explicabo, repudiandae blanditiis quam magnam
             </h2>

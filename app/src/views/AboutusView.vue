@@ -6,8 +6,8 @@
 </template>
 
 <script setup>
-import Faqs from "../components/Faqs.vue";
 import Academicachievements from "../components/Academicachievements.vue";
+import Faqs from "../components/Faqs.vue";
 </script>
 
 <style lang="scss" scoped></style>
