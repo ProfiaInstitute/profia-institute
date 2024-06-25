@@ -1,27 +1,25 @@
 <template>
   <div>
-    
     <header
       class="h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-white shadow-md"
     >
-    <section class="bg-yellow-700 py-4 lg">
-      <div class="flex justify-end items-center list-none px-5 space-x-10">
-        <li>
-              <router-link to="/techhub" class="hover:text-gray-400"
-                >Tech-hub</router-link
-              >
-            </li>
-            <li>
-              <router-link to="/enquiries" class="text-white hover:text-gray-400"
-                >Enquiries</router-link
-              >
-            </li>
+      <section class="bg-yellow-700 py-4 lg">
+        <div class="flex justify-end items-center list-none px-5 space-x-10">
+          <!-- Conditionally render Tech-hub link only on the homepage -->
+          <li v-if="isHomePage">
+            <router-link to="/techhub" class="hover:text-gray-400"
+              >Tech-hub</router-link
+            >
+          </li>
+          <!-- Conditionally render Enquiries link only on the homepage -->
+          <li v-if="isHomePage">
+            <router-link to="/enquiries" class="text-white hover:text-gray-400"
+              >Enquiries</router-link
+            >
+          </li>
+        </div>
+      </section>
 
-
-      </div>
-
-
-    </section>
       <!-- Header content -->
       <div
         class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
@@ -57,7 +55,7 @@
                 >Academics</router-link
               >
               <div
-                class="absolute hidden group-hover:block bg-white text-black p-4 rounded shadow-lg mt-2"
+                class="absolute hidden group-hover:block bg-blue-500 text-black p-4 rounded shadow-lg mt-2 lg:mt-0"
               >
                 <!-- Dropdown content -->
                 <ul>
@@ -129,11 +127,6 @@
             </li>
             <!-- Other navigation items -->
             <li>
-              <router-link to="/techhub" class="hover:text-gray-400"
-                >Tech-hub</router-link
-              >
-            </li>
-            <li>
               <router-link to="/aboutus" class="hover:text-gray-400"
                 >About Us</router-link
               >
@@ -143,11 +136,6 @@
                 >News & updates</router-link
               >
             </li>
-            <!-- <li>
-              <router-link to="#" class="hover:text-gray-400"
-                >Research</router-link
-              >
-            </li> -->
             <li>
               <router-link to="contact" class="hover:text-gray-400"
                 >Contact Us</router-link
@@ -177,8 +165,13 @@
 export default {
   data() {
     return {
-      close2: true, // Variable to control menu visibility on small screens
+      close2: true,
     };
+  },
+  computed: {
+    isHomePage() {
+      return this.$route.path === "/";
+    },
   },
   methods: {
     toggleMenu2() {
