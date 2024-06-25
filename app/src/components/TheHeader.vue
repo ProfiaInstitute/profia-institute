@@ -76,9 +76,9 @@
                 <span class="ml-1">&#9662;</span>
               </router-link>
               <div
-                class="absolute hidden group-hover:block bg-gray-400 text-black p-4 rounded mt-2 lg:w-96 left-0 w-full"
+                class="absolute hidden group-hover:block lg:bg-gray-400 bg-blue-500 text-black p-4 rounded mt-2 lg:w-96 left-0 w-96"
               >
-                <div class="grid grid-cols-3 gap-4">
+                <div class="grid grid-cols-3 lg:gap-4">
                   <div>
                     <h3 class="font-semibold">School of Business</h3>
                     <ul class="ml-4">
