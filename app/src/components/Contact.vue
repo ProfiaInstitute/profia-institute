@@ -46,7 +46,7 @@
           placeholder="Enter text here..."
         ></textarea>
         <button
-          class="text-xs sm:text-sm p-2 sm:p-3 bg-gray-400 w-32 sm:w-44 mx-auto"
+          class="text-xs sm:text-sm p-2 sm:p-3 bg-gray-400 w-32 sm:w-44"
         >
           Send message
         </button>
