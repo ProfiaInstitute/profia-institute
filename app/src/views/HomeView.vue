@@ -1,14 +1,11 @@
 <template>
   <div class="px-4 sm:px-8">
-    <!-- <Navbar /> -->
-     <HomeCards/>
+    <HomeCards />
   </div>
 </template>
 
 <script setup>
-import HomeCards from '../components/HomeCards.vue';
-
-// import Navbar from "../components/Navbar.vue";
+import HomeCards from "../components/HomeCards.vue";
 </script>
 
 <style lang="scss" scoped></style>

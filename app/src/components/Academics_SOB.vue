@@ -30,7 +30,7 @@
             class="mt-4 text-center border rounded-xl w-[840px] h-[400px] space-y-10 p"
           >
             <h1 class="text-2xl font-semibold py-5">Message From The Dean</h1>
-            <p class="text-lg ">
+            <p class="text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
               Ab minima nostrum, odit, aspernatur mollitia non dolores,<br />
               blanditiis adipisci saepe sed voluptate rerum? <br />
@@ -38,10 +38,10 @@
             </p>
           </div>
         </div>
-        <div class="col-span-4 mx-auto space-y-5 my-4 ">
+        <div class="col-span-4 mx-auto space-y-5 my-4">
           <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
             <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
-            <h2 class="text-lg ">
+            <h2 class="text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
               eligendi explicabo, repudiandae blanditiis quam magnam
             </h2>
@@ -51,7 +51,9 @@
               value="APPLY HERE"
             />
           </div>
-          <div class="border border-black rounded-lg w-[400px] h-[600px] px-5 space-y-5">
+          <div
+            class="border border-black rounded-lg w-[400px] h-[600px] px-5 space-y-5"
+          >
             <div class="py-5">
               <h1 class="text-xl font-semibold">School of Business</h1>
               <p class="text-lg">

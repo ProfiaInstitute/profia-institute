@@ -1,8 +1,6 @@
 <template>
   <div class="text-gray-800">
-
     <section class="max-w-7xl mx-auto space-y-40">
-
       <h1 class="text-gray-700 text-center text-4xl font-bold py-5">
         Academic Achievements
       </h1>
@@ -14,7 +12,11 @@
           deserunt quia iusto velit sed. Nihil, expedita delectus.
         </p>
         <div class="absolute h-56 w-56 -bottom-7 -left-40 mb-20">
-          <img src="../assets/images/alexander-krivitskiy.jpg" class="rounded-2xl" alt="" />
+          <img
+            src="../assets/images/alexander-krivitskiy.jpg"
+            class="rounded-2xl"
+            alt=""
+          />
         </div>
       </div>
 

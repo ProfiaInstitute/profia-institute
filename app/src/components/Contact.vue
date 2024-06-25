@@ -1,11 +1,11 @@
 <template>
-  <section class="py-10 lg:py-20 max-w-full mx-auto px-4 sm:px-8 mx-20">
+  <section class="py-10 lg:py-20 max-w-full mx-auto px-4 sm:px-8">
     <div
       class="w-full flex justify-end px-8 mx-auto bg-blue-400 text-black text-center text-3xl font-semibold rounded-lg py-4 mb-10"
     >
       Reach out to us
     </div>
-    <div class="flex justify-start ml-20 -mt-5 items-center -ml-11 -mt-16">
+    <div class="flex justify-start ml-20 -mt- items-center -mt-16">
       <div class="bg-gray-200 p-4 rounded-lg shadow-lg">
         <div class="bg-white p-4 rounded-lg">
           <p>Profia Institute</p>
@@ -46,14 +46,14 @@
           placeholder="Enter text here..."
         ></textarea>
         <button
-          class="text-xs sm:text-sm p-2 sm:p-3 bg-gray-400 w-32 sm:w-44 mx-auto"
+          class="text-xs sm:text-sm p-2 sm:p-3 bg-gray-400 w-32 sm:w-44"
         >
           Send message
         </button>
       </form>
 
       <div
-        class="min-h-56 w-full lg:w-6/12 bg-green-500 flex text-white justify-center items-center p-4 lg:p-8 hidden md:block lg:block"
+        class="min-h-56 w-full lg:w-6/12 bg-green-500  text-white justify-center items-center p-4 lg:p-8 hidden md:block lg:block"
       >
         map goes here <br />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque beatae,
