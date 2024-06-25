@@ -127,7 +127,7 @@
             </li>
             <!-- Other navigation items -->
             <li>
-              <router-link to="/aboutus" class="hover:text-gray-400"
+              <router-link to="aboutus" class="hover:text-gray-400"
                 >About Us</router-link
               >
             </li>
