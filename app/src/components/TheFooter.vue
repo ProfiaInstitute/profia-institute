@@ -1,6 +1,6 @@
 <template>
   <footer class="bg-white">
-    <div class="container px-6 py-16 mx-auto">
+    <div class="container px-6 py-16 mx-auto ">
       <hr class="my-6 border-gray-200 md:my-10" />
       <div
         class="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between"
@@ -8,7 +8,7 @@
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZYNnmOkPezPCwn0HNtGEpeL1gD2hyzz8TFw&s"
           alt="Company Logo"
-          class="h-12"
+          class="h-24"
         />
       </div>
       <div
@@ -69,11 +69,6 @@
             <a
               href="#"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Administration</a
-            >
-            <a
-              href="#"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
               >Staff</a
             >
             <a
@@ -86,13 +81,18 @@
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
               >Admission</a
             >
+            <a
+              href="#"
+              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >Administration</a
+            >
           </div>
         </div>
       </div>
 
       <div class="bg-white rounded-lg m-4">
         <div
-          class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+          class="w-full mx-auto max-w-screen-xl p-5 md:flex md:items-center md:justify-between"
         >
           <span class="text-sm text-gray-500 sm:text-center"
             >© 2024.Profia Institute. All Rights Reserved

@@ -11,12 +11,17 @@
     >
       <!-- Navigation specific to homepage -->
       <section v-if="isHomePage" class="bg-yellow-700 py-4 lg">
+      <section v-if="isHomePage" class="bg-yellow-700 py-4 lg">
         <div class="flex justify-end items-center list-none px-5 space-x-10">
+          <li>
+          <!-- Conditionally render Tech-hub link only on the homepage -->
           <li>
             <router-link to="/techhub" class="hover:text-gray-400"
               >Tech-hub</router-link
             >
           </li>
+          <li>
+          <!-- Conditionally render Enquiries link only on the homepage -->
           <li>
             <router-link to="/enquiries" class="text-white hover:text-gray-400"
               >Enquiries</router-link
@@ -133,7 +138,7 @@
             </li>
             <!-- Other navigation items -->
             <li>
-              <router-link to="/aboutus" class="hover:text-gray-400"
+              <router-link to="aboutus" class="hover:text-gray-400"
                 >About Us</router-link
               >
             </li>
