@@ -1,6 +1,6 @@
 <template>
     <div>
-      <section class="py-20">
+      <section class="py-20 bg-yellow-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-8">
           <div class="py-8 px-4 mx-auto max-w-7xl text-center lg:py-8 lg:px-0">
             <h1
@@ -8,7 +8,7 @@
             >
               Frequently
               <span
-                class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-700"
+                class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-800 to-gray-700"
               >
                 Asked
               </span>
