@@ -8,7 +8,7 @@
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZYNnmOkPezPCwn0HNtGEpeL1gD2hyzz8TFw&s"
           alt="Company Logo"
-          class="h-12"
+          class="h-24"
         />
       </div>
       <div
@@ -69,11 +69,6 @@
             <a
               href="#"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Administration</a
-            >
-            <a
-              href="#"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
               >Staff</a
             >
             <a
@@ -86,13 +81,18 @@
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
               >Admission</a
             >
+            <a
+              href="#"
+              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >Administration</a
+            >
           </div>
         </div>
       </div>
 
       <div class="bg-white rounded-lg m-4">
         <div
-          class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
+          class="w-full mx-auto max-w-screen-xl p-5 md:flex md:items-center md:justify-between"
         >
           <span class="text-sm text-gray-500 sm:text-center"
             >© 2024.Profia Institute. All Rights Reserved
@@ -101,7 +101,7 @@
             class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0 gap-5"
           >
             <li>
-              <img src="../assets/icons/twitter.svg" class="w-5 h-5" alt="">
+              <img src="../assets/icons/twitter.svg" class="w-5 h-5" alt="" />
               <!-- <a
                 href="#"
                 class="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 bg-pink-300 border-3 border-black hover:bg-gray-900 hover:text-white me-4 md:me-6"
@@ -109,7 +109,7 @@
               > -->
             </li>
             <li>
-              <img src="../assets/icons/whatsapp.svg" class="w-5 h-5" alt="">
+              <img src="../assets/icons/whatsapp.svg" class="w-5 h-5" alt="" />
 
               <!-- <a
                 href="#"
@@ -118,8 +118,8 @@
               > -->
             </li>
             <li>
-              <img src="../assets/icons/instagram.svg" class="w-5 h-5" alt="">
-<!-- 
+              <img src="../assets/icons/instagram.svg" class="w-5 h-5" alt="" />
+              <!-- 
               <a
                 href="#"
                 class="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 bg-pink-300 border-3 border-black hover:bg-gray-900 hover:text-white me-4 md:me-6"
@@ -127,7 +127,7 @@
               > -->
             </li>
             <li>
-              <img src="../assets/icons/facebook.svg" class="w-5 h-5" alt="">
+              <img src="../assets/icons/facebook.svg" class="w-5 h-5" alt="" />
 
               <!-- <a
                 href="#"
@@ -135,7 +135,6 @@
                 >F</a
               > -->
             </li>
-            
           </ul>
         </div>
         <hr class="my-6 border-gray-200 md:my-10" />
