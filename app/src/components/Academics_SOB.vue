@@ -11,7 +11,7 @@
           </h2>
         </div>
         <input
-          class="mt-6 ml-10 border rounded-md w-28 h-12"
+          class="mt-6 ml-10 border w-28 h-12"
           type="button"
           value="APPLY HERE"
         />
@@ -46,44 +46,22 @@
             </p>
           </div>
         </div>
-        <div class="lg:col-span-4 mx-auto space-y-5 my-4 ">
-          <div class="border border-black w-auto h-auto rounded-xl px-5">
+        <div class="col-span-4 mx-auto space-y-5 my-4 ">
+          <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
             <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
-            <h2 class="text-lg">
+            <h2 class="text-lg ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
               eligendi explicabo, repudiandae blanditiis quam magnam
             </h2>
             <input
-              class="ml-1 border rounded-md w-24 h-12"
+              class="ml-1 border w-18 h-12"
               type="button"
               value="APPLY HERE"
             />
           </div>
-          <div class=" border border-black rounded-lg w-auto h-auto px-5 space-y-4">
-            <div class="">
-              <h1 class="text-xl font-bold">School of Business</h1>
-              <p class="text-lg">
-                Transform your career with our diverse business programs.<br />
-                our courses provide the skills and knowledge to excel in the corporate world. <br />
-                
-              </p>
-            </div>
-            <div class="">
-              <h1 class="text-xl font-bold">School of Hospitality</h1>
-              <p class="text-lg">
-                Learn the art of exceptional service, Create memorable experiences and thrive in
-                the vibrant hospitality industry.
-              </p>
-            </div>
-            <div class="">
-              <h1 class="text-xl font-bold">School of ICT</h1>
-              <p class="text-lg">
-                Unlock the power of technology with our comprehensive ICT programs.<br />
-                our courses are designed to prepare you for a dynamic career in the tech industry.
-              </p>
-            </div>
-            <div class="">
-              <h1 class="text-xl font-bold">School of Beauty/Cosmetology</h1>
+          <div class="border border-black rounded-lg w-[400px] h-[600px] px-5 space-y-5">
+            <div class="py-5">
+              <h1 class="text-xl font-semibold">School of Business</h1>
               <p class="text-lg">
                 Elevate your passion for beauty with our top-notch cosmetology programs.<br />
                 Turn your creativity into a rewarding career in the beauty industry.
@@ -104,4 +82,8 @@
   </section>
 </template>
 <style scoped></style>
-<script setup></script>
+<script setup>
+  import CallToActionAcademic from './CallToActionAcademic.vue';
+import CallToActionProfia from './CallToActionProfia.vue';
+  import CallToActionSOB from './CallToActionSOB.vue';
+</script>
