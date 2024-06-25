@@ -1,11 +1,11 @@
 <template>
   <div class="text-gray-800">
-    <section class="max-w-7xl mx-auto space-y-28 lg:space-y-40 px-10">
-      <h1 class="text-gray-700 text-center text-2xl lg:text-4xl font-bold py-5">
+    <section class="max-w-7xl mx-auto space-y-28 lg:space-y-40 px-15">
+      <h1 class="text-gray-700 text-center text-2xl md:text-4xl font-bold py-5">
         Academic Achievements
       </h1>
       <div
-        class="relative bg-slate-300 border-[2px] border-black rounded-br-3xl lg:rounded-br-3xl h-[400px] lg:h-96 w-[400px] lg:w-[800px] mx-auto"
+        class="relative bg-slate-300   rounded-tr-3xl lg:rounded-tr- h-[400px] lg:h-96 w-[400px] lg:w-[800px] mx-auto"
       >
         <h1 class="text-center font-bold text-3xl py-2 text-gray-600">
           Laurina Cebrels Dracula
@@ -15,7 +15,7 @@
           Nostrum, eaque eligendi nemo voluptatem libero corporis aperiam, error
           deserunt quia iusto velit sed. Nihil, expedita delectus.
         </p>
-        <div class="absolute h-56 w-56 -bottom-7 -left-40 mb-20">
+        <div class="absolute h-56 w-56 opacity-30 sm:opacity-90 bottom-12 left-20 sm:-bottom-7 sm:-left-40 mb-20">
           <img
             src="../assets/images/alexander-krivitskiy.jpg"
             class="rounded-2xl"
@@ -25,7 +25,7 @@
       </div>
 
       <div
-        class="relative bg-slate-300 h-[450px] sm:h-[400px] lg:h-96 border-[2px] border-black sm:w-[400px] lg:w-[800px] mx-auto mt-20 sm:rounded-bl-3xl lg:rounded-bl-3xl"
+        class="relative bg-slate-300 h-[500px] sm:h-[400px] lg:h-96 sm:w-[400px] lg:w-[800px] mx-auto mt-20 sm:rounded-bl-3xl lg:rounded-bl-3xl"
       >
         <h1 class="text-center font-bold text-3xl py-2 text-gray-600">
           Veleria Van Helsing
@@ -38,7 +38,7 @@
           aspernatur maxime vitae ut facere aliquid quis numquam, cupiditate
           temporibus officia odit nam natus!
         </p>
-        <div class="absolute h-56 w-56 sm:-top-7 sm:-right-40">
+        <div class="absolute h-56 opacity-30 sm:opacity-90 w-56 top-16 right-20 sm:-top-7 sm:-right-44 lg:-right-40">
           <img src="../assets/images/andrey-k.jpg" class="rounded-2xl" alt="" />
         </div>
       </div>
