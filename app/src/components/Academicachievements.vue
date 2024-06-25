@@ -4,12 +4,8 @@
       <h1 class="text-gray-700 text-center text-4xl font-bold py-5">
         Academic Achievements
       </h1>
-      <div
-        class="relative bg-slate-300 border-[2px] border-black rounded-br-full h-80 w-[800px] mx-auto"
-      >
-        <h1 class="text-center font-bold text-3xl py-2 text-gray-600">
-          Laurina Cebrels Dracula
-        </h1>
+      <div class="relative bg-slate-300 border-[2px] border-black rounded-br-3xl lg:rounded-br-full h-[400px] lg:h-96 w-[400px] lg:w-[800px] mx-auto">
+        <h1 class="text-center font-bold text-3xl py-2 text-gray-600">Laurina Cebrels Dracula</h1>
         <p class="px-20 py-5">
           A degree in Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nostrum, eaque eligendi nemo voluptatem libero corporis aperiam, error
@@ -24,12 +20,8 @@
         </div>
       </div>
 
-      <div
-        class="relative bg-slate-300 h-96 border-[2px] border-black w-[800px] mx-auto mt-20 rounded-bl-full"
-      >
-        <h1 class="text-center font-bold text-3xl py-2 text-gray-600">
-          Veleria Van Helsing
-        </h1>
+      <div class="relative bg-slate-300 h-[400px] lg:h-96 border-[2px] border-black w-[400px] lg:w-[800px] mx-auto mt-20  sm:rounded-bl-3xl lg:rounded-bl-full">
+        <h1 class="text-center font-bold text-3xl py-2 text-gray-600">Veleria Van Helsing</h1>
         <p class="px-20 py-5 text-gray-800">
           A masters in Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nesciunt, numquam eius dolorum, ut voluptas tenetur ipsum est enim
@@ -43,7 +35,7 @@
         </div>
       </div>
 
-      <div class="text-center mx-auto space-y-5">
+      <div class="text-center mx-auto space-y-5 py-10">
         <h2 class="font-bold text-3xl text-gray-700">
           Our History/ Where did we start
         </h2>
