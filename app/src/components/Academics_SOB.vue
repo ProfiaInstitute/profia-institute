@@ -2,18 +2,9 @@
   <section class="max-w-7xl mx-auto py-5 mt-24">
     <div class="">
       <div class="flex flex-row justify-center items-center">
-        <div>
-          <h1 class="text-2xl font-semibold">Lorem ipsum dolor!!</h1>
-          <h2 class="text-lg font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-            eligendi explicabo, repudiandae blanditiis quam magnam
-          </h2>
-        </div>
-        <input
-          class="mt-6 ml-10 border w-28 h-12"
-          type="button"
-          value="APPLY HERE"
-        />
+      
+        <CallToActionProfia/>
+    
       </div>
       <div class="grid grid-cols-12 gap-10 mt-10">
         <div class="col-span-8 mx-auto">
@@ -39,18 +30,8 @@
           </div>
         </div>
         <div class="col-span-4 mx-auto space-y-5 my-4 ">
-          <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
-            <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
-            <h2 class="text-lg ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-              eligendi explicabo, repudiandae blanditiis quam magnam
-            </h2>
-            <input
-              class="ml-1 border w-18 h-12"
-              type="button"
-              value="APPLY HERE"
-            />
-          </div>
+          <CallToActionSOB/>
+        
           <div class="border border-black rounded-lg w-[400px] h-[600px] px-5 space-y-5">
             <div class="py-5">
               <h1 class="text-xl font-semibold">School of Business</h1>
@@ -79,4 +60,8 @@
   </section>
 </template>
 <style scoped></style>
-<script setup></script>
+<script setup>
+  import CallToActionAcademic from './CallToActionAcademic.vue';
+import CallToActionProfia from './CallToActionProfia.vue';
+  import CallToActionSOB from './CallToActionSOB.vue';
+</script>
