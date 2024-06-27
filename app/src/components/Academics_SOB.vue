@@ -76,6 +76,18 @@
               </p>
             </div>
           </div>
+
+
+          <div
+        class="rounded-2xl p-4 border-2 border-gray-200 md:col-span-4 md:h-1/2"
+      >
+        <h1 class="mb-3 font-bold text-gray-900 text-xl md:text-2xl">
+          Tech Hub
+        </h1>
+        <p class="text-lg text-gray-900">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, unde.
+        </p>
+      </div>
         </div>
       </div>
     </div>
