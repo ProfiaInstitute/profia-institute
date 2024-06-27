@@ -21,7 +21,7 @@
         />
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 mt-10">
-        <div class="lg:col-span-8 mx-auto">
+        <div class="w lg:col-span-8 mx-auto">
           <div>
             <img
               src="@/assets/images/photo-faculty.avif"
@@ -70,7 +70,7 @@
           </div> -->
 
           <div
-            class="border border-black rounded-lg w-[400px] h-[600px] px-5 space-y-5"
+            class="border border-black rounded-lg w-auto h-auto px-5 space-y-5"
           >
             <div class="py-5">
               <h1 class="text-xl font-semibold">School of Business</h1>

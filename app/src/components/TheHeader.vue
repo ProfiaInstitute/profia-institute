@@ -3,8 +3,8 @@
     <!-- Header section -->
     <header
       :class="{
-        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-gray-400': isHomePage,
-        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-gray-400': !isHomePage,
+        'h-14 lg:h-36 fixed w-full top-0 inset-0 z-20 bg-gray-200': isHomePage,
+        'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-gray-200': !isHomePage,
       }"
     >
       <!-- Navigation specific to homepage -->
@@ -13,7 +13,7 @@
           <li>
             <router-link
               to="/techhub"
-              class="hover:text-gray-400"
+              class="text-white hover:text-gray-400"
               @click.native="closeMenu"
               >Tech-hub</router-link
             >
@@ -52,7 +52,7 @@
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-gray-400 lg lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+          class="bg-gray-200 lg lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
           <!-- Navigation items -->
           <ul
