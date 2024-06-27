@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-800 bg-primary-300">
+  <div class="text-gray-800 bg-primary-900">
     <section class="max-w-7xl mx-auto space-y-28 lg:space-y-40 px-15">
       <h1 class="text-gray-700 text-center text-2xl md:text-4xl font-bold pt-10">
         Academic Achievements

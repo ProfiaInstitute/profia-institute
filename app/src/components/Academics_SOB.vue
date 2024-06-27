@@ -54,8 +54,7 @@
           </div>
         </div>
         <div class="col-span-4 mx-auto space-y-5 my-4">
-      
-        <CallToActionSOB/>  
+          <CallToActionSOB />
           <!-- <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
             <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
             <h2 class="text-lg">
@@ -70,10 +69,10 @@
           </div> -->
 
           <div
-            class="border border-black rounded-lg w-auto h-auto px-5 space-y-5"
+            class="border-2 border-gray-200 rounded-2xl w-auto h-auto p-4 space-y-5"
           >
             <div class="py-5">
-              <h1 class="text-xl font-semibold">School of Business</h1>
+              <h1 class="text-xl font-bold">School of Business</h1>
               <p class="text-lg">
                 Elevate your passion for beauty with our top-notch cosmetology
                 programs.<br />
@@ -91,14 +90,19 @@
             </div>
           </div>
           <div
-            class="rounded-2xl p-4 border-2 border-gray-200 md:col-span-4 md:h-1/2"
+            class="rounded-2xl p-4 border-2 border-gray-200 md:col-span-4 md:min-h-min"
           >
             <h1 class="mb-3 font-bold text-gray-900 text-xl md:text-2xl">
               Tech Hub
             </h1>
             <p class="text-lg text-gray-900">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
-              unde.
+              At the heart of Profia Institute lies our Tech Hub, where we
+              explore the frontiers of innovation and technology. Our focus
+              areas include Artificial Intelligence (AI), Data Categorization,
+              3D & 2D Data Annotation, Training Data for Autonomous Driving,
+              Natural Language Processing (NLP), and Video Annotation. Through
+              our Tech Hub, we aim to drive technological advancements and
+              foster a culture of innovation among our students and faculty.
             </p>
           </div>
         </div>

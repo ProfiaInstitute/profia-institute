@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: colors.orange,
-        secondary: colors.yellow,
+        primary: colors.yellow,
+        secondary: colors.orange,
       },
       keyframes: {
         "slide-left": {
@@ -19,8 +19,8 @@ export default {
       animation: {
         "slide-left-infinite": "slide-left 40s linear infinite",
       },
-      backgroundimage: {
-        "people-img" : "url('/src/assets/images/bgimage.avif')",
+      backgroundImage: {
+        "people-img" : "url('./src/assets/images/students.avif')",
       },
     },
   },
