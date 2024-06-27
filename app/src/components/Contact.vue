@@ -46,7 +46,7 @@
           name="comment"
           placeholder="Enter text here..."
         ></textarea>
-        <button class="text-sm sm:text-lg text-gray-100 p-2 sm:p-3 bg-orange-600 w-32 sm:w-44 rounded-xl">
+        <button class="text-sm sm:text-lg text-white p-2 sm:p-3 bg-orange-600 w-32 sm:w-44 rounded-xl">
           Send message
         </button>
       </form>
@@ -63,6 +63,7 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
           class="rounded-xl"
+          title="map"
         ></iframe>
         <!-- map goes here <br />
         
