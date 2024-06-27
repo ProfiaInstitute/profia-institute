@@ -1,6 +1,6 @@
 <template>
-  <section class="max-w-7xl mx-auto">
-    <div class="max-w-5xl mx-auto">
+  <section class="max-w-7xl mx-auto bg-people">
+    <div class="max-w-5xl mx-auto px-2  ">
       <nav
         class="text-2xl text-gray-600 py-10 flex justify-end items-center mr-40"
       >
@@ -20,7 +20,8 @@
           />
         </div>
       </div>
-      <div class="max-w-3xl mx-auto py-28">
+      <div >
+        <div class="max-w-3xl mx-auto py-28">
         <h1 class="text-2xl text-gray-600 font-semibold text-center">
           Who Are We
         </h1>
@@ -33,6 +34,8 @@
           evolving needs of the modern workforce.
         </p>
       </div>
+    </div>
+      
       <div class="space-y-24 pt-4">
         <div class="border-[2px] border-red-800 relative p-8 bg-gray-200 rounded-lg shadow-lg lg:ml-48">
           <div class="absolute -top-8 left-5 bg-orange-500 px-8 py-4 rounded-xl">
@@ -58,7 +61,7 @@
           class="border-[2px] border-red-800 bg-gray-200 rounded-lg p-6 relative max-w-4xl mx-auto mt-12"
         >
           <div
-            class="absolute -top-8 left-32 bg-orange-500 px-4 py-6 rounded-md"
+            class="absolute -top-8 left-24 sm:left-32 bg-orange-500 px-4 py-6 rounded-md"
           >
             <h1 class="text-3xl text-gray-800">The Core Values</h1>
           </div>
