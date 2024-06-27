@@ -19,6 +19,9 @@ export default {
       animation: {
         "slide-left-infinite": "slide-left 40s linear infinite",
       },
+      backgroundimage: {
+        "people" : "url('./src/assets/images/bgimage.avif')",
+      },
     },
   },
   plugins: [],
