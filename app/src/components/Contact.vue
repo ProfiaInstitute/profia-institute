@@ -3,7 +3,7 @@
     <div
       class="w-full max-w-6xl flex justify-end px-8 mx-auto bg-yellow-800 text-black text-center text-3xl font-semibold rounded-lg py-4 mb-10"
     >
-      <h2 class="">Reach out to us</h2>
+      <h2 class="text-white">Reach out to us</h2>
       
     </div>
     <div class="flex justify-start ml-20 -mt- items-center -mt-16">
@@ -46,7 +46,7 @@
           name="comment"
           placeholder="Enter text here..."
         ></textarea>
-        <button class="text-xs sm:text-sm p-2 sm:p-3 bg-gray-400 w-32 sm:w-44 rounded-xl">
+        <button class="text-sm sm:text-lg text-gray-100 p-2 sm:p-3 bg-orange-600 w-32 sm:w-44 rounded-xl">
           Send message
         </button>
       </form>
