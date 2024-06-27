@@ -61,6 +61,7 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
+          class="rounded-xl"
         ></iframe>
         map goes here <br />
         
