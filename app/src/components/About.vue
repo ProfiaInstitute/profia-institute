@@ -13,7 +13,11 @@
       >
         <span class="mr-48">Who we are</span>
         <div class="absolute right-[600px] w-96 h-7642 bg-gray-300">
-          <img src="../assets/images/students.avif" alt="Image Description" class="w-full " />
+          <img
+            src="../assets/images/students.avif"
+            alt="Image Description"
+            class="w-full"
+          />
         </div>
       </div>
       <div class="space-y-24 pt-44">
