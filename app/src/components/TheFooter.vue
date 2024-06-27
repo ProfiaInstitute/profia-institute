@@ -5,86 +5,82 @@
       <div
         class="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between"
       >
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZYNnmOkPezPCwn0HNtGEpeL1gD2hyzz8TFw&s"
-          alt="Company Logo"
-          class="h-24"
-        />
+        <img src="@/assets/images/logo.jpg" alt="Company Logo" class="h-24" />
       </div>
       <div
         class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
       >
         <div>
           <div class="flex flex-col items-center mt-5 space-y-2">
-            <a
-              href="#"
+            <router-link
+              to="/aboutus"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >About us</a
+              >About us</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/contact"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Contact</a
+              >Contact</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/events"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Events</a
+              >Events</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/techhub"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Tech hub</a
+              >Tech hub</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/enquiries"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Enquiries</a
-            >
-          </div>
-        </div>
-
-        <div>
-          <div class="flex flex-col items-center mt-5 space-y-2">
-            <a
-              href="#"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Academics</a
-            >
-            <a
-              href="#"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >School of Business</a
-            >
-            <a
-              href="#"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >School of Hospitality</a
+              >Enquiries</router-link
             >
           </div>
         </div>
 
         <div>
           <div class="flex flex-col items-center mt-5 space-y-2">
-            <a
-              href="#"
+            <router-link
+              to="/academics"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Staff</a
+              >Academics</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/schoolofbusiness"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Students</a
+              >School of Business</router-link
             >
-            <a
-              href="#"
+            <router-link
+              to="/schoolofhospitality"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Admission</a
+              >School of Hospitality</router-link
             >
-            <a
-              href="#"
+          </div>
+        </div>
+
+        <div>
+          <div class="flex flex-col items-center mt-5 space-y-2">
+            <router-link
+              to="/staff"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Administration</a
+              >Staff</router-link
+            >
+            <router-link
+              to="/students"
+              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >Students</router-link
+            >
+            <router-link
+              to="/admission"
+              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >Admission</router-link
+            >
+            <router-link
+              to="/administration"
+              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >Administration</router-link
             >
           </div>
         </div>
