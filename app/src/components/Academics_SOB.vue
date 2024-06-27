@@ -68,6 +68,7 @@
               value="APPLY HERE"
             />
           </div> -->
+
           <div
             class="border border-black rounded-lg w-[400px] h-[600px] px-5 space-y-5"
           >
