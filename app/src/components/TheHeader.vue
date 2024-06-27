@@ -196,7 +196,7 @@
             </li>
             <li>
               <router-link
-                to="#"
+                to="/admission"
                 class="hover:text-white relative"
                 @click.native="closeMenu"
               >

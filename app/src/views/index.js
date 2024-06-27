@@ -5,6 +5,7 @@ import SchoolofBusiness from "./SchoolofBusiness.vue";
 import NewsView from "./NewsView.vue";
 import AboutusView from "./AboutusView.vue";
 import ContactView from "./ContactView.vue";
+import AdmissionView from "./AdmissionView.vue";
 
 export {
   HomeView,
@@ -13,5 +14,6 @@ export {
   SchoolofBusiness,
   NewsView,
   AboutusView,
-  ContactView
+  ContactView,
+  AdmissionView,
 };

@@ -41,8 +41,15 @@
         <h1 class="mb-5 font-bold text-gray-900 text-2xl md:text-3xl">
           Programs on offer
         </h1>
-
         <ul class="text-lg text-gray-900 space-y-5">
+
+          <li>School of Business</li>
+          <li>School of ICT</li>
+          <li>School of Hospitality</li>
+          <li>School of Beauty/Cosmetology</li>
+          <li>School of Engineering</li>
+               
+          
           <li>Certified Public Accountant (CPA)</li>
           <li>Accounting Technician Diploma (ATD)</li>
           <li>Certificate in Accounting & Management Skills (CAMS)</li>
