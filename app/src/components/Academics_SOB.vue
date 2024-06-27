@@ -103,7 +103,7 @@
               </p>
             </div>
             <div class="py-2">
-              <h1 class="text-xl font-bold">School of Engineering</h1>
+              <h1 class="text-xl font-semibold">School of Engineering</h1>
               <p class="text-lg">
                 Shape the future with a engineering course.<br />
                 Innovate and engineer solutions that make a difference by
