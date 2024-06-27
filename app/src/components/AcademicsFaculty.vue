@@ -42,14 +42,16 @@
           Programs on offer
         </h1>
 
-        <p class="text-lg text-gray-900">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, unde.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          voluptate excepturi aut cum ullam, doloribus optio enim dolorem
-          fugiat, ad, corporis quibusdam! Nihil quae aliquid dolore nostrum
-          Repudiandae voluptate excepturi aut cum ullam, doloribus optio enim
-          dolorem
-        </p>
+        <ul class="text-lg text-gray-900 space-y-5">
+          <li>Certified Public Accountant (CPA)</li>
+          <li>Accounting Technician Diploma (ATD)</li>
+          <li>Certificate in Accounting & Management Skills (CAMS)</li>
+          <li>Diploma in Accountancy</li>
+          <li>Business Mathematics</li>
+          <li>Store Keeping</li>
+          <li>Computerized Accounting</li>
+          <li>Secretariat & Front office operations</li>
+        </ul>
       </div>
     </div>
   </section>

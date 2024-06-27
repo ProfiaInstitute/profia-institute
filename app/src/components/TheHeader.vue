@@ -43,10 +43,11 @@
           </button>
           <router-link
             to="/"
-            class="text-2xl text-black font-bold"
+            class="flex items-center"
             @click.native="closeMenu"
-            >Logo</router-link
           >
+            <img src="@/assets/images/logo.jpg" alt="Logo" class="h-8 lg:h-12">
+          </router-link>
         </div>
 
         <!-- Navigation menu -->

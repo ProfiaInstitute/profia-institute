@@ -20,7 +20,7 @@
           />
         </div>
       </div>
-      <div class="max-w-full bg-people-img bg-cover bg-center ">
+      <div class="max-w-full ">
         <div class="max-w-3xl mx-auto py-36 space-y-5">
         <h1 class="text-2xl text-gray-600 font-semibold text-center">
           Who Are We
@@ -36,7 +36,7 @@
       </div>
     </div>
       
-      <div class="space-y-24 pt-4">
+      <div class="space-y-24 pt-4 py-16">
         <div class="border-[2px] border-red-800 relative p-8 bg-gray-200 rounded-lg shadow-lg lg:ml-48">
           <div class="absolute -top-8 left-5 bg-orange-500 px-8 py-4 rounded-xl">
             <h2 class="text-3xl">Our Mission</h2>
