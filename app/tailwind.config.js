@@ -20,7 +20,7 @@ export default {
         "slide-left-infinite": "slide-left 40s linear infinite",
       },
       backgroundimage: {
-        "people" : "url('./src/assets/images/bgimage.avif')",
+        "people-img" : "url('/src/assets/images/bgimage.avif')",
       },
     },
   },
