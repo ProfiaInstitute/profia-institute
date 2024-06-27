@@ -5,7 +5,7 @@
         Academic Achievements
       </h1>
       <div
-        class="relative bg-slate-300   rounded-tr-3xl lg:rounded-tr- h-[400px] lg:h-96 w-[400px] lg:w-[800px] mx-auto"
+        class="relative bg-slate-300 rounded-tr-3xl lg:rounded-tr- h-[400px] lg:h-96 w-[400px] lg:w-[800px] mx-auto"
       >
         <h1 class="text-center font-bold text-3xl py-2 text-gray-600">
           Laurina Cebrels Dracula
