@@ -70,10 +70,32 @@
           </div> -->
 
           <div
-            class="border border-black rounded-lg w-auto h-auto px-5 space-y-5"
+            class="border border-black rounded-lg w-auto h-auto px-5 space-y-3"
           >
-            <div class="py-5">
+            <div class="py-2">
               <h1 class="text-xl font-semibold">School of Business</h1>
+              <p class="text-lg">
+              Transform your career with our diverse business programs.<br />
+              our courses provide the skills and knowledge to excel in the corporate world. <br />
+              
+            </p>
+            </div>
+            <div class="">
+              <h1 class="text-xl font-semibold">School of ICT</h1>
+              <p class="text-lg">
+              Unlock the power of technology with our comprehensive ICT programs.<br />
+              our courses are designed to prepare you for a dynamic career in the tech industry.
+            </p>
+            </div>
+            <div class="">
+              <h1 class="text-xl font-semibold">School of Hospitality</h1>
+              <p class="text-lg">
+              Learn the art of exceptional service, Create memorable experiences and thrive in
+              the vibrant hospitality industry.
+            </p>
+            </div>
+            <div class="">
+              <h1 class="text-xl font-semibold">School of Beauty/Cosmetology</h1>
               <p class="text-lg">
                 Elevate your passion for beauty with our top-notch cosmetology
                 programs.<br />
@@ -81,7 +103,7 @@
                 industry.
               </p>
             </div>
-            <div class="">
+            <div class="py-2">
               <h1 class="text-xl font-bold">School of Engineering</h1>
               <p class="text-lg">
                 Shape the future with a engineering course.<br />
