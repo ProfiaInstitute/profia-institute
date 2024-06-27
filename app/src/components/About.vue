@@ -1,6 +1,6 @@
-<template>
-  <section class="max-w-7xl mx-auto bg-people">
-    <div class="max-w-5xl mx-auto px-2  ">
+<template >
+  <section class="max-w-7xl mx-auto ">
+    <div class="max-w-5xl mx-auto px-2   ">
       <nav
         class="text-2xl text-gray-600 py-10 flex justify-end items-center mr-40"
       >
@@ -20,8 +20,8 @@
           />
         </div>
       </div>
-      <div >
-        <div class="max-w-3xl mx-auto py-28">
+      <div class="max-w-full bg-people-img bg-cover bg-center ">
+        <div class="max-w-3xl mx-auto py-36 space-y-5">
         <h1 class="text-2xl text-gray-600 font-semibold text-center">
           Who Are We
         </h1>
