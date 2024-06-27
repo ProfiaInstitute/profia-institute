@@ -17,7 +17,7 @@
         </p>
         <div class="absolute h-56 w-56 opacity-30 sm:opacity-90 bottom-12 left-20 sm:-bottom-7 sm:-left-40 mb-20">
           <img
-            src="../assets/images/alexander-krivitskiy.jpg"
+            src="../assets/images/alexander-krivitskiy.avif"
             class="rounded-2xl"
             alt=""
           />
@@ -39,7 +39,7 @@
           temporibus officia odit nam natus!
         </p>
         <div class="absolute h-56 opacity-30 sm:opacity-90 w-56 top-16 right-20 sm:-top-7 sm:-right-44 lg:-right-40">
-          <img src="../assets/images/andrey-k.jpg" class="rounded-2xl" alt="" />
+          <img src="../assets/images/andrey-k.avif" class="rounded-2xl" alt="" />
         </div>
       </div>
 
