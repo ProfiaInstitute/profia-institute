@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Bussines />
+    <Business />
     <Faqs />
   </div>
 </template>
 
 <script setup>
-import Bussines from "../components/Bussines.vue";
+import Business from "../components/Business.vue";
 import Faqs from "../components/Faqs.vue";
 </script>
