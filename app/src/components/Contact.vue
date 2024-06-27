@@ -1,9 +1,10 @@
 <template>
   <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
     <div
-      class="w-full flex justify-end px-8 mx-auto bg-blue-400 text-black text-center text-3xl font-semibold rounded-lg py-4 mb-10"
+      class="w-full max-w-6xl flex justify-end px-8 mx-auto bg-yellow-800 text-black text-center text-3xl font-semibold rounded-lg py-4 mb-10"
     >
-      Reach out to us
+      <h2 class="">Reach out to us</h2>
+      
     </div>
     <div class="flex justify-start ml-20 -mt- items-center -mt-16">
       <div class="bg-gray-200 p-4 rounded-lg shadow-lg">
