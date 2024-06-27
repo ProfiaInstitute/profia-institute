@@ -14,27 +14,27 @@
           <div class="flex flex-col items-center mt-5 space-y-2">
             <router-link
               to="/aboutus"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >About us</router-link
             >
             <router-link
               to="/contact"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >Contact</router-link
             >
             <router-link
               to="/events"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >Events</router-link
             >
             <router-link
               to="/techhub"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >Tech hub</router-link
             >
             <router-link
               to="/enquiries"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >Enquiries</router-link
             >
           </div>
@@ -44,12 +44,12 @@
           <div class="flex flex-col items-center mt-5 space-y-2">
             <router-link
               to="/academics"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >Academics</router-link
             >
             <router-link
               to="/schoolofbusiness"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >School of Business</router-link
             >
             <router-link
