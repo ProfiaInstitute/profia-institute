@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: colors.orange,
-        secondary: colors.yellow,
+        primary: colors.yellow,
+        secondary: colors.orange,
       },
       keyframes: {
         "slide-left": {
