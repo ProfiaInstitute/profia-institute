@@ -7,7 +7,9 @@
         ACADEMICS
       </h1>
       <div class="flex flex-row justify-center items-center">
-        <div>
+        <CallToActionProfia/>
+        <!-- <div>
+          
           <h1 class="text-2xl font-semibold">Lorem ipsum dolor!!</h1>
           <h2 class="text-lg font-semibold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
@@ -18,7 +20,7 @@
           class="mt-6 ml-10 border w-28 h-12"
           type="button"
           value="APPLY HERE"
-        />
+        /> -->
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 mt-10">
         <div class="w lg:col-span-8 mx-auto">

@@ -41,9 +41,9 @@
         <div
           class="max-w-6xl mx-auto py-20 flex flex-col justify-evenly items-center space-y-5"
         >
-          <div class="flex justify-evenly items-center gap-20">
-            <div class="relative py-5 w-56 px-10 space-y-4 border border-black">
-              <h1 class="text-2xl font-semibold">Intermediate</h1>
+          <div class="flex justify-evenly items-center gap-24">
+            <div class="relative py-10 w-56 px-10 space-y-6 border border-black bg-gray-400 rounded-3xl hover:rounded-none">
+              <h1 class="text-2xl font-semibold text-primary-700">Intermediate</h1>
               <p>
                 Intermediate education is a level of education that bridges the
                 gap between primary and higher education.
@@ -77,8 +77,8 @@
                 </div>
               </div> -->
             </div>
-            <div class="py-5 w-72 px-5 space-y-4 border border-black">
-              <h1 class="text-2xl font-semibold text-center">Certificate</h1>
+            <div class="py-10 w-72 px-6 space-y-6 border border-black bg-gray-400 rounded-3xl hover:rounded-none">
+              <h1 class="text-2xl font-semibold text-center text-primary-700" >Certificate</h1>
               <p>
                 Foundation degrees are at Level 5 in the Framework for Higher
                 Education Qualifications, below bachelor's degrees at level 6.
@@ -93,9 +93,9 @@
             </button>
           </div>
           <div
-            class="py-5 w-72 px-5 space-y-4 border border-black flex flex-col justify-center items-center"
+            class="py-10 w-72 px-5 space-y-6 border border-black bg-gray-400 rounded-3xl hover:rounded-none flex flex-col justify-center items-center"
           >
-            <h1 class="text-2xl font-semibold">Foundational</h1>
+            <h1 class="text-2xl font-semibold text-primary-700">Foundational</h1>
             <p>
               A certificate education level refers to a type of educational
               program that provides specialized training or skills in a specific
