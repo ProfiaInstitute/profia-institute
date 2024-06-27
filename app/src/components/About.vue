@@ -4,9 +4,9 @@
       <nav
         class="text-2xl text-gray-600 py-10 flex justify-end items-center mr-40"
       >
-        Our Mission &rarr;<br />
-        Our Vision &rarr;<br />
-        The Core Values&rarr;
+        Our Mission: &rarr;<br />
+        Our Vision: &rarr;<br />
+        The Core Values: &rarr;
       </nav>
       <div
         class="relative bg-yellow-700 h-16 flex justify-end items-center text-white mx-auto"
@@ -26,8 +26,8 @@
             <h2 class="text-3xl">Our Mission</h2>
           </div>
           <p class="py-5 text-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam.
+            To be a leading college for business and. ICT, known for technical
+            excellent, innovations and transformative impact.
           </p>
         </div>
 
@@ -38,8 +38,7 @@
             <h1 class="text-3xl">Our Vision</h1>
           </div>
           <p class="py-5 text-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
-            odio. Praesent libero. Sed cursus ante dapibus diam.
+            To be a first business college of choice.
           </p>
         </div>
         <div
@@ -51,11 +50,10 @@
             <h1 class="text-3xl text-gray-800">The Core Values</h1>
           </div>
           <p class="py-10 text-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, delectus ab tenetur nam provident tempora earum
-            commodi illo. Et eveniet hic rerum facilis. Labore facilis obcaecati
-            repellat eius, quo adipisci voluptatum cumque deserunt at odio. Odit
-            fugiat sit expedita veritatis.
+            Innovation<br />
+            Integrity<br />
+            Excellence<br />
+            Transformation
           </p>
         </div>
       </div>
