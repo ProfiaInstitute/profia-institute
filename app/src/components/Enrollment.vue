@@ -15,7 +15,7 @@
             possimus vel tempore nemo necessitatibus, molestias velit alias
             repudiandae quaerat.
           </p>
-          <button class="border border-gray-500 px-4 py-2 rounded-md">
+          <button class="border -skew-x-12 border-gray-500 px-4 py-2">
             Apply Now
           </button>
         </div>
@@ -31,7 +31,7 @@
             possimus vel tempore nemo necessitatibus, molestias velit alias
             repudiandae quaerat.
           </p>
-          <button class="border border-gray-500 px-4 py-2 rounded-md">
+          <button class="border -skew-x-12 border-gray-500 px-4 py-2">
             Apply Now
           </button>
         </div>
@@ -47,7 +47,7 @@
             possimus vel tempore nemo necessitatibus, molestias velit alias
             repudiandae quaerat.
           </p>
-          <button class="border border-gray-500 px-4 py-2 rounded-md">
+          <button class="border -skew-x-12 border-gray-500 px-4 py-2">
             Apply Now
           </button>
         </div>
