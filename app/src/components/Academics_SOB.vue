@@ -172,7 +172,6 @@
       </div> -->
     </div>
   </section>
-  <CallToActionAcademic/>
   <section class="mx-auto max-w-7xl">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
       <div class="md:col-span-8">
@@ -203,7 +202,7 @@
 </template>
 <style scoped></style>
 <script setup>
-import CallToActionAcademic from "./CallToActionAcademic.vue";
+
 import CallToActionProfia from "./CallToActionProfia.vue";
 import CallToActionSOB from "./CallToActionSOB.vue";
 </script>
