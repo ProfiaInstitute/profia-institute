@@ -43,21 +43,21 @@
         </h1>
         <ul class="text-lg text-gray-900 space-y-5">
 
-          <li>School of Business</li>
-          <li>School of ICT</li>
-          <li>School of Hospitality</li>
-          <li>School of Beauty/Cosmetology</li>
-          <li>School of Engineering</li>
+          <li>&rarr; School of Business</li>
+          <li>&rarr; School of ICT</li>
+          <li>&rarr; School of Hospitality</li>
+          <li>&rarr; School of Beauty/Cosmetology</li>
+          <li>&rarr; School of Engineering</li>
                
           
-          <li>Certified Public Accountant (CPA)</li>
+          <!-- <li>Certified Public Accountant (CPA)</li>
           <li>Accounting Technician Diploma (ATD)</li>
           <li>Certificate in Accounting & Management Skills (CAMS)</li>
           <li>Diploma in Accountancy</li>
           <li>Business Mathematics</li>
           <li>Store Keeping</li>
           <li>Computerized Accounting</li>
-          <li>Secretariat & Front office operations</li>
+          <li>Secretariat & Front office operations</li> -->
         </ul>
       </div>
     </div>

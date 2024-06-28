@@ -1,7 +1,8 @@
 <template>
   <!-- This is the section that holds the service of the hub -->
-  <section class="w-fullpy-10 mx-auto md:py-16 lg:max-w-7xl font-serif">
-    <div class="flex flex-col justify-center m-2">
+  <section class="w-full py-10 mx-auto md:py-16 lg:max-w-7xl">
+
+    <div class="flex flex-col justify-center">
       <!-- div that hold the service title -->
       <div class="justify-center flex mb-2">
         <h1

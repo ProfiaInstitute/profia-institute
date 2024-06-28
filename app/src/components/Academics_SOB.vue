@@ -70,7 +70,7 @@
           </div> -->
 
           <div
-            class="border border-black rounded-lg w-auto h-auto px-5 space-y-4 py-3"
+            class="border-[2px] border-gray-200 rounded-lg w-auto h-auto px-5 space-y-4 py-3"
           >
             <div class=""><router-link to="/sob"><h1 class="text-xl font-semibold underline">School of Business</h1></router-link>
               <!-- <h1 class="text-xl font-semibold">School of Business</h1> -->
