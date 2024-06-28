@@ -9,7 +9,6 @@
       <div class="flex flex-row justify-center items-center">
         <CallToActionProfia/>
         <!-- <div>
-          
           <h1 class="text-2xl font-semibold">Lorem ipsum dolor!!</h1>
           <h2 class="text-lg font-semibold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
@@ -55,7 +54,7 @@
             </p>
           </div>
         </div>
-        <div class="col-span-4 mx-auto space-y-5 my-4">
+        <div class="col-span-4 mx-auto space-y-5 my-4 px-5">
           <CallToActionSOB />
           <!-- <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
             <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
@@ -73,44 +72,44 @@
           <div
             class="border border-black rounded-lg w-auto h-auto px-5 space-y-3"
           >
-            <div class="py-2">
-              <h1 class="text-xl font-semibold">School of Business</h1>
-              <p class="text-lg">
+            <div class="py-2"><router-link to="/sob"><h1 class="text-xl font-semibold">School of Business</h1></router-link>
+              <!-- <h1 class="text-xl font-semibold">School of Business</h1> -->
+              <!-- <p class="text-lg">
               Transform your career with our diverse business programs.<br />
               our courses provide the skills and knowledge to excel in the corporate world. <br />
               
-            </p>
+            </p> -->
             </div>
             <div class="">
               <h1 class="text-xl font-semibold">School of ICT</h1>
-              <p class="text-lg">
+              <!-- <p class="text-lg">
               Unlock the power of technology with our comprehensive ICT programs.<br />
               our courses are designed to prepare you for a dynamic career in the tech industry.
-            </p>
+            </p> -->
             </div>
             <div class="">
               <h1 class="text-xl font-semibold">School of Hospitality</h1>
-              <p class="text-lg">
+              <!-- <p class="text-lg">
               Learn the art of exceptional service, Create memorable experiences and thrive in
               the vibrant hospitality industry.
-            </p>
+            </p> -->
             </div>
             <div class="">
               <h1 class="text-xl font-semibold">School of Beauty/Cosmetology</h1>
-              <p class="text-lg">
+              <!-- <p class="text-lg">
                 Elevate your passion for beauty with our top-notch cosmetology
                 programs.<br />
                 Turn your creativity into a rewarding career in the beauty
                 industry.
-              </p>
+              </p> -->
             </div>
             <div class="py-2">
               <h1 class="text-xl font-semibold">School of Engineering</h1>
-              <p class="text-lg">
+              <!-- <p class="text-lg">
                 Shape the future with a engineering course.<br />
                 Innovate and engineer solutions that make a difference by
                 tackling real-world challenges
-              </p>
+              </p> -->
             </div>
           </div>
           <div
@@ -119,7 +118,7 @@
             <h1 class="mb-3 font-bold text-gray-900 text-xl md:text-2xl">
               Tech Hub
             </h1>
-            <p class="text-lg text-gray-900">
+            <!-- <p class="text-lg text-gray-900">
               At the heart of Profia Institute lies our Tech Hub, where we
               explore the frontiers of innovation and technology. Our focus
               areas include Artificial Intelligence (AI), Data Categorization,
@@ -127,7 +126,7 @@
               Natural Language Processing (NLP), and Video Annotation. Through
               our Tech Hub, we aim to drive technological advancements and
               foster a culture of innovation among our students and faculty.
-            </p>
+            </p> -->
           </div>
         </div>
       </div>

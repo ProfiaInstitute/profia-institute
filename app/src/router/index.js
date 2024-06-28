@@ -18,7 +18,7 @@ const routes = [
   { path: "/techhub", name: "techhub", component: TechHubView },
   { path: "/academics", name: "academics", component: Academics },
   {
-    path: "/schoolofbusiness",
+    path: "/sob",
     name: "schoolofbusiness",
     component: SchoolofBusiness,
   },
