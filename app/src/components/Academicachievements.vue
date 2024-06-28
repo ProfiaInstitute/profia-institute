@@ -1,11 +1,11 @@
 <template>
-  <div class="text-gray-800">
+  <div class="text-gray-800 bg-primary-900">
     <section class="max-w-7xl mx-auto space-y-28 lg:space-y-40 px-15">
-      <h1 class="text-gray-700 text-center text-2xl md:text-4xl font-bold py-5">
+      <h1 class="text-gray-700 text-center text-2xl md:text-4xl font-bold pt-10">
         Academic Achievements
       </h1>
       <div
-        class="relative bg-slate-300   rounded-tr-3xl lg:rounded-tr- h-[400px] lg:h-96 w-[400px] lg:w-[800px] mx-auto"
+        class="relative bg-slate-300 rounded-tr-3xl lg:rounded-tr- h-[400px] lg:h-96 w-[400px] lg:w-[800px] mx-auto"
       >
         <h1 class="text-center font-bold text-3xl py-2 text-gray-600">
           Laurina Cebrels Dracula
@@ -15,9 +15,9 @@
           Nostrum, eaque eligendi nemo voluptatem libero corporis aperiam, error
           deserunt quia iusto velit sed. Nihil, expedita delectus.
         </p>
-        <div class="absolute h-56 w-56 opacity-30 sm:opacity-90 bottom-12 left-20 sm:-bottom-7 sm:-left-40 mb-20">
+        <div class="absolute h-56 w-56 opacity-30 sm:opacity-100 bottom-12 left-20 sm:-bottom-7 sm:-left-40 mb-20">
           <img
-            src="../assets/images/alexander-krivitskiy.jpg"
+            src="../assets/images/alexander-krivitskiy.avif"
             class="rounded-2xl"
             alt=""
           />
@@ -38,8 +38,8 @@
           aspernatur maxime vitae ut facere aliquid quis numquam, cupiditate
           temporibus officia odit nam natus!
         </p>
-        <div class="absolute h-56 opacity-30 sm:opacity-90 w-56 top-16 right-20 sm:-top-7 sm:-right-44 lg:-right-40">
-          <img src="../assets/images/andrey-k.jpg" class="rounded-2xl" alt="" />
+        <div class="absolute h-56 opacity-30 sm:opacity-100 w-56 top-16 right-20 sm:-top-7 sm:-right-44 lg:-right-40">
+          <img src="../assets/images/andrey-k.avif" class="rounded-2xl" alt="" />
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="px-4 sm:px-8">
     <Academics_SOB />
-    <AcademicsFaculty />
+    <!-- <AcademicsFaculty /> -->
     <Faqs />
   </div>
 </template>

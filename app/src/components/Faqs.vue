@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="py-20 bg-yellow-200">
+    <section class="py-20 bg-gray-300">
       <div class="max-w-7xl mx-auto px-4 sm:px-8">
         <div class="py-8 px-4 mx-auto max-w-7xl text-center lg:py-8 lg:px-0">
           <h1

@@ -22,7 +22,7 @@
           dolorem
         </p>
       </div>
-      <div
+      <!-- <div
         class="rounded-2xl p-4 border-2 border-gray-200 md:col-span-4 md:h-1/2"
       >
         <h1 class="mb-3 font-bold text-gray-900 text-xl md:text-2xl">
@@ -31,7 +31,7 @@
         <p class="text-lg text-gray-900">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, unde.
         </p>
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -41,15 +41,24 @@
         <h1 class="mb-5 font-bold text-gray-900 text-2xl md:text-3xl">
           Programs on offer
         </h1>
+        <ul class="text-lg text-gray-900 space-y-5">
 
-        <p class="text-lg text-gray-900">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, unde.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          voluptate excepturi aut cum ullam, doloribus optio enim dolorem
-          fugiat, ad, corporis quibusdam! Nihil quae aliquid dolore nostrum
-          Repudiandae voluptate excepturi aut cum ullam, doloribus optio enim
-          dolorem
-        </p>
+          <li>&rarr; School of Business</li>
+          <li>&rarr; School of ICT</li>
+          <li>&rarr; School of Hospitality</li>
+          <li>&rarr; School of Beauty/Cosmetology</li>
+          <li>&rarr; School of Engineering</li>
+               
+          
+          <!-- <li>Certified Public Accountant (CPA)</li>
+          <li>Accounting Technician Diploma (ATD)</li>
+          <li>Certificate in Accounting & Management Skills (CAMS)</li>
+          <li>Diploma in Accountancy</li>
+          <li>Business Mathematics</li>
+          <li>Store Keeping</li>
+          <li>Computerized Accounting</li>
+          <li>Secretariat & Front office operations</li> -->
+        </ul>
       </div>
     </div>
   </section>

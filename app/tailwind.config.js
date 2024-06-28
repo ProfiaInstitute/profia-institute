@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: colors.orange,
-        secondary: colors.yellow,
+        primary: colors.yellow,
+        secondary: colors.orange,
       },
       keyframes: {
         "slide-left": {
@@ -18,6 +18,10 @@ export default {
       },
       animation: {
         "slide-left-infinite": "slide-left 40s linear infinite",
+      },
+      backgroundImage: {
+        "people-img" : "url('./src/assets/images/students.avif')",
+        "dove" : "url('./src/assets/images/waterdove.avif')",
       },
     },
   },
