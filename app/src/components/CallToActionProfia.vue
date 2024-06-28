@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gradient-to-r from-gray-100 from-45% to-yellow-900">
+  <section class="bg-gradient-to-r from-gray-300 from-45% to-yellow-900">
     <div class="w-full h-28 py-5 flex justify-between">
       <div class="px-4">
         <h3 class="text-4xl">Profia Institute of Professionals</h3>

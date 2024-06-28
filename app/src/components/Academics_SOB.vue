@@ -33,10 +33,10 @@
           </div>
 
           <div
-            class="mt-4 text-center border rounded-xl w-auto h-auto space-y-5 p"
+            class="mt-4 text-center border rounded-xl w-auto h-auto space-y-5 py-5"
           >
-            <h1 class="text-2xl font-bold py-5">Message From The Principal</h1>
-            <p class="text-lg">
+            <h1 class="text-4xl font-bold py-5 text-primary-900">Message From The Principal</h1>
+            <p class="text-lg max-w-2xl mx-auto">
               Welcome to our esteemed institution! At our school, we are
               dedicated to providing high-quality education and practical
               training across various fields. Whether you are pursuing a career
@@ -70,9 +70,9 @@
           </div> -->
 
           <div
-            class="border border-black rounded-lg w-auto h-auto px-5 space-y-3"
+            class="border border-black rounded-lg w-auto h-auto px-5 space-y-4 py-3"
           >
-            <div class="py-2"><router-link to="/sob"><h1 class="text-xl font-semibold">School of Business</h1></router-link>
+            <div class=""><router-link to="/sob"><h1 class="text-xl font-semibold underline">School of Business</h1></router-link>
               <!-- <h1 class="text-xl font-semibold">School of Business</h1> -->
               <!-- <p class="text-lg">
               Transform your career with our diverse business programs.<br />
@@ -81,21 +81,21 @@
             </p> -->
             </div>
             <div class="">
-              <h1 class="text-xl font-semibold">School of ICT</h1>
+              <h1 class="text-xl font-semibold underline">School of ICT</h1>
               <!-- <p class="text-lg">
               Unlock the power of technology with our comprehensive ICT programs.<br />
               our courses are designed to prepare you for a dynamic career in the tech industry.
             </p> -->
             </div>
             <div class="">
-              <h1 class="text-xl font-semibold">School of Hospitality</h1>
+              <h1 class="text-xl font-semibold underline">School of Hospitality</h1>
               <!-- <p class="text-lg">
               Learn the art of exceptional service, Create memorable experiences and thrive in
               the vibrant hospitality industry.
             </p> -->
             </div>
             <div class="">
-              <h1 class="text-xl font-semibold">School of Beauty/Cosmetology</h1>
+              <h1 class="text-xl font-semibold underline">School of Beauty/Cosmetology</h1>
               <!-- <p class="text-lg">
                 Elevate your passion for beauty with our top-notch cosmetology
                 programs.<br />
@@ -103,8 +103,8 @@
                 industry.
               </p> -->
             </div>
-            <div class="py-2">
-              <h1 class="text-xl font-semibold">School of Engineering</h1>
+            <div class="">
+              <h1 class="text-xl font-semibold underline">School of Engineering</h1>
               <!-- <p class="text-lg">
                 Shape the future with a engineering course.<br />
                 Innovate and engineer solutions that make a difference by
