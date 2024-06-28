@@ -54,7 +54,7 @@
             </p>
           </div>
         </div>
-        <div class="fixed ml-[1000px] max-w-md  col-span-4 mx-auto space-y-5 my-4 px-5">
+        <div class="lg:fixed lg:ml-[1000px] lg:max-w-md  col-span-4 mx-auto space-y-10 my-4 px-5">
           <CallToActionSOB />
           <!-- <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
             <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
@@ -81,21 +81,24 @@
             </p> -->
             </div>
             <div class="">
-              <h1 class="text-xl font-semibold underline">School of ICT</h1>
+              <router-link to="/soi"><h1 class="text-xl font-semibold underline">School of ICT</h1></router-link>
+              
               <!-- <p class="text-lg">
               Unlock the power of technology with our comprehensive ICT programs.<br />
               our courses are designed to prepare you for a dynamic career in the tech industry.
             </p> -->
             </div>
             <div class="">
-              <h1 class="text-xl font-semibold underline">School of Hospitality</h1>
+              <router-link to="/soh"><h1 class="text-xl font-semibold underline">School of Hospitality</h1></router-link>
+              
               <!-- <p class="text-lg">
               Learn the art of exceptional service, Create memorable experiences and thrive in
               the vibrant hospitality industry.
             </p> -->
             </div>
             <div class="">
-              <h1 class="text-xl font-semibold underline">School of Beauty/Cosmetology</h1>
+              <router-link to="/soc"><h1 class="text-xl font-semibold underline">School of Beauty/Cosmetology</h1></router-link>
+              
               <!-- <p class="text-lg">
                 Elevate your passion for beauty with our top-notch cosmetology
                 programs.<br />
@@ -104,7 +107,8 @@
               </p> -->
             </div>
             <div class="">
-              <h1 class="text-xl font-semibold underline">School of Engineering</h1>
+              <router-link to="/soe"><h1 class="text-xl font-semibold underline">School of Engineering</h1></router-link>
+              
               <!-- <p class="text-lg">
                 Shape the future with a engineering course.<br />
                 Innovate and engineer solutions that make a difference by
@@ -115,9 +119,10 @@
           <div
             class="rounded-2xl p-4 border-2 border-gray-200 md:col-span-4 md:min-h-min"
           >
-            <h1 class="mb-3 font-bold text-gray-900 text-xl md:text-2xl">
+          <router-link to="/techhub"> <h1 class="mb-3 font-bold text-gray-900 text-xl md:text-2xl">
               Tech Hub
-            </h1>
+            </h1></router-link>
+           
             <!-- <p class="text-lg text-gray-900">
               At the heart of Profia Institute lies our Tech Hub, where we
               explore the frontiers of innovation and technology. Our focus
@@ -167,7 +172,7 @@
       </div> -->
     </div>
   </section>
-
+  <CallToActionAcademic/>
   <section class="mx-auto max-w-7xl">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
       <div class="md:col-span-8">
