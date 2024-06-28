@@ -46,7 +46,7 @@
             class="flex items-center"
             @click.native="closeMenu"
           >
-            <img src="@/assets/images/logo.jpg" alt="Logo" class="h-8 lg:h-12">
+            <img src="@/assets/images/logo.png" alt="Logo" class="h-8 lg:h-12">
           </router-link>
         </div>
 

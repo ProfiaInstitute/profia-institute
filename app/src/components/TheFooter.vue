@@ -5,7 +5,7 @@
       <div
         class="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between"
       >
-        <img src="@/assets/images/logo.jpg" alt="Company Logo" class="h-24" />
+        <img src="@/assets/images/logo.png" alt="Company Logo" class="h-24" />
       </div>
       <div
         class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
