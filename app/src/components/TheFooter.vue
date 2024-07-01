@@ -48,7 +48,7 @@
               >Academics</router-link
             >
             <router-link
-              to="/schoolofbusiness"
+              to="/sob"
               class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >School of Business</router-link
             >
