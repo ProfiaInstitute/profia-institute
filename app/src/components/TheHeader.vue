@@ -46,14 +46,18 @@
             class="flex items-center"
             @click.native="closeMenu"
           >
-            <img src="@/assets/images/logo.png" alt="Logo" class="h-8 lg:h-12">
+            <img
+              src="@/assets/images/logo.png"
+              alt="Logo"
+              class="h-8 lg:h-12"
+            />
           </router-link>
         </div>
 
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-black lg:bg-gray-200 lg lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+          class="bg-black lg:bg-gray-200 lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
           <!-- Navigation items -->
           <ul
@@ -216,6 +220,7 @@
     </header>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -250,3 +255,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+button {
+  font-size: 2rem;
+}
+</style>
