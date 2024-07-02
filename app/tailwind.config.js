@@ -23,6 +23,8 @@ export default {
         "people-img" : "url('./src/assets/images/students.avif')",
         "dove" : "url('./src/assets/images/waterdove.avif')",
       },
+
+      
     },
   },
   

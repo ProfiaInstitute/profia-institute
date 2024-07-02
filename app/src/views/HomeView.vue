@@ -6,6 +6,7 @@
     <UpdateHero/>
     <PatnerHero/>
     
+    
   </div>
 </template>
 
