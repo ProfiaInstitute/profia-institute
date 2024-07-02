@@ -7,7 +7,7 @@
         >
           Faculty Staff
         </h1>
-        <transition name="carousel-fade">
+        <transition name="fade">
           <div :key="currentItem" class="carousel-item">
             <img
               :src="currentItemData.image"
@@ -22,14 +22,6 @@
         </transition>
       </div>
     </div>
-    <div class="flex justify-center mt-4">
-      <button @click="prevItem" class="mr-4 px-4 py-2 bg-gray-200 rounded">
-        Prev
-      </button>
-      <button @click="nextItem" class="px-4 py-2 bg-gray-200 rounded">
-        Next
-      </button>
-    </div>
   </section>
 </template>
 
@@ -39,13 +31,15 @@ import { ref, onMounted, onUnmounted, computed } from "vue";
 // Carousel items data
 const carouselItems = ref([
   {
-    image: require("@/assets/images/photo-faculty.avif"),
+    image:
+      "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg",
     alt: "staff",
     text: "Welcome to faculty.",
   },
   {
-    image: require("@/assets/images/techhub-6.avif"),
-    alt: "another",
+    image:
+      "https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHx8fDE3MTk4NTM4MzN8MA&ixlib=rb-4.0.3",
+    alt: "staff",
     text: "This is Faculty.",
   },
 ]);
@@ -79,12 +73,12 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-.carousel-fade-enter-active,
-.carousel-fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.5s;
 }
-.carousel-fade-enter,
-.carousel-fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 </style>
