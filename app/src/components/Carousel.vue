@@ -39,7 +39,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
-// Carousel items data
+// Carousel items data 
 const carouselItems = ref([
   {
     image:
