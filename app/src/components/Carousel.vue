@@ -7,26 +7,37 @@
         >
           Faculty Staff
         </h1>
-        <transition name="fade">
-          <div :key="currentItem" class="carousel-item">
-            <img
-              :src="currentItemData.image"
-              :alt="currentItemData.alt"
-              class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-2xl"
-              loading="lazy"
-            />
-            <p class="text-lg text-gray-900 text-center">
-              {{ currentItemData.text }}
-            </p>
-          </div>
-        </transition>
+        <div class="carousel-container">
+          <transition name="slide">
+            <div
+              class="carousel-track"
+              :style="{ transform: `translateX(-${currentItem * 100}%)` }"
+            >
+              <div
+                v-for="(item, index) in carouselItems"
+                :key="index"
+                class="carousel-item"
+              >
+                <img
+                  :src="item.image"
+                  :alt="item.alt"
+                  class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-2xl"
+                  loading="lazy"
+                />
+                <p class="text-lg text-gray-900 text-center">
+                  {{ item.text }}
+                </p>
+              </div>
+            </div>
+          </transition>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted, computed } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 // Carousel items data
 const carouselItems = ref([
@@ -42,43 +53,82 @@ const carouselItems = ref([
     alt: "staff",
     text: "This is Faculty.",
   },
+  {
+    image:
+      "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
+    alt: "staff",
+    text: "Bird.",
+  },
+  {
+    image:
+      "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1719792000&semt=ais_user",
+    alt: "staff",
+    text: "Leaf.",
+  },
 ]);
 
 // Reactive variable for current item index
 const currentItem = ref(0);
 
-// Computed property to get current item data
-const currentItemData = computed(() => carouselItems.value[currentItem.value]);
-
-// Methods to navigate the carousel
-const prevItem = () => {
-  currentItem.value =
-    (currentItem.value - 1 + carouselItems.value.length) %
-    carouselItems.value.length;
-};
-
-const nextItem = () => {
-  currentItem.value = (currentItem.value + 1) % carouselItems.value.length;
-};
-
 // Auto-slide logic
 let interval;
+const slideInterval = 3000;
+
 onMounted(() => {
-  interval = setInterval(nextItem, 3000);
+  startCarousel();
 });
 
 onUnmounted(() => {
-  clearInterval(interval);
+  stopCarousel();
 });
+
+// Methods to navigate the carousel
+const startCarousel = () => {
+  interval = setInterval(nextItem, slideInterval);
+};
+
+const stopCarousel = () => {
+  clearInterval(interval);
+};
+
+const prevItem = () => {
+  stopCarousel();
+  if (currentItem.value === 0) {
+    currentItem.value = carouselItems.value.length - 1;
+  } else {
+    currentItem.value--;
+  }
+  startCarousel();
+};
+
+const nextItem = () => {
+  stopCarousel();
+  currentItem.value = (currentItem.value + 1) % carouselItems.value.length;
+  startCarousel();
+};
 </script>
 
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
+.carousel-container {
+  overflow: hidden;
 }
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.5s ease;
+}
+
+.slide-enter,
+.slide-leave-to {
+  transform: translateX(100%);
 }
 </style>
