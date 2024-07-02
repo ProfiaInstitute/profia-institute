@@ -1,7 +1,11 @@
 <template>
   <div class="p-5 rounded-2xl border-2 border-black bg-people-img">
-    <div class=" bg-gradient-to-br from-secondary-900  to-primary-300 opacity-90 px-4 py-10 text-left rounded-2xl">
-      <h4 class="text-3xl font-semibold">Profia Institute of Professional Studies</h4>
+    <div
+      class="bg-gradient-to-br from-secondary-900 to-primary-300 opacity-90 px-4 py-10 text-left rounded-2xl"
+    >
+      <h4 class="text-3xl font-semibold">
+        Profia Institute of Professional Studies
+      </h4>
       <p class="text-sm">offers you a challenge that is industry relevant</p>
       <div class="flex justify-center mt-2">
         <button
