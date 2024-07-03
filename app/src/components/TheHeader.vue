@@ -8,7 +8,7 @@
       }"
     >
       <!-- Navigation specific to homepage -->
-      <section v-if="isHomePage" class="bg-yellow-700 py-4 lg">
+      <section v-if="isHomePage" class="bg-secondary-color py-4 lg">
         <div class="flex justify-end items-center list-none px-5 space-x-10">
           <li>
             <router-link
