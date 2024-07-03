@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: colors.yellow,
-        secondary: colors.orange,
+        'primary-color': '#F1582B',
+        'secondary-color': '#680915',
+        'tertiary-color': '#fff6ed',
+        'quaternary-color': '#31271b',
       },
       keyframes: {
         "slide-left": {
