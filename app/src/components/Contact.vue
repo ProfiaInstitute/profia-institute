@@ -1,7 +1,7 @@
 <template>
   <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
     <div
-      class="w-full max-w-6xl flex justify-end px-8 mx-auto bg-yellow-800 text-black text-center text-3xl font-semibold rounded-lg py-4 mb-10"
+      class="w-full max-w-6xl flex justify-end px-8 mx-auto bg-secondary-color text-black text-center text-3xl font-semibold rounded-lg py-4 mb-10"
     >
       <h2 class="text-white">Reach out to us</h2>
       
@@ -46,7 +46,7 @@
           name="comment"
           placeholder="Enter text here..."
         ></textarea>
-        <button class="text-sm sm:text-lg text-white p-2 sm:p-3 bg-orange-600 w-32 sm:w-44 rounded-xl">
+        <button class="text-sm sm:text-lg text-white p-2 sm:p-3 bg-primary-color w-32 sm:w-44 rounded-xl">
           Send message
         </button>
       </form>

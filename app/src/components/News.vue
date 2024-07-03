@@ -1,7 +1,7 @@
 <template>
   <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
     <div
-      class="w-full sm:w-[600px] mx-auto bg-yellow-900 text-white text-center text-3xl font-semibold rounded-lg py-4 mb-10"
+      class="w-full sm:w-[600px] mx-auto bg-secondary-color text-white text-center text-3xl font-semibold rounded-lg py-4 mb-10"
     >
       Get the Latest from Profia
     </div>
