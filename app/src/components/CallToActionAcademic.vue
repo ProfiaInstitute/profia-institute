@@ -5,7 +5,7 @@
 
   <section class="max-w-7xl mx-auto px-4">
     <div
-      class="rounded-xl px-5 py-10 bg-tertiary-color flex justify-around items-center"
+      class="rounded-xl px-5 py-16 bg-tertiary-color flex justify-around items-center"
     >
       <div class="space-y-8">
         <div class="space-y-5">
