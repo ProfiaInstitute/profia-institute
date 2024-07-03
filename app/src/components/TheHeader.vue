@@ -81,7 +81,7 @@
                 <span class="ml-1">&#9662;</span>
               </router-link>
               <div
-                class="absolute hidden group-hover:block lg:bg-gray-400 bg-blue-500 text-black p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
+                class="absolute hidden group-hover:block lg:bg-gray-100 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
               >
                 <div class="grid grid-cols-3 lg:gap-4">
                   <div>
@@ -171,8 +171,9 @@
                       </li>
                     </ul>
                   </div>
-                </div> -->
-              <!-- </div> -->
+                </div> 
+              </div>
+              
             </li>
             <li>
               <router-link
