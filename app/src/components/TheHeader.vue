@@ -46,14 +46,18 @@
             class="flex items-center"
             @click.native="closeMenu"
           >
-            <img src="@/assets/images/logo.png" alt="Logo" class="h-8 lg:h-12">
+            <img
+              src="@/assets/images/logo.png"
+              alt="Logo"
+              class="h-8 lg:h-12"
+            />
           </router-link>
         </div>
 
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-gray-200 lg lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+          class="bg-black lg:bg-gray-200 lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
           <!-- Navigation items -->
           <ul
@@ -76,10 +80,10 @@
                 <span>Academics</span>
                 <span class="ml-1">&#9662;</span>
               </router-link>
-              <!-- <div
-                class="absolute hidden group-hover:block lg:bg-gray-400 bg-blue-500 text-black p-4 rounded mt-2 lg:w-96 left-0 w-96"
-              > -->
-                <!-- <div class="grid grid-cols-3 lg:gap-4">
+              <div
+                class="absolute hidden group-hover:block lg:bg-gray-400 bg-blue-500 text-black p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
+              >
+                <div class="grid grid-cols-3 lg:gap-4">
                   <div>
                     <h3 class="font-semibold">School of Business</h3>
                     <ul class="ml-4">
@@ -196,7 +200,7 @@
             </li>
             <li>
               <router-link
-                to="/admission"
+                to="#"
                 class="hover:text-white relative"
                 @click.native="closeMenu"
               >
@@ -216,6 +220,7 @@
     </header>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -250,3 +255,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+button {
+  font-size: 2rem;
+}
+</style>
