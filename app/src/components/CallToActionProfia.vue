@@ -1,22 +1,20 @@
 <template>
-  <section class="bg-gradient-to-r from-tertiary-color from-5% to-primary-color">
-    <div class="w-full h-28 py-5 flex justify-between">
+  <section class="bg-tertiary-color">
+    <div class="w-full py-5 flex justify-between">
       <div class="px-4">
         <h3 class="text-4xl">Profia Institute of Professionals</h3>
         <p>with quality comes good business</p>
       </div>
       <div class="text-2xl px-24 justify-center items-center text-center">
-        <!-- <router-link
-          to="https://docs.google.com/forms/d/e/1FAIpQLScMpwjvMblufTl-aLDPacOiPc1eD2OtH86z9kV6GaEU6TdM0w/viewform"
-          ><button class="border-[2px] border-black px-4 py-3">
-            Apply Now
-          </button></router-link
-        > -->
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScMpwjvMblufTl-aLDPacOiPc1eD2OtH86z9kV6GaEU6TdM0w/viewform"
-        > <button class="border-[2px] border-black px-4 py-3 hover:bg-black hover:rounded-full hover:text-white transform delay-200 ease-in-out">
+        >
+          <button
+            class="border-[2px] border-gray-900 px-4 py-3 hover:bg-quaternary-color rounded-xl hover:text-white delay-100 ease-in-out"
+          >
             Apply Now
-          </button></a>
+          </button></a
+        >
       </div>
     </div>
   </section>
