@@ -4,7 +4,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Card 1 -->
       <div
-        class="w-full h-[400px] relative rounded-2xl overflow-hidden flex flex-col"
+        class="w-full relative rounded-2xl overflow-hidden flex flex-col"
       >
         <img
           src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -33,7 +33,7 @@
 
       <!-- Card 2 -->
       <div
-        class="w-full h-[400px] relative rounded-2xl overflow-hidden flex flex-col"
+        class="w-full relative rounded-2xl overflow-hidden flex flex-col"
       >
         <img
           src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -62,7 +62,7 @@
 
       <!-- Card 3 -->
       <div
-        class="w-full h-[400px] relative rounded-2xl overflow-hidden flex flex-col"
+        class="w-full relative rounded-2xl overflow-hidden flex flex-col"
       >
         <img
           src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
