@@ -1,7 +1,7 @@
 <template>
   <section class="max-w-7xl mx-auto py-20 px-4 sm:px-6">
     <h1
-      class="text-center mb-5 lg:mb-10 text-2xl lg:text-5xl sm:text-3xl font-bold text-yellow-800"
+      class="text-center mb-5 lg:mb-10 text-2xl lg:text-5xl sm:text-3xl font-bold text-secondary-color"
     >
       Gallery
     </h1>
