@@ -66,7 +66,7 @@
             <li>
               <router-link
                 to="/"
-                class="hover:text-white"
+                class="hover:text-primary-color"
                 @click.native="closeMenu"
                 >Home</router-link
               >
@@ -74,7 +74,7 @@
             <li class="relative group">
               <router-link
                 to="/academics"
-                class="hover:text-white flex items-center"
+                class="hover:text-primary-color flex items-center"
                 @click.native="closeMenu"
               >
                 <span>Academics</span>
@@ -178,7 +178,7 @@
             <li>
               <router-link
                 to="/aboutus"
-                class="hover:text-white"
+                class="hover:text-primary-color hover:font-bold"
                 @click.native="closeMenu"
                 >About Us</router-link
               >
@@ -186,7 +186,7 @@
             <li>
               <router-link
                 to="/news"
-                class="hover:text-white"
+                class="hover:text-primary-color"
                 @click.native="closeMenu"
                 >News & updates</router-link
               >
@@ -194,7 +194,7 @@
             <li>
               <router-link
                 to="/contact"
-                class="hover:text-white"
+                class="hover:text-primary-color"
                 @click.native="closeMenu"
                 >Contact Us</router-link
               >
@@ -202,7 +202,7 @@
             <li>
               <router-link
                 to="#"
-                class="hover:text-white relative"
+                class="hover:text-primary-color relative"
                 @click.native="closeMenu"
               >
                 Admission

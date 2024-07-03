@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gradient-to-r from-gray-300 from-45% to-yellow-900">
+  <section class="bg-gradient-to-r from-tertiary-color from-5% to-primary-color">
     <div class="w-full h-28 py-5 flex justify-between">
       <div class="px-4">
         <h3 class="text-4xl">Profia Institute of Professionals</h3>
@@ -14,7 +14,7 @@
         > -->
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScMpwjvMblufTl-aLDPacOiPc1eD2OtH86z9kV6GaEU6TdM0w/viewform"
-        > <button class="border-[2px] border-black px-4 py-3">
+        > <button class="border-[2px] border-black px-4 py-3 hover:bg-black hover:rounded-full hover:text-white transform delay-200 ease-in-out">
             Apply Now
           </button></a>
       </div>
