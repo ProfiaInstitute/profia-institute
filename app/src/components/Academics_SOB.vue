@@ -2,7 +2,7 @@
   <section class="max-w-7xl mx-auto py-5 mt-24">
     <div class="">
       <h1
-        class="flex justify-center items-center text-4xl text-orange-900 font-bold mb-4"
+        class="flex justify-center items-center text-4xl text-secondary-color font-bold mb-4"
       >
         ACADEMICS
       </h1>
