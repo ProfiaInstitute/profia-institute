@@ -1,22 +1,12 @@
 <template>
   <div>
-    <section class="py-20 bg-gray-300">
+    <section class="py-20 bg-gray-100">
       <div class="max-w-7xl mx-auto px-4 sm:px-8">
         <div class="py-8 px-4 mx-auto max-w-7xl text-center lg:py-8 lg:px-0">
           <h1
-            class="mb-4 text-4xl font-semibold tracking-tight leading-none text-black md:text-5xl lg:text-6xl"
+            class="mb-4 text-4xl font-semibold tracking-tight leading-none text-secondary-color md:text-5xl lg:text-6xl"
           >
-            Frequently
-            <span
-              class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-800 to-gray-700"
-            >
-              Asked
-            </span>
-            <span
-              class="text-transparent bg-clip-text bg-gradient-to-r from-gray-400 to-black"
-            >
-              Questions
-            </span>
+            Frequently Asked Questions
           </h1>
           <p
             class="mb-0 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48"
