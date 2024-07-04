@@ -10,7 +10,7 @@
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
           Laurina Cebrels Dracula
         </h1>
-        <p class="px-4 sm:px-20 py-5">
+        <p class="px-20 py-5 text-lg">
           A degree in Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nostrum, eaque eligendi nemo voluptatem libero corporis aperiam, error
           deserunt quia iusto velit sed. Nihil, expedita delectus.
@@ -30,7 +30,7 @@
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
           Veleria Van Helsing
         </h1>
-        <p class="px-20 py-5 text-gray-800">
+        <p class="px-20 py-5 text-lg">
           A masters in Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nesciunt, numquam eius dolorum, ut voluptas tenetur ipsum est enim
           culpa tempora nobis! Corporis mollitia ipsum nihil.
