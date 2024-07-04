@@ -2,14 +2,16 @@
   <section class="font-mono">
     <div>
       <div class="bg-dove bg-cover bg-center">
-        <div class="max-w-5xl mx-auto flex justify-between items-center py-20">
-          <h1 class="text-8xl text-primary-900">Admission</h1>
+        <div
+          class="max-w-5xl mx-auto flex justify-between items-center py-20 sm:px-10 lg:px-0"
+        >
+          <h1 class="text-8xl text-primary-color">Admission</h1>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScMpwjvMblufTl-aLDPacOiPc1eD2OtH86z9kV6GaEU6TdM0w/viewform"
             target="_blank"
           >
             <Button
-              class="border-[1px] border-black bg-secondary-600 px-5 py-3 rounded-xl transition duration-700 ease-in-out hover:bg-black hover:rounded-full hover:text-white"
+              class="border-[1px] border-black bg-gray-200 px-5 py-3 rounded-xl transition duration-500 ease-in-out hover:bg-black hover:rounded-full hover:text-white"
               >Click to Apply</Button
             >
           </a>
