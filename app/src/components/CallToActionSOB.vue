@@ -1,5 +1,5 @@
 <template>
-  <div class="p-5 rounded-2xl border-[1px] border-gray-400 bg-people-img">
+  <div class="p-5 rounded-2xl border-[1px] border-gray-400 bg-people-img text-white">
     <div
       class="bg-secondary-color opacity-90 px-4 py-10 text-left rounded-2xl"
     >
