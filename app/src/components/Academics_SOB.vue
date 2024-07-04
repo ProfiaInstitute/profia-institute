@@ -51,14 +51,14 @@
       <section class="mx-auto max-w-7xl">
         <Carousel />
       </section>
-      <!-- Programs -->
+      <!-- Schools -->
       <section class="mx-auto max-w-7xl">
         <div class="py-12">
           <div class="">
             <h1
               class="mb-4 text-4xl font-semibold tracking-tight leading-none text-secondary-color md:text-5xl lg:text-6xl"
             >
-              Programs
+              Schools
             </h1>
             <div class="">
               <ul class="mt-0 divide-y-2 rounded-2xl">
