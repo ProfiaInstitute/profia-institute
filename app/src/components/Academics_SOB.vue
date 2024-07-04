@@ -156,22 +156,6 @@
   <section class="mx-auto max-w-7xl">
     <Carousel />
   </section>
-  <section class="">
-    <!-- <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
-      <div class="md:col-span-8">
-        <h1 class="mb-5 font-bold text-gray-900 text-2xl md:text-3xl">
-          Programs on offer
-        </h1>
-        <ul class="text-lg text-gray-900 space-y-5">
-          <li>&rarr; School of Business</li>
-          <li>&rarr; School of ICT</li>
-          <li>&rarr; School of Hospitality</li>
-          <li>&rarr; School of Beauty/Cosmetology</li>
-          <li>&rarr; School of Engineering</li>
-        </ul>
-      </div>
-    </div> -->
-  </section>
   <section class="mx-auto max-w-7xl">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
       <div class="md:col-span-8">
