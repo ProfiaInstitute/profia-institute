@@ -56,6 +56,7 @@
             </p>
           </div>
         </div>
+        <!-- sticky section -->
         <div
           class="lg:fixed lg:ml-[1000px] lg:max-w-md col-span-4 mx-auto space-y-10 my-4 px-5"
         >
