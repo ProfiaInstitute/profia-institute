@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto p-4">
-    <nav class="text-xl text-gray-600 mt-4 md:ml-72">
-      Academics &rarr; School of Business &rarr; CPA
+    <nav class="text-5xl font-bold text-secondary-color leading-loose tracking-wide mt-4">
+       <h1>School of Business</h1>
     </nav>
 
     <div class="flex flex-col md:flex-row justify-center md:gap-8 p-4">
