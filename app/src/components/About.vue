@@ -9,10 +9,10 @@
         The Core Values: &rarr;
       </nav>
       <div
-        class="relative bg-secondary-color h-16 flex justify-end items-center text-white mx-auto"
+        class="relative bg-secondary-color py-3 md:py-5 flex justify-start md:justify-end items-center text-white mx-auto"
       >
-        <span class="mr-48 text-3xl ">Who we are</span>
-        <div class="absolute right-[600px] w-96 h-7642 bg-gray-300">
+        <span class="text-3xl px-5">About Us</span>
+        <div class="absolute right-[600px] w-96 bg-gray-300 hidden md:block">
           <img
             src="../assets/images/students.avif"
             alt="Image Description"
@@ -22,7 +22,7 @@
       </div>
       <div class="max-w-full ">
         <div class="max-w-3xl mx-auto py-36 space-y-5">
-        <h1 class="text-3xl text-primary-700 font-bold text-center">
+        <h1 class="text-3xl text-primary-700 font-bold text-center text-secondary-color">
           Who Are We
         </h1>
         <p class="text-lg text-gray-900">
