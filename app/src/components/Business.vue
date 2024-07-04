@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto p-4">
-    <nav class="text-xl text-gray-600 mt-4 md:ml-72">
-      Academics &rarr; School of Business &rarr; CPA
+    <nav class="text-5xl font-bold text-secondary-color leading-loose tracking-wide mt-4">
+       <h1>School of Business</h1>
     </nav>
   
     <div class="flex flex-col md:flex-row justify-center md:gap-8 p-4">
@@ -25,8 +25,7 @@
       </div>
       
       
-  
-    <nav class="bg-gray-100 py-2 flex flex-col md:flex-row flex-wrap justify-center md:justify-start gap-4 md:gap-8 mt-4">
+    <nav class="bg-gray-100 py-2 flex flex-row flex-wrap justify-center md:justify-start gap-4 md:gap-8 mt-4">
         <a href="#" class="text-gray-600 mb-2 md:mb-0">Overview</a>
         <a href="#" class="text-gray-600 mb-2 md:mb-0">Syllabus</a>
         <a href="#" class="text-gray-600 mb-2 md:mb-0">Enrollment</a>
