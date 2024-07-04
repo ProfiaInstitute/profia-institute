@@ -1,6 +1,6 @@
 <template>
   <section class="mx-auto max-w-7xl">
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+    <div class="">
       <div class="rounded-2xl p-6 border-2 border-gray-200 md:col-span-8">
         <h1
           class="mb-3 font-bold text-gray-900 text-2xl md:text-3xl text-center"
