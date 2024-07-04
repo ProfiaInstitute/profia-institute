@@ -8,6 +8,7 @@ import {
   AboutusView,
   ContactView,
   AdmissionView,
+  NotFoundView,
 } from "../views";
 
 
@@ -26,6 +27,7 @@ const routes = [
   { path: "/aboutus", name: "aboutus", component: AboutusView },
   { path: "/contact", name: "contact", component: ContactView },
   { path: "/admission", name: "admission", component: AdmissionView },
+  { path: "/:PathMatch(.*)*", name: "Errorpage", component: NotFoundView },
 ];
 
 /**Initialize here */
