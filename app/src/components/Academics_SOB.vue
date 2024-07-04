@@ -7,7 +7,7 @@
         ACADEMICS
       </h1>
       <div class="flex flex-row justify-center items-center">
-        <CallToActionProfia />
+      
         <!-- <div>
           <h1 class="text-2xl font-semibold">Lorem ipsum dolor!!</h1>
           <h2 class="text-lg font-semibold">

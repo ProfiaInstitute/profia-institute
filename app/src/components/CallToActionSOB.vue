@@ -1,7 +1,7 @@
 <template>
   <div class="p-5 rounded-2xl border-[1px] border-gray-400 bg-people-img">
     <div
-      class="bg-tertiary-color opacity-90 px-4 py-10 text-left rounded-2xl"
+      class="bg-secondary-color opacity-90 px-4 py-10 text-left rounded-2xl"
     >
       <h4 class="text-3xl font-semibold">
         Profia Institute of Professional Studies
