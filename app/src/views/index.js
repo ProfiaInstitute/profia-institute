@@ -6,6 +6,7 @@ import NewsView from "./NewsView.vue";
 import AboutusView from "./AboutusView.vue";
 import ContactView from "./ContactView.vue";
 import AdmissionView from "./AdmissionView.vue";
+import NotFoundView from "./NotFoundView.vue";
 
 export {
   HomeView,
@@ -16,4 +17,5 @@ export {
   AboutusView,
   ContactView,
   AdmissionView,
+  NotFoundView,
 };

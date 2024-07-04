@@ -8,7 +8,7 @@
       }"
     >
       <!-- Navigation specific to homepage -->
-      <section v-if="isHomePage" class="bg-secondary-color py-4 lg">
+      <section v-if="isHomePage" class="bg-secondary-color py-4">
         <div class="flex justify-end items-center list-none px-5 space-x-10">
           <li>
             <router-link
@@ -171,9 +171,8 @@
                       </li>
                     </ul>
                   </div>
-                </div> 
+                </div>
               </div>
-              
             </li>
             <li>
               <router-link
@@ -201,7 +200,7 @@
             </li>
             <li>
               <router-link
-                to="#"
+                to="/admission"
                 class="hover:text-primary-color relative"
                 @click.native="closeMenu"
               >
