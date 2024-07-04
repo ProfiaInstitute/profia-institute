@@ -9,7 +9,7 @@
       <div class="container mx-auto lg:mt-0">
         <div class="grid grid-cols-12 text-center lg:text-left">
           <div
-            class="relative flex flex-col bg-clip-border text-gray-700 px-6 py-10 border border-white shadow-lg col-span-full rounded-xl bg-white/90 shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-4"
+            class="relative flex flex-col bg-clip-border lg:ml-10 text-gray-700 px-6 py-10 border border-white shadow-lg col-span-full rounded-xl bg-white/90 shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-4"
           >
             <h1
               class="block antialiased tracking-normal font-sans font-semibold text-blue-gray-900 text-3xl !leading-snug lg:text-5xl"
