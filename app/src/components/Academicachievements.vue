@@ -1,7 +1,7 @@
 <template>
   <div class="text-gray-800 bg-primary-900">
     <section class="max-w-7xl mx-auto space-y-28 lg:space-y-40 px-15">
-      <h1 class="text-gray-700 text-center text-2xl md:text-4xl font-bold pt-10">
+      <h1 class="text-secondary-color text-center text-3xl md:text-5xl font-bold pt-10">
         Academic Achievements
       </h1>
       <div
@@ -44,8 +44,8 @@
       </div>
 
       <div class="text-center mx-auto space-y-5 py-10">
-        <h2 class="font-bold text-3xl text-gray-700">
-          Our History/ Where did we start
+        <h2 class="font-bold text-3xl md:text-5xl text-secondary-color">
+          Our History
         </h2>
         <p class="max-w-2xl mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo
