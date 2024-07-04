@@ -1,7 +1,7 @@
 <template>
   <div>
     <Business />
-    <Whatyouearn/>
+    <!-- <Whatyouearn/> -->
     <Enrollment/>
     <Faqs />
   </div>
