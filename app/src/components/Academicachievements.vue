@@ -5,7 +5,7 @@
         Academic Achievements
       </h1>
       <div
-        class="relative bg-slate-200 sm:rounded-tr-3xl h-[400px] lg:h-96 sm:w-[400px] lg:w-[800px] mx-auto"
+        class="relative bg-slate-200 sm:rounded-tr-3xl h-[400px] lg:h-96 sm:w-[400px] lg:w-[800px] mx-auto pb-4"
       >
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
           Laurina Cebrels Dracula
@@ -25,17 +25,17 @@
       </div>
 
       <div
-        class="relative bg-slate-200 h-[500px] sm:h-[400px] lg:h-96 sm:w-[400px] lg:w-[800px] mx-auto mt-20 sm:rounded-bl-3xl"
+        class="relative bg-slate-200 h-[500px] sm:h-[400px] lg:h-96 sm:w-[400px] lg:w-[800px] mx-auto mt-20 sm:rounded-bl-3xl pb-6"
       >
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
           Veleria Van Helsing
         </h1>
-        <p class="px-20 py-5 text-lg">
+        <p class="px-20 md:px-32 py-5 text-lg">
           A masters in Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nesciunt, numquam eius dolorum, ut voluptas tenetur ipsum est enim
           culpa tempora nobis! Corporis mollitia ipsum nihil.
         </p>
-        <div class="absolute h-56 opacity-30 sm:opacity-100 w-56 top-16 right-20 sm:-top-7 sm:-right-44 lg:-right-40">
+        <div class="absolute h-56 opacity-30 sm:opacity-100 w-56 top-16 right-20 sm:-top-7 sm:-right-40 md:-right-28">
           <img src="../assets/images/andrey-k.avif" class="rounded-2xl" alt="" />
         </div>
       </div>
