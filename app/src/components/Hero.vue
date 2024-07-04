@@ -4,20 +4,20 @@
       <img
         src="https://bucket.material-tailwind.com/magic-ai/3f24080b2fa162ec33033ec532f2d727ad79b2ca73ccb0f0ab67f99d2e56c096.jpg"
         alt="bg-img"
-        class="absolute inset-0 ml-auto h-full lg:rounded-bl-[100px]  object-cover object-center"
+        class="absolute inset-0 ml-auto h-full lg:rounded-bl-[100px] object-cover object-center"
       />
       <div class="container mx-auto lg:mt-0">
         <div class="grid grid-cols-12 text-center lg:text-left">
           <div
-            class="relative flex flex-col bg-clip-border lg:ml-10 text-gray-700 px-6 py-10 border border-white shadow-lg col-span-full rounded-xl bg-white/90 shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-4"
+            class="relative flex flex-col bg-clip-border lg:ml-20 text-gray-700 px-6 py-10 border border-white shadow-lg col-span-full rounded-xl bg-white/90 shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-6"
           >
             <h1
-              class="block antialiased tracking-normal font-sans font-semibold text-blue-gray-900 text-3xl !leading-snug lg:text-5xl"
+              class="antialiased tracking-normal font-sans font-semibold text-blue-gray-900 text-3xl !leading-snug lg:text-5xl"
             >
               Profia Institute <br />of technologies
             </h1>
             <p
-              class="block antialiased font-sans text-xl font-normal leading-relaxed text-inherit mb-10 mt-6 !text-gray-900"
+              class="antialiased font-sans text-xl font-normal leading-relaxed text-inherit mb-10 mt-6 !text-gray-900"
             >
               First business college of choice
             </p>
@@ -61,9 +61,6 @@
         Apply Today
       </button>
     </div>
-   
-
-    
   </div>
 </template>
 
