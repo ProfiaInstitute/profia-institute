@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="py-5">
     <div class="!flex h-[90vh] w-full items-center justify-between px-10">
       <img
         src="https://bucket.material-tailwind.com/magic-ai/3f24080b2fa162ec33033ec532f2d727ad79b2ca73ccb0f0ab67f99d2e56c096.jpg"
@@ -39,27 +39,39 @@
       </div>
     </div>
 
-    <div class="flex justify-center mt-16 space-x-4">
-      <button
-        class="bg-primary-color hover:bg-primary-color/75 text-white font-bold py-4 px-8 rounded"
-      >
-        Courses
-      </button>
-      <button
-        class="bg-primary-color hover:bg-primary-color/75 text-white font-bold py-4 px-8 rounded"
-      >
-        About
-      </button>
-      <button
-        class="bg-primary-color hover:bg-primary-color/75 text-white font-bold py-4 px-8 rounded"
-      >
-        Campus Life
-      </button>
-      <button
-        class="bg-primary-color hover:bg-primary-color/75 text-white font-bold py-4 px-8 rounded"
-      >
-        Apply Today
-      </button>
+    <div class="grid grid-cols-2 sm:grid-cols-4 justify-items-center place-items-center gap-5 sm:gap-0">
+      <div class="flex gap-1">
+        <button
+          class="skew-x-12 h-24 w-48 bg-secondary-color text-white font-bold text-2xl rounded-l-md tracking-wide"
+        >
+          Courses
+        </button>
+        <p class="skew-x-12 h-24 w-4 bg-primary-color rounded-r-md"></p>
+      </div>
+      <div class="flex gap-1">
+        <button
+          class="skew-x-12 h-24 w-48 bg-secondary-color text-white font-bold text-2xl rounded-l-md tracking-wide"
+        >
+          About
+        </button>
+        <p class="skew-x-12 h-24 w-4 bg-primary-color rounded-r-md"></p>
+      </div>
+      <div class="flex gap-1">
+        <button
+          class="skew-x-12 h-24 w-48 bg-secondary-color text-white font-bold text-2xl rounded-l-md tracking-wide"
+        >
+          Campus Life
+        </button>
+        <p class="skew-x-12 h-24 w-4 bg-primary-color rounded-r-md"></p>
+      </div>
+      <div class="flex gap-1">
+        <button
+          class="skew-x-12 h-24 w-48 bg-secondary-color text-white font-bold text-2xl rounded-l-md tracking-wide"
+        >
+          Apply Today
+        </button>
+        <p class="skew-x-12 h-24 w-4 bg-primary-color rounded-r-md"></p>
+      </div>
     </div>
   </div>
 </template>
