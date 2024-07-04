@@ -4,7 +4,7 @@
       <img
         src="https://bucket.material-tailwind.com/magic-ai/3f24080b2fa162ec33033ec532f2d727ad79b2ca73ccb0f0ab67f99d2e56c096.jpg"
         alt="bg-img"
-        class="absolute inset-0 ml-auto h-full rounded-bl-[100px] object-cover object-center"
+        class="absolute inset-0 ml-auto h-full lg:rounded-bl-[100px]  object-cover object-center"
       />
       <div class="container mx-auto lg:mt-0">
         <div class="grid grid-cols-12 text-center lg:text-left">
