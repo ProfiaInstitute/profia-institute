@@ -156,22 +156,6 @@
   <section class="mx-auto max-w-7xl">
     <Carousel />
   </section>
-  <section class="">
-    <!-- <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
-      <div class="md:col-span-8">
-        <h1 class="mb-5 font-bold text-gray-900 text-2xl md:text-3xl">
-          Programs on offer
-        </h1>
-        <ul class="text-lg text-gray-900 space-y-5">
-          <li>&rarr; School of Business</li>
-          <li>&rarr; School of ICT</li>
-          <li>&rarr; School of Hospitality</li>
-          <li>&rarr; School of Beauty/Cosmetology</li>
-          <li>&rarr; School of Engineering</li>
-        </ul>
-      </div>
-    </div> -->
-  </section>
   <section class="mx-auto max-w-7xl">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
       <div class="md:col-span-8">
@@ -188,18 +172,18 @@
                   @click="toggleAccordion(index)"
                   class="flex items-center justify-between px-4 sm:px-8 py-3 font-medium hover:cursor-pointer"
                 >
-                  <span class="font-semibold text-xl py-2">{{
-                    faq.question
+                  <span class="font-semibold text-xl sm:text-2xl py-2">{{
+                    faq.school
                   }}</span>
                   <span class="text-2xl">{{ faq.open ? "-" : "+" }}</span>
                 </summary>
 
                 <div
                   v-show="faq.open"
-                  class="m-4 p-4 rounded-2xl text-gray-500"
+                  class=" m-4 p-4 rounded-2xl text-gray-600"
                 >
-                  <p>
-                    {{ faq.answer }}
+                  <p v-for="(program, index) in faq.programs" :key="index" class="text-lg sm:text-xl">
+                    {{program }}
                   </p>
                 </div>
               </details>
@@ -218,33 +202,59 @@ import { ref } from "vue";
 
 const faqs = ref([
   {
-    question: "School of Business",
-    answer:
-      "The most in-demand programming languages often include Python, JavaScript, Java, C++, and others. However, the specific demand can vary depending on industry and region.",
+    school: "School of Business",
+    programs:[
+      "Certified Public Accountant (CPA)",
+      "Chartered Secretary (CS)",
+      "Certified Investment and Financial Analyst (CIFA)",
+      "Certified Credit Professional (CCP)",
+      "Accounting Technician Diploma",
+      "Certificate in Accounting and Management Skills"
+    ],
     open: false,
   },
   {
-    question: "School of ICT",
-    answer:
-      "The most in-demand programming languages often include Python, JavaScript, Java, C++, and others. However, the specific demand can vary depending on industry and region.",
+    school: "School of ICT",
+    programs:[
+      "Computer foundational skills",
+      "Certificate in ICT",
+      "Diploma in ICT",
+      "Graphics Design",
+      "AI & Machine Learning",
+      "Website Development",
+      "Software Development",
+      "Statistical Languages",
+      "Diploma in Data Management and analytics"
+    ],
     open: false,
   },
   {
-    question: "School of Hospitality",
-    answer:
-      "Improving cybersecurity skills involves staying updated with the latest security threats and technologies, participating in relevant training courses, practicing hands-on exercises like ethical hacking, and joining cybersecurity communities for knowledge sharing.",
+    school: "School of Hospitality",
+    programs:[
+      "Food and Beverage Production:",
+      "Food and Beverage Services",
+      "Housekeeping",
+      "Baking and Pastry"
+    ],
     open: false,
   },
   {
-    question: "School of Beauty/Cosmetology",
-    answer:
-      "Emerging trends in artificial intelligence include deep learning, natural language processing, reinforcement learning, and the convergence of AI with other technologies like edge computing and blockchain.",
+    school: "School of Beauty/Cosmetology",
+    programs:[
+      "Beauty Therapy",
+      "Hair Dressing",
+      "Nail Technology",
+      "Barbering",
+      "Hot Stone Massage"
+    ],
     open: false,
   },
   {
-    question: "School of Engineering",
-    answer:
-      "Emerging trends in artificial intelligence include deep learning, natural language processing, reinforcement learning, and the convergence of AI with other technologies like edge computing and blockchain.",
+    school: "School of Engineering",
+    programs:[
+      "Plumbing Program",
+      "Electrical Program"
+    ],
     open: false,
   },
 ]);
