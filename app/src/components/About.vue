@@ -11,7 +11,7 @@
       <div
         class="relative bg-secondary-color py-3 md:py-5 flex justify-start md:justify-end items-center text-white mx-auto"
       >
-        <span class="text-3xl px-5">About Us</span>
+        <span class="text-3xl px-5 md:text-5xl">About Us</span>
         <div class="absolute right-[600px] w-96 bg-gray-300 hidden md:block">
           <img
             src="../assets/images/students.avif"
@@ -22,7 +22,7 @@
       </div>
       <div class="max-w-full ">
         <div class="max-w-3xl mx-auto py-36 space-y-5">
-        <h1 class="text-3xl text-primary-700 font-bold text-center text-secondary-color">
+        <h1 class="text-3xl md:text-5xl text-primary-700 font-bold text-center text-secondary-color">
           Who Are We
         </h1>
         <p class="text-lg text-gray-900">
