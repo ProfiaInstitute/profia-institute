@@ -10,12 +10,12 @@
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
           Laurina Cebrels Dracula
         </h1>
-        <p class="px-20 py-5 text-lg">
+        <p class="px-20 md:px-40 md:text-center py-5 text-lg">
           A degree in Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nostrum, eaque eligendi nemo voluptatem libero corporis aperiam, error
           deserunt quia iusto velit sed. Nihil, expedita delectus.
         </p>
-        <div class="absolute h-56 w-56 opacity-30 sm:opacity-100 bottom-12 left-20 sm:-bottom-7 sm:-left-40 mb-20">
+        <div class="absolute h-56 w-52 opacity-30 sm:opacity-100 bottom-12 left-20 sm:-bottom-7 sm:-left-40 md:-left-20  mb-20">
           <img
             src="../assets/images/alexander-krivitskiy.avif"
             class="rounded-2xl"
@@ -30,12 +30,12 @@
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
           Veleria Van Helsing
         </h1>
-        <p class="px-20 md:px-32 py-5 text-lg">
+        <p class="px-20 md:px-40 py-5 text-lg md:center">
           A masters in Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nesciunt, numquam eius dolorum, ut voluptas tenetur ipsum est enim
           culpa tempora nobis! Corporis mollitia ipsum nihil.
         </p>
-        <div class="absolute h-56 opacity-30 sm:opacity-100 w-56 top-16 right-20 sm:-top-7 sm:-right-40 md:-right-28">
+        <div class="absolute h-56 opacity-30 sm:opacity-100 w-52 top-16 right-20 sm:-top-7 sm:-right-40 md:-right-20">
           <img src="../assets/images/andrey-k.avif" class="rounded-2xl" alt="" />
         </div>
       </div>
