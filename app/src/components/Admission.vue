@@ -17,23 +17,29 @@
           </a>
         </div>
       </div>
-      <div class="bg-gray-300">
+      <div class="bg-secondary-color">
         <div class="max-w-6xl mx-auto">
-          <div class="sm:flex-row flex-col-reverse flex justify-evenly items-center py-5 gap-5 sm:gap-0">
+          <div
+            class="sm:flex-row flex-col-reverse flex justify-evenly items-center py-5 gap-5 sm:gap-0 text-white"
+          >
             <div
               class="flex flex-col justify-center items-center text-xl sm:text-4xl space-y-5"
             >
               <h2 class="text-primary-color">678 +</h2>
               <p>Intermediate</p>
             </div>
-            <span class="sm:h-[240px] h-[2px] sm:w-[2px] w-[200px] bg-black"></span>
+            <span
+              class="sm:h-[240px] h-[2px] sm:w-[2px] w-[200px] bg-black"
+            ></span>
             <div
               class="flex flex-col justify-center items-center text-xl sm:text-4xl space-y-5"
             >
               <h2 class="text-primary-color">9,078 +</h2>
               <p>Foundational</p>
             </div>
-            <span class="sm:h-[240px] h-[2px] sm:w-[2px] w-[200px] bg-black"></span>
+            <span
+              class="sm:h-[240px] h-[2px] sm:w-[2px] w-[200px] bg-black"
+            ></span>
 
             <div
               class="flex flex-col justify-center items-center text-xl sm:text-4xl space-y-5"
@@ -48,9 +54,11 @@
         <div
           class="max-w-6xl mx-auto py-20 flex flex-col justify-evenly items-center space-y-5"
         >
-          <div class="grid grid-cols-1 sm:grid-cols-2 justify-between place-items-center gap-20 sm:gap-24">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 justify-between place-items-center gap-20 sm:gap-24"
+          >
             <div
-              class="relative py-10 w-56 px-10 space-y-6 border border-black bg-gray-400 rounded-3xl hover:rounded-none shadow-2xl"
+              class="relative py-10 w-56 px-10 space-y-6 border border-black bg-gray-300 rounded-3xl hover:rounded-none shadow-2xl"
             >
               <h1 class="text-2xl font-semibold text-primary-700">
                 Intermediate
@@ -89,7 +97,7 @@
               </div> -->
             </div>
             <div
-              class="py-10 w-72 px-6 space-y-6 border border-black bg-gray-400 rounded-3xl hover:rounded-none"
+              class="py-10 w-72 px-6 space-y-6 border border-black bg-gray-300 rounded-3xl hover:rounded-none"
             >
               <h1 class="text-2xl font-semibold text-center text-primary-700">
                 Certificate
@@ -106,14 +114,14 @@
               target="_blank"
             >
               <button
-                class="border-[1px] border-black bg-primary-color px-5 py-3 text-3xl rounded-xl transition duration-400 ease-in-out hover:bg-black hover:rounded-full hover:text-white"
+                class="border-[1px] border-black bg-tertiary-color px-5 py-3 text-3xl rounded-2xl transition duration-500 ease-in-out hover:bg-black hover:rounded-full hover:text-white"
               >
                 Apply Now
               </button>
             </a>
           </div>
           <div
-            class="py-10 w-72 px-5 space-y-6 border border-black bg-gray-400 rounded-3xl hover:rounded-none flex flex-col justify-center items-center"
+            class="py-10 w-72 px-5 space-y-6 border border-black bg-gray-300 rounded-3xl hover:rounded-none flex flex-col justify-center items-center"
           >
             <h1 class="text-2xl font-semibold text-primary-700">
               Foundational
