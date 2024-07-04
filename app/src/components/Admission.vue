@@ -19,7 +19,7 @@
       </div>
       <div class="bg-gray-300">
         <div class="max-w-6xl mx-auto">
-          <div class="sm:flex-row flex-col flex justify-evenly items-center py-5 gap-5 sm:gap-0">
+          <div class="sm:flex-row flex-col-reverse flex justify-evenly items-center py-5 gap-5 sm:gap-0">
             <div
               class="flex flex-col justify-center items-center text-xl sm:text-4xl space-y-5"
             >
@@ -106,7 +106,7 @@
               target="_blank"
             >
               <button
-                class="border-[1px] border-black bg-tertiary-color px-5 py-3 text-3xl rounded-xl transition duration-400 ease-in-out hover:bg-black hover:rounded-full hover:text-white"
+                class="border-[1px] border-black bg-primary-color px-5 py-3 text-3xl rounded-xl transition duration-400 ease-in-out hover:bg-black hover:rounded-full hover:text-white"
               >
                 Apply Now
               </button>
