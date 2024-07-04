@@ -7,19 +7,7 @@
         ACADEMICS
       </h1>
       <div class="flex flex-row justify-center items-center">
-      
-        <!-- <div>
-          <h1 class="text-2xl font-semibold">Lorem ipsum dolor!!</h1>
-          <h2 class="text-lg font-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-            eligendi explicabo, repudiandae blanditiis quam magnam
-          </h2>
-        </div>
-        <input
-          class="mt-6 ml-10 border w-28 h-12"
-          type="button"
-          value="APPLY HERE"
-        /> -->
+        <CallToActionProfia />
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 mt-10">
         <div class="w lg:col-span-8 mx-auto">
@@ -66,68 +54,37 @@
             class="border-[2px] border-gray-200 rounded-lg w-auto h-auto px-5 space-y-4 py-3"
           >
             <div class="">
-              <router-link to="/sob"
-                ><h1 class="text-xl font-semibold underline">
+              <router-link to="/sob">
+                <h1 class="text-xl font-semibold underline">
                   School of Business
-                </h1></router-link
-              >
-              <!-- <h1 class="text-xl font-semibold">School of Business</h1> -->
-              <!-- <p class="text-lg">
-              Transform your career with our diverse business programs.<br />
-              our courses provide the skills and knowledge to excel in the corporate world. <br />
-              
-            </p> -->
+                </h1>
+              </router-link>
             </div>
             <div class="">
-              <router-link to="/soi"
-                ><h1 class="text-xl font-semibold underline">
-                  School of ICT
-                </h1></router-link
-              >
-
-              <!-- <p class="text-lg">
-              Unlock the power of technology with our comprehensive ICT programs.<br />
-              our courses are designed to prepare you for a dynamic career in the tech industry.
-            </p> -->
+              <router-link to="/soi">
+                <h1 class="text-xl font-semibold underline">School of ICT</h1>
+              </router-link>
             </div>
             <div class="">
-              <router-link to="/soh"
-                ><h1 class="text-xl font-semibold underline">
+              <router-link to="/soh">
+                <h1 class="text-xl font-semibold underline">
                   School of Hospitality
-                </h1></router-link
-              >
-
-              <!-- <p class="text-lg">
-              Learn the art of exceptional service, Create memorable experiences and thrive in
-              the vibrant hospitality industry.
-            </p> -->
+                </h1>
+              </router-link>
             </div>
             <div class="">
-              <router-link to="/soc"
-                ><h1 class="text-xl font-semibold underline">
+              <router-link to="/soc">
+                <h1 class="text-xl font-semibold underline">
                   School of Beauty/Cosmetology
-                </h1></router-link
-              >
-
-              <!-- <p class="text-lg">
-                Elevate your passion for beauty with our top-notch cosmetology
-                programs.<br />
-                Turn your creativity into a rewarding career in the beauty
-                industry.
-              </p> -->
+                </h1>
+              </router-link>
             </div>
             <div class="">
               <router-link to="/soe"
                 ><h1 class="text-xl font-semibold underline">
                   School of Engineering
-                </h1></router-link
-              >
-
-              <!-- <p class="text-lg">
-                Shape the future with a engineering course.<br />
-                Innovate and engineer solutions that make a difference by
-                tackling real-world challenges
-              </p> -->
+                </h1>
+              </router-link>
             </div>
           </div>
           <div
@@ -136,18 +93,8 @@
             <router-link to="/techhub">
               <h1 class="mb-3 font-bold text-gray-900 text-xl md:text-2xl">
                 Tech Hub
-              </h1></router-link
-            >
-
-            <!-- <p class="text-lg text-gray-900">
-              At the heart of Profia Institute lies our Tech Hub, where we
-              explore the frontiers of innovation and technology. Our focus
-              areas include Artificial Intelligence (AI), Data Categorization,
-              3D & 2D Data Annotation, Training Data for Autonomous Driving,
-              Natural Language Processing (NLP), and Video Annotation. Through
-              our Tech Hub, we aim to drive technological advancements and
-              foster a culture of innovation among our students and faculty.
-            </p> -->
+              </h1>
+            </router-link>
           </div>
         </div>
       </div>
@@ -180,10 +127,14 @@
 
                 <div
                   v-show="faq.open"
-                  class=" m-4 p-4 rounded-2xl text-gray-600"
+                  class="m-4 p-4 rounded-2xl text-gray-600"
                 >
-                  <p v-for="(program, index) in faq.programs" :key="index" class="text-lg sm:text-xl">
-                    {{program }}
+                  <p
+                    v-for="(program, index) in faq.programs"
+                    :key="index"
+                    class="text-lg sm:text-xl"
+                  >
+                    {{ program }}
                   </p>
                 </div>
               </details>
@@ -203,19 +154,19 @@ import { ref } from "vue";
 const faqs = ref([
   {
     school: "School of Business",
-    programs:[
+    programs: [
       "Certified Public Accountant (CPA)",
       "Chartered Secretary (CS)",
       "Certified Investment and Financial Analyst (CIFA)",
       "Certified Credit Professional (CCP)",
       "Accounting Technician Diploma",
-      "Certificate in Accounting and Management Skills"
+      "Certificate in Accounting and Management Skills",
     ],
     open: false,
   },
   {
     school: "School of ICT",
-    programs:[
+    programs: [
       "Computer foundational skills",
       "Certificate in ICT",
       "Diploma in ICT",
@@ -224,37 +175,34 @@ const faqs = ref([
       "Website Development",
       "Software Development",
       "Statistical Languages",
-      "Diploma in Data Management and analytics"
+      "Diploma in Data Management and analytics",
     ],
     open: false,
   },
   {
     school: "School of Hospitality",
-    programs:[
+    programs: [
       "Food and Beverage Production:",
       "Food and Beverage Services",
       "Housekeeping",
-      "Baking and Pastry"
+      "Baking and Pastry",
     ],
     open: false,
   },
   {
     school: "School of Beauty/Cosmetology",
-    programs:[
+    programs: [
       "Beauty Therapy",
       "Hair Dressing",
       "Nail Technology",
       "Barbering",
-      "Hot Stone Massage"
+      "Hot Stone Massage",
     ],
     open: false,
   },
   {
     school: "School of Engineering",
-    programs:[
-      "Plumbing Program",
-      "Electrical Program"
-    ],
+    programs: ["Plumbing Program", "Electrical Program"],
     open: false,
   },
 ]);
