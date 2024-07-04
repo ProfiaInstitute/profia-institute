@@ -14,7 +14,7 @@
         </div>
 
         <button
-          class="text-lg border-[2px] border-black py-2 px-4 hover:bg-quaternary-color rounded-xl duration-500 ease-in-out hover:text-white"
+          class="text-lg border-[2px] border-gray-500 py-2 px-4 hover:bg-quaternary-color rounded-xl duration-500 ease-in-out hover:text-white"
         >
           Join Us
         </button>
