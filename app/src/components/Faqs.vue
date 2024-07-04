@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-8">
       <div class="py-8 px-4 mx-auto max-w-7xl text-center lg:py-8 lg:px-0">
         <h1
-          class="mb-4 text-4xl font-semibold tracking-tight leading-none text-secondary-color md:text-5xl lg:text-6xl"
+          class="mb-4 text-3xl font-semibold tracking-tight leading-none text-secondary-color md:text-5xl"
         >
           Frequently Asked Questions
         </h1>
