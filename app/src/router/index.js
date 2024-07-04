@@ -31,6 +31,14 @@ const routes = [
 ];
 
 /**Initialize here */
-const router = createRouter({ history: createWebHistory(), routes });
+const router = createRouter({ history: createWebHistory(), routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0}
+    }
+  }
+ });
 
 export default router;
