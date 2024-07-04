@@ -60,18 +60,6 @@
           class="lg:fixed lg:ml-[1000px] lg:max-w-md col-span-4 mx-auto space-y-10 my-4 px-5"
         >
           <CallToActionSOB />
-          <!-- <div class="border border-black w-[400px] h-[200px] rounded-xl px-5">
-            <h1 class="text-xl font-semibold">Lorem ipsum dolor!!</h1>
-            <h2 class="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-              eligendi explicabo, repudiandae blanditiis quam magnam
-            </h2>
-            <input
-              class="ml-1 border w-18 h-12"
-              type="button"
-              value="APPLY HERE"
-            />
-          </div> -->
 
           <div
             class="border-[2px] border-gray-200 rounded-lg w-auto h-auto px-5 space-y-4 py-3"
@@ -167,8 +155,8 @@
   <section class="mx-auto max-w-7xl">
     <Carousel />
   </section>
-  <section class="mx-auto max-w-7xl">
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
+  <section class="">
+    <!-- <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
       <div class="md:col-span-8">
         <h1 class="mb-5 font-bold text-gray-900 text-2xl md:text-3xl">
           Programs on offer
@@ -179,23 +167,88 @@
           <li>&rarr; School of Hospitality</li>
           <li>&rarr; School of Beauty/Cosmetology</li>
           <li>&rarr; School of Engineering</li>
-
-          <!-- <li>Certified Public Accountant (CPA)</li>
-          <li>Accounting Technician Diploma (ATD)</li>
-          <li>Certificate in Accounting & Management Skills (CAMS)</li>
-          <li>Diploma in Accountancy</li>
-          <li>Business Mathematics</li>
-          <li>Store Keeping</li>
-          <li>Computerized Accounting</li>
-          <li>Secretariat & Front office operations</li> -->
         </ul>
+      </div>
+    </div> -->
+  </section>
+  <section class="mx-auto max-w-7xl">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-10 py-12">
+      <div class="md:col-span-8">
+        <h1
+          class="mb-4 text-4xl font-semibold tracking-tight leading-none text-secondary-color md:text-5xl lg:text-6xl"
+        >
+          Programs
+        </h1>
+        <div class="">
+          <ul class="mt-0 divide-y-2 rounded-2xl">
+            <li v-for="(faq, index) in faqs" :key="index">
+              <details class="group">
+                <summary
+                  @click="toggleAccordion(index)"
+                  class="flex items-center justify-between px-4 sm:px-8 py-3 font-medium hover:cursor-pointer"
+                >
+                  <span class="font-semibold text-xl py-2">{{
+                    faq.question
+                  }}</span>
+                  <span class="text-2xl">{{ faq.open ? "-" : "+" }}</span>
+                </summary>
+
+                <div
+                  v-show="faq.open"
+                  class="m-4 p-4 rounded-2xl text-gray-500"
+                >
+                  <p>
+                    {{ faq.answer }}
+                  </p>
+                </div>
+              </details>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 </template>
-<style scoped></style>
 <script setup>
 import CallToActionProfia from "./CallToActionProfia.vue";
 import CallToActionSOB from "./CallToActionSOB.vue";
 import Carousel from "./Carousel.vue";
+import { ref } from "vue";
+
+const faqs = ref([
+  {
+    question: "School of Business",
+    answer:
+      "The most in-demand programming languages often include Python, JavaScript, Java, C++, and others. However, the specific demand can vary depending on industry and region.",
+    open: false,
+  },
+  {
+    question: "School of ICT",
+    answer:
+      "The most in-demand programming languages often include Python, JavaScript, Java, C++, and others. However, the specific demand can vary depending on industry and region.",
+    open: false,
+  },
+  {
+    question: "School of Hospitality",
+    answer:
+      "Improving cybersecurity skills involves staying updated with the latest security threats and technologies, participating in relevant training courses, practicing hands-on exercises like ethical hacking, and joining cybersecurity communities for knowledge sharing.",
+    open: false,
+  },
+  {
+    question: "School of Beauty/Cosmetology",
+    answer:
+      "Emerging trends in artificial intelligence include deep learning, natural language processing, reinforcement learning, and the convergence of AI with other technologies like edge computing and blockchain.",
+    open: false,
+  },
+  {
+    question: "School of Engineering",
+    answer:
+      "Emerging trends in artificial intelligence include deep learning, natural language processing, reinforcement learning, and the convergence of AI with other technologies like edge computing and blockchain.",
+    open: false,
+  },
+]);
+
+const toggleAccordion = (index) => {
+  faqs.value[index].open = !faqs.value[index].open;
+};
 </script>
