@@ -8,12 +8,14 @@
       </h4>
       <p class="text-sm">offers you a challenge that is industry relevant</p>
       <div class="flex justify-center mt-2">
+        <router-link to="/admission">
         <button
-          class="flex items-center justify-center border-[1px] border-gray-500 py-2 px-4 rounded-xl mt-2 hover:bg-quaternary-color hover:text-white delay-100 ease-in-out"
+          class="flex items-center justify-center border-[1px] border-gray-500 py-2 px-4 rounded-full mt-2 bg-primary-color text-gray-800 delay-100 ease-in-out"
           type="button"
         >
           Apply for the Course
         </button>
+      </router-link>
       </div>
     </div>
   </div>
