@@ -188,7 +188,7 @@
                   class="flex items-center justify-between px-4 sm:px-8 py-3 font-medium hover:cursor-pointer"
                 >
                   <span class="font-semibold text-xl py-2">{{
-                    faq.question
+                    faq.school
                   }}</span>
                   <span class="text-2xl">{{ faq.open ? "-" : "+" }}</span>
                 </summary>
@@ -197,8 +197,8 @@
                   v-show="faq.open"
                   class="m-4 p-4 rounded-2xl text-gray-500"
                 >
-                  <p>
-                    {{ faq.answer }}
+                  <p v-for="(program, index) in faq.programs" :key="index">
+                    {{program }}
                   </p>
                 </div>
               </details>
@@ -217,33 +217,63 @@ import { ref } from "vue";
 
 const faqs = ref([
   {
-    question: "School of Business",
-    answer:
-      "The most in-demand programming languages often include Python, JavaScript, Java, C++, and others. However, the specific demand can vary depending on industry and region.",
+    school: "School of Business",
+    programs:[
+      "Certified Public Accountant (CPA)",
+      "Chartered Secretary (CS)",
+      "Certified Investment and Financial Analyst (CIFA)",
+      "Certified Credit Professional (CCP)",
+      "Accounting Technician Diploma",
+      "Certificate in Accounting and Management Skills"
+    ],
     open: false,
   },
   {
-    question: "School of ICT",
-    answer:
-      "The most in-demand programming languages often include Python, JavaScript, Java, C++, and others. However, the specific demand can vary depending on industry and region.",
+    school: "School of ICT",
+    programs:[
+      "Certified Public Accountant (CPA)",
+      "Chartered Secretary (CS)",
+      "Certified Investment and Financial Analyst (CIFA)",
+      "Certified Credit Professional (CCP)",
+      "Accounting Technician Diploma",
+      "Certificate in Accounting and Management Skills"
+    ],
     open: false,
   },
   {
-    question: "School of Hospitality",
-    answer:
-      "Improving cybersecurity skills involves staying updated with the latest security threats and technologies, participating in relevant training courses, practicing hands-on exercises like ethical hacking, and joining cybersecurity communities for knowledge sharing.",
+    school: "School of Hospitality",
+    programs:[
+      "Certified Public Accountant (CPA)",
+      "Chartered Secretary (CS)",
+      "Certified Investment and Financial Analyst (CIFA)",
+      "Certified Credit Professional (CCP)",
+      "Accounting Technician Diploma",
+      "Certificate in Accounting and Management Skills"
+    ],
     open: false,
   },
   {
-    question: "School of Beauty/Cosmetology",
-    answer:
-      "Emerging trends in artificial intelligence include deep learning, natural language processing, reinforcement learning, and the convergence of AI with other technologies like edge computing and blockchain.",
+    school: "School of Beauty/Cosmetology",
+    programs:[
+      "Certified Public Accountant (CPA)",
+      "Chartered Secretary (CS)",
+      "Certified Investment and Financial Analyst (CIFA)",
+      "Certified Credit Professional (CCP)",
+      "Accounting Technician Diploma",
+      "Certificate in Accounting and Management Skills"
+    ],
     open: false,
   },
   {
-    question: "School of Engineering",
-    answer:
-      "Emerging trends in artificial intelligence include deep learning, natural language processing, reinforcement learning, and the convergence of AI with other technologies like edge computing and blockchain.",
+    school: "School of Engineering",
+    programs:[
+      "Certified Public Accountant (CPA)",
+      "Chartered Secretary (CS)",
+      "Certified Investment and Financial Analyst (CIFA)",
+      "Certified Credit Professional (CCP)",
+      "Accounting Technician Diploma",
+      "Certificate in Accounting and Management Skills"
+    ],
     open: false,
   },
 ]);
