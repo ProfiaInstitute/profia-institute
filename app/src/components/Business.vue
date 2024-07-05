@@ -1,7 +1,9 @@
 <template>
   <div class="container mx-auto p-4">
-    <nav class="text-5xl font-bold text-secondary-color leading-loose tracking-wide mt-4">
-       <h1>School of Business</h1>
+    <nav
+      class="text-5xl font-bold text-secondary-color leading-loose tracking-wide mt-4"
+    >
+      <h1>School of Business</h1>
     </nav>
 
     <div class="flex flex-col md:flex-row justify-center md:gap-8 p-4">
@@ -71,7 +73,7 @@
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
           >
             <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
+              <h1 class="text-2xl font-semibold text-white flex items-center">
                 CPA
               </h1>
               <p class="text-white py-3">
@@ -86,6 +88,7 @@
             >
           </div>
         </div>
+
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
