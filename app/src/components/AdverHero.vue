@@ -19,13 +19,9 @@
               <img
                 :src="item.image"
                 :alt="item.alt"
-                class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-2xl"
+                class="w-full sm:w-4/5 mx-auto my-4 object-cover rounded-2xl"
                 loading="lazy"
-                style="max-height: 400px,"
               />
-              <p class="text-lg text-gray-900 text-center">
-                {{ item.text }}
-              </p>
             </div>
           </div>
         </div>
@@ -43,25 +39,21 @@ const carouselItems = ref([
     image:
       "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg",
     alt: "staff",
-    text: "Welcome to faculty.",
   },
   {
     image:
       "https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHx8fDE3MTk4NTM4MzN8MA&ixlib=rb-4.0.3",
     alt: "staff",
-    text: "This is Faculty.",
   },
   {
     image:
       "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
     alt: "staff",
-    text: "Bird.",
   },
   {
     image:
       "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1719792000&semt=ais_user",
     alt: "staff",
-    text: "Leaf.",
   },
 ]);
 
