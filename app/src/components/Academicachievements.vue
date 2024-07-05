@@ -1,10 +1,10 @@
 <template>
  <div class="text-gray-800 bg-primary-900">
     <section class="max-w-7xl mx-auto py-5">
-        <h1 class="text-secondary-color text-center text-3xl md:text-5xl font-bold pb-6">
+        <h1 class="text-secondary-color text-center text-3xl md:text-5xl font-bold sm:mb-16 mb-28 pb-6">
             Academic Achievements
         </h1>
-        <div class="relative bg-slate-200 sm:rounded-tr-3xl h-auto lg:h-96 sm:w-[90%] lg:w-[800px] mx-auto pb-4 px-4 md:px-8">
+        <div class="relative bg-slate-200 sm:rounded-tr-3xl h-auto lg:h-96 sm:w-[90%] lg:w-[800px] mx-auto pb-4 px-4 md:px-12">
             <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
                 Laurina Cebrels Dracula
             </h1>
@@ -31,10 +31,6 @@
                 <img src="../assets/images/andrey-k.avif" class="rounded-2xl" alt="" />
             </div>
         </div>
-    
-
-
-
       <div class="text-center mx-auto space-y-5 py-10 mt-24 lg:mt-0 md:mt-0">
         <h2 class="font-bold text-3xl md:text-5xl text-secondary-color">
           Our History
