@@ -1,17 +1,17 @@
 <template>
-  <HubHeroSection />
-  <HubService />
+  <TechhubHeroSection />
+  <TechhubOurServices />
   <TechhubGallery />
   <TechhubOurPartners />
-  <CallToActionAcademic/>
+  <TechhubCallToAction/>
 </template>
 
 <script setup>
-import HubHeroSection from "../components/HubHeroSection.vue";
-import HubService from "../components/HubService.vue";
+import TechhubHeroSection from "../components/TechhubHeroSection.vue";
+import TechhubOurServices from "../components/TechhubOurServices.vue";
 import TechhubGallery from "../components/TechhubGallery.vue";
 import TechhubOurPartners from "../components/TechhubOurPartners.vue";
-import CallToActionAcademic from "../components/CallToActionAcademic.vue";
+import TechhubCallToAction from "../components/TechhubCallToAction.vue";
 </script>
 
 <style scoped></style>
