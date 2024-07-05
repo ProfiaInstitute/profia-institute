@@ -1,6 +1,6 @@
 import HomeView from "./HomeView.vue";
 import TechHubView from "./TechHubView.vue";
-import Academics from "./Academics.vue";
+import AcademicsView from "./AcademicsView.vue";
 import SchoolofBusiness from "./SchoolofBusiness.vue";
 import NewsView from "./NewsView.vue";
 import AboutusView from "./AboutusView.vue";
@@ -11,7 +11,7 @@ import NotFoundView from "./NotFoundView.vue";
 export {
   HomeView,
   TechHubView,
-  Academics,
+  AcademicsView,
   SchoolofBusiness,
   NewsView,
   AboutusView,

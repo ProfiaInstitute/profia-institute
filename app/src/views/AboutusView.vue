@@ -1,15 +1,15 @@
 <template>
   <div>
-    <About />
-    <Academicachievements />
-    <Faqs />
+    <AboutUsWhoAreWe />
+    <AboutUsAcademicAchievements />
+    <AboutUsFaq />
   </div>
 </template>
 
 <script setup>
-import Academicachievements from "../components/Academicachievements.vue";
-import Faqs from "../components/Faqs.vue";
-import About from "../components/About.vue";
+import AboutUsAcademicAchievements from "../components/AboutUsAcademicAchievements.vue";
+import AboutUsFaq from "../components/AboutUsFaq.vue";
+import AboutUsWhoAreWe from "../components/AboutUsWhoAreWe.vue";
 
 </script>
 

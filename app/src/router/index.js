@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import {
   HomeView,
   TechHubView,
-  Academics,
+  AcademicsView,
   SchoolofBusiness,
   NewsView,
   AboutusView,
@@ -16,7 +16,7 @@ import {
 const routes = [
   { path: "/", name: "home", component: HomeView },
   { path: "/techhub", name: "techhub", component: TechHubView },
-  { path: "/academics", name: "academics", component: Academics },
+  { path: "/academics", name: "academics", component: AcademicsView },
   {
     path: "/sob",
     name: "schoolofbusiness",
