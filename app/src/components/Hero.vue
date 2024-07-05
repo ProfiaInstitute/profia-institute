@@ -41,20 +41,22 @@
 
     <div class="grid grid-cols-2 sm:grid-cols-4 justify-items-center place-items-center gap-5 sm:gap-0">
       <div class="flex gap-1">
+        <p class="skew-x-12 h-24 w-4 bg-primary-color rounded-l-md"></p>
         <button
-          class="skew-x-12 h-24 w-48 bg-secondary-color text-white font-bold text-2xl rounded-l-md tracking-wide"
+          class="skew-x-12 h-24 w-48 bg-secondary-color text-white font-bold text-2xl rounded-r-md tracking-wide"
         >
           Courses
         </button>
-        <p class="skew-x-12 h-24 w-4 bg-primary-color rounded-r-md"></p>
+        
       </div>
       <div class="flex gap-1">
+        <p class="skew-x-12 h-24 w-4 bg-primary-color rounded-l-md"></p>
         <button
-          class="skew-x-12 h-24 w-48 bg-secondary-color text-white font-bold text-2xl rounded-l-md tracking-wide"
+          class="skew-x-12 h-24 w-48 bg-secondary-color  text-white font-bold text-2xl rounded-r-md tracking-wide"
         >
           About
         </button>
-        <p class="skew-x-12 h-24 w-4 bg-primary-color rounded-r-md"></p>
+        
       </div>
       <div class="flex gap-1">
         <button
