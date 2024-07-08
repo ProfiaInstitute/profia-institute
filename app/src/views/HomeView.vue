@@ -1,21 +1,19 @@
 <template>
   <div class="px-4 sm:px-8">
-    <Hero/>
-    <AdverHero/>
-    <HomeCards />
-    <UpdateHero/>
-    <PatnerHero/>
-    
-    
+    <HomeHero />
+    <HomeCarousel />
+    <HomeAcademicsCards />
+    <HomeNewsandUpdates />
+    <HomeOurPartners />
   </div>
 </template>
 
 <script setup>
-import AdverHero from "../components/AdverHero.vue";
-import PatnerHero from "../components/PatnerHero.vue";
-import Hero from "../components/Hero.vue";
-import HomeCards from "../components/HomeCards.vue";
-import UpdateHero from "../components/UpdateHero.vue";
+import HomeCarousel from "../components/HomeCarousel.vue";
+import HomeOurPartners from "../components/HomeOurPartners.vue";
+import HomeHero from "../components/HomeHero.vue";
+import HomeAcademicsCards from "../components/HomeAcademicsCards.vue";
+import HomeNewsandUpdates from "../components/HomeNewsandUpdates.vue";
 </script>
 
 <style lang="scss" scoped></style>
