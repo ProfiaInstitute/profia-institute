@@ -92,7 +92,9 @@
           class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
         >
           <div>
-            <h1 class="text-2xl font-semibold text-white">SCHOOL OF ENGINEERING</h1>
+            <h1 class="text-2xl font-semibold text-white">
+              SCHOOL OF ENGINEERING
+            </h1>
             <p class="text-white py-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
               excepturi odio pariatur cum corrupti dolorum tenetur...
@@ -117,7 +119,9 @@
           class="bg-secondary-color p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
         >
           <div>
-            <h1 class="text-2xl font-semibold text-white">SCHOOL OF BEAUTY/COSMETOLOGY</h1>
+            <h1 class="text-2xl font-semibold text-white">
+              SCHOOL OF BEAUTY/COSMETOLOGY
+            </h1>
             <p class="text-white py-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
               excepturi odio pariatur cum corrupti dolorum tenetur...
