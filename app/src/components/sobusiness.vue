@@ -29,12 +29,12 @@
     </div>
 
     <nav
-      class="bg-gray-100 py-2 flex flex-col md:flex-row flex-wrap justify-center md:justify-start gap-4 md:gap-8 mt-4"
+      class="bg-secondary-color py-2 flex flex-row md:flex-row flex-wrap justify-start md:justify-start gap-4 md:gap-8 mt-4 px-5 text-gray-200"
     >
-      <a href="#" class="text-gray-600 mb-2 md:mb-0">Overview</a>
-      <a href="#" class="text-gray-600 mb-2 md:mb-0">Syllabus</a>
-      <a href="#" class="text-gray-600 mb-2 md:mb-0">Enrollment</a>
-      <a href="#" class="text-gray-600 mb-2 md:mb-0">FAQs</a>
+      <a href="#" class="mb-2 md:mb-0">Overview</a>
+      <a href="#" class="mb-2 md:mb-0">Syllabus</a>
+      <a href="#" class="mb-2 md:mb-0">Enrollment</a>
+      <a href="#" class="mb-2 md:mb-0">FAQs</a>
     </nav>
 
     <div class="flex flex-col items-center justify-center mt-12">

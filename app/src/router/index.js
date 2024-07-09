@@ -9,6 +9,10 @@ import {
   ContactView,
   AdmissionView,
   NotFoundView,
+  SchoolofHospitalityView,
+  SchoolofCosmetologyView,
+  SchoolofEngineeringView,
+  SchoolofICTView,
 } from "../views";
 
 // import { useAuthStore } from "../store";
@@ -21,6 +25,26 @@ const routes = [
     path: "/sob",
     name: "schoolofbusiness",
     component: SchoolofBusiness,
+  },
+  {
+    path: "/soh",
+    name: "schoolofhospitality",
+    component: SchoolofHospitalityView,
+  },
+  {
+    path: "/soc",
+    name: "schoolofcosmetology",
+    component: SchoolofCosmetologyView,
+  },
+  {
+    path: "/soe",
+    name: "schoolofengineering",
+    component: SchoolofEngineeringView,
+  },
+  {
+    path: "/soi",
+    name: "schoolofict",
+    component: SchoolofICTView,
   },
   { path: "/news", name: "news", component: NewsView },
   { path: "/aboutus", name: "aboutus", component: AboutusView },

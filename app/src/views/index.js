@@ -6,6 +6,10 @@ import NewsView from "./NewsView.vue";
 import AboutusView from "./AboutusView.vue";
 import ContactView from "./ContactView.vue";
 import AdmissionView from "./AdmissionView.vue";
+import SchoolofHospitalityView from "./SchoolofHospitalityView.vue";
+import SchoolofCosmetologyView from "./SchoolofCosmetologyView.vue";
+import SchoolofEngineeringView from "./SchoolofEngineeringView.vue";
+import SchoolofICTView from "./SchoolofICTView.vue";
 import NotFoundView from "./NotFoundView.vue";
 
 export {
@@ -18,4 +22,8 @@ export {
   ContactView,
   AdmissionView,
   NotFoundView,
+  SchoolofHospitalityView,
+  SchoolofCosmetologyView,
+  SchoolofEngineeringView,
+  SchoolofICTView,
 };

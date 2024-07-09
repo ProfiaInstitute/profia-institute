@@ -53,7 +53,7 @@
               >School of Business</router-link
             >
             <router-link
-              to="/schoolofhospitality"
+              to="/soh"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
               >School of Hospitality</router-link
             >

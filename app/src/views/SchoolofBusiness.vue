@@ -1,15 +1,15 @@
 <template>
   <div>
-    <Business />
+    <sobusiness />
     <!-- <Whatyouearn/> -->
-    <Enrollment/>
+    <sobEnrollment/>
     <Faqs />
   </div>
 </template>
 
 <script setup>
-import Business from "../components/Business.vue";
+import sobusiness from "../components/sobusiness.vue";
 // import Whatyouearn from "../components/Whatyouearn.vue";
-import Enrollment from "../components/Enrollment.vue";
+import sobEnrollment from "../components/sobEnrollment.vue";
 import Faqs from "../components/Faqs.vue";
 </script>

@@ -22,7 +22,7 @@
             </p>
           </div>
           <router-link
-            to="#"
+            to="/sob"
             class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -49,7 +49,7 @@
             </p>
           </div>
           <router-link
-            to="#"
+            to="/soh"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -74,7 +74,7 @@
             </p>
           </div>
           <router-link
-            to="#"
+            to="/soi"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -101,7 +101,7 @@
             </p>
           </div>
           <router-link
-            to="#"
+            to="/soe"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -128,7 +128,7 @@
             </p>
           </div>
           <router-link
-            to="#"
+            to="/soc"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
