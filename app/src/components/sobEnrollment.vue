@@ -5,12 +5,12 @@
       class="flex flex-wrap justify-center gap-8 sm:space-x-0 sm:flex-nowrap lg:space-x-48"
     >
       <div
-        class="w-full sm:w-96 h-96 border border-white rounded-full flex items-center justify-center mb-8 sm:mb-0"
+        class="w-96 h-96 border border-white rounded-full flex items-center justify-center "
       >
         <div class="text-center">
           <h3 class="text-lg font-bold mb-2">strt</h3>
-          <p class="mb-2 font-bold text-lg">05 Jan</p>
-          <p class="mb-4">
+          <p class="font-bold text-lg">05 Jan</p>
+          <p class="">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
             possimus vel tempore nemo necessitatibus, molestias velit alias
             repudiandae quaerat.
@@ -21,12 +21,12 @@
         </div>
       </div>
       <div
-        class="w-full sm:w-96 h-96 border border-white rounded-full flex items-center justify-center mb-8 sm:mb-0"
+        class="w-96 h-96 border border-white rounded-full flex items-center justify-center "
       >
-        <div class="text-center">
+        <div class="text-center ">
           <h3 class="text-lg font-bold mb-2">strt</h3>
-          <p class="mb-2 font-bold text-lg">20 May</p>
-          <p class="mb-4">
+          <p class="font-bold text-lg">20 May</p>
+          <p class="">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
             possimus vel tempore nemo necessitatibus, molestias velit alias
             repudiandae quaerat.
@@ -37,12 +37,12 @@
         </div>
       </div>
       <div
-        class="w-full sm:w-96 h-96 border border-white rounded-full flex items-center justify-center mb-8 sm:mb-0"
+        class="w-96 h-96 border border-white rounded-full flex items-center justify-center "
       >
         <div class="text-center">
           <h3 class="text-lg font-bold mb-2">strt</h3>
-          <p class="mb-2 font-bold text-lg">07 Sep</p>
-          <p class="mb-4">
+          <p class=" font-bold text-lg">07 Sep</p>
+          <p class="">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
             possimus vel tempore nemo necessitatibus, molestias velit alias
             repudiandae quaerat.
