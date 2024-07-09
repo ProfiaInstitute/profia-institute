@@ -1,6 +1,6 @@
 <template>
     <div>
-      <sohBusiness />
+      <sohBusines/>
       <!-- <Whatyouearn/> -->
       <sohinrollment/>
       <Faqs />
@@ -8,7 +8,7 @@
   </template>
   
   <script setup>
-  import sohBusiness from "../components/sohBusiness.vue";
+  import sohBusines from "@/components/sohBusines.vue";
   // import Whatyouearn from "../components/Whatyouearn.vue";
   import sohinrollment from "../components/sohinrollment.vue";
   import Faqs from "../components/Faqs.vue";
