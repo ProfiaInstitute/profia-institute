@@ -14,6 +14,14 @@
 
         <div class="bg-orange-100 p-4 border mb-4">
           <h2 class="text-lg font-semibold mb-2">Notice</h2>
+          <p>
+            ATTENTION CPA, ATD AND CAMS STUDENTS RE: FEE CLEARANCE You are
+            reminded the above stated students were required to settle their fee
+            balances by 5th March 2024. All CPA, ATD, AND CAMS Students are
+            therefore required to clear their fee balances. Any student who will
+            not have cleared, will not be allowed to attend classes In case of
+            clarification visit the administration office. Regards,
+          </p>
         </div>
 
         <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
