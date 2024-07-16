@@ -4,7 +4,7 @@
     <nav
       class="text-5xl font-bold text-secondary-color leading-loose tracking-wide mt-4"
     >
-      <h1>School of Business</h1>
+      <h1>School of Beauty/Cosmetology</h1>
     </nav>
 
     <div class="flex flex-col md:flex-row justify-center md:gap-8 p-4">
