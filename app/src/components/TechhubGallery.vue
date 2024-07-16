@@ -1,10 +1,16 @@
 <template>
   <section class="max-w-7xl mx-auto py-20 px-4 sm:px-6">
     <h1
-      class="text-center mb-5 lg:mb-10 text-2xl lg:text-5xl sm:text-3xl font-bold text-secondary-color"
+      class="text-center mb-4 lg:mb-5 text-2xl lg:text-5xl sm:text-3xl font-bold text-secondary-color"
     >
       Gallery
     </h1>
+    <p class="text-lg font-semibold text-gray-800 py-5 text-center">
+      Our hub is designed to foster creativity, collaboration, and technological
+      advancements. Explore the gallery below to see our vibrant environment,
+      advanced facilities, and the exciting projects our talented team is
+      working on.
+    </p>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
       <img
         src="../assets/images/techhub-1.avif"
@@ -43,11 +49,6 @@
         class="aspect-square w-full rounded-3xl h-auto object-cover"
       />
     </div>
-    <p class="text-lg font-semibold text-gray-800 pt-10 text-center">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque impedit
-      inventore eius expedita officiis ipsam deleniti placeat esse, facilis
-      ipsum. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-    </p>
   </section>
 </template>
 

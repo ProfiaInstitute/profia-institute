@@ -1,6 +1,5 @@
 <template>
-   
-<div class="container mx-auto p-4">
+  <div class="container mx-auto p-4">
     <nav
       class="text-5xl font-bold text-secondary-color leading-loose tracking-wide mt-4"
     >
@@ -12,12 +11,15 @@
         class="bg-gray-100 rounded-lg p-4 mb-4 md:mb-0 md:w-1/2 flex flex-col"
       >
         <div class="text-black flex-grow">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /><br />
-          Non rerum dolorem totam voluptatum nihil excepturi <br /><br />
-          odio itaque maiores laboriosam quia explicabo <br /><br />
-          dolores velit quae blanditiis porro, a pariatur! <br /><br />
-          Molestiae voluptates temporibus reiciendis fugiat <br /><br />
-          maiores corrupti eos modi autem quasi id!
+          Cosmetology is the study and application of beauty treatments.
+          <span class="text-xl font-semibold">Comprehensive Training:</span> A
+          cosmetology school provides comprehensive training in various beauty
+          treatments, including practical and theoretical knowledge.
+          <br> <span class="text-xl font-semibold">Licensing
+          and Certification:</span>  Graduates often need to pass state or national
+          licensing exams to practice professionally Career <br> <span class="text-xl font-semibold">Opportunities:</span>
+          Cosmetologists can work in salons, spas, beauty schools, or as
+          freelance professionals.
         </div>
       </div>
       <div class="md:w-1/2 flex flex-col">
@@ -75,11 +77,14 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white flex items-center">
-                CPA
+                Beauty Therapy
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                
+<span>Definition:</span> Beauty therapy involves treatments that enhance the skin and overall appearance, including facials, waxing, and body treatments.
+<span>Skin Care:</span> Training includes knowledge about different skin types, conditions, and treatments to improve skin health and appearance.
+<span>Aesthetics:</span> Techniques such as facials, exfoliation, and anti-aging treatments are taught.
+<span>Wellness:</span> Emphasis on holistic wellness and relaxation techniques that contribute to a client's overall well-being.
               </p>
             </div>
             <router-link
