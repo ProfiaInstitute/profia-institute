@@ -74,11 +74,18 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white flex items-center">
-                CPA
+                Certified Public Accountant (CPA)
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Overview: CPA is a globally recognized certification for
+                accountants, focusing on skills in auditing, taxation, and
+                business management.
+              </p>
+              <p class="text-white py-3">Requirements:</p>
+              <p class="text-white py-3">
+                Outcome: CPAs can work in public accounting, corporate
+                accounting, government, and nonprofits, often taking roles such
+                as auditor, tax advisor, and financial analyst.
               </p>
             </div>
             <router-link
@@ -100,12 +107,19 @@
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
           >
             <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+              <h1 class="text-2xl font-semibold text-white flex items-center">
+                Chartered Secretary (CS)
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Overview: Chartered Secretary is a professional qualification
+                focusing on corporate governance, company law, and
+                administration.
+              </p>
+              <p class="text-white py-3">Requirements:</p>
+              <p class="text-white py-3">
+                CS professionals work in corporate governance, compliance, and
+                administration, often in roles such as company secretary,
+                compliance officer, and governance advisor.
               </p>
             </div>
             <router-link
@@ -126,12 +140,19 @@
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
           >
             <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+              <h1 class="text-2xl font-semibold text-white flex items-center">
+                Certified Investment and Financial Analyst (CIFA)
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Overview: CIFA is a certification for finance professionals
+                specializing in investment analysis, portfolio management, and
+                financial advisory.
+              </p>
+              <p class="text-white py-3">Requirements:</p>
+              <p class="text-white py-3">
+                Outcome: CIFAs work in investment banking, asset management,
+                financial consulting, and related areas, holding titles like
+                financial analyst, investment advisor, and portfolio manager.
               </p>
             </div>
             <router-link
@@ -152,12 +173,18 @@
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
           >
             <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+              <h1 class="text-2xl font-semibold text-white flex items-center">
+                Certified Credit Professional (CCP)
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Overview: CCP is a certification for professionals in credit
+                management and financial risk assessment.
+              </p>
+              <p class="text-white py-3">Requirements:</p>
+              <p class="text-white py-3">
+                Outcome: CCPs work in banking, financial services, and corporate
+                finance, in roles such as credit analyst, risk manager, and
+                collections manager.
               </p>
             </div>
             <router-link
@@ -178,12 +205,19 @@
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
           >
             <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+              <h1 class="text-2xl font-semibold text-white flex items-center">
+                Accounting Technician Diploma
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Overview: This diploma provides foundational knowledge in
+                accounting, preparing individuals for entry-level accounting
+                roles.
+              </p>
+              <p class="text-white py-3">Requirements:</p>
+              <p class="text-white py-3">
+                Outcome: Graduates work as accounting technicians, bookkeepers,
+                accounts assistants, and payroll clerks, supporting the
+                accounting functions of businesses.
               </p>
             </div>
             <router-link
@@ -204,12 +238,21 @@
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
           >
             <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+              <h1 class="text-2xl font-semibold text-white flex items-center">
+                Certificate in Accounting and Management Skills
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Overview: This certificate program offers training in both
+                accounting principles and basic management skills, ideal for
+                those looking to enhance their competency in business
+                administration.
+              </p>
+              <p class="text-white py-3">Requirements:</p>
+              <p class="text-white py-3">
+                Outcome: Holders of this certificate can pursue roles such as
+                accounts clerk, administrative assistant, office manager, and
+                junior accountant, providing support in both accounting and
+                managerial tasks.
               </p>
             </div>
             <router-link

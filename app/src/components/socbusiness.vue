@@ -1,6 +1,5 @@
 <template>
-   
-<div class="container mx-auto p-4">
+  <div class="container mx-auto p-4">
     <nav
       class="text-5xl font-bold text-secondary-color leading-loose tracking-wide mt-4"
     >
@@ -12,12 +11,14 @@
         class="bg-gray-100 rounded-lg p-4 mb-4 md:mb-0 md:w-1/2 flex flex-col"
       >
         <div class="text-black flex-grow">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /><br />
-          Non rerum dolorem totam voluptatum nihil excepturi <br /><br />
-          odio itaque maiores laboriosam quia explicabo <br /><br />
-          dolores velit quae blanditiis porro, a pariatur! <br /><br />
-          Molestiae voluptates temporibus reiciendis fugiat <br /><br />
-          maiores corrupti eos modi autem quasi id!
+          Cosmetology is the study and application of beauty treatments.<br /><br />
+          Comprehensive Training: A cosmetology school provides comprehensive
+          training in various beauty treatments, including practical and
+          theoretical knowledge. <br /><br />
+          Licensing and Certification: Graduates often need to pass state or
+          national licensing exams to practice professionally. <br /><br />
+          Career Opportunities: Cosmetologists can work in salons, spas, beauty
+          schools, or as freelance professionals.
         </div>
       </div>
       <div class="md:w-1/2 flex flex-col">
@@ -75,11 +76,25 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white flex items-center">
-                CPA
+                Beauty Therapy
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Definition: Beauty therapy involves treatments that enhance the
+                skin and overall appearance, including facials, waxing, and body
+                treatments
+              </p>
+              <p class="text-white py-3">
+                Skin Care: Training includes knowledge about different skin
+                types, conditions, and treatments to improve skin health and
+                appearance.
+              </p>
+              <p class="text-white py-3">
+                Aesthetics: Techniques such as facials, exfoliation, and
+                anti-aging treatments are taught.
+              </p>
+              <p class="text-white py-3">
+                Wellness: Emphasis on holistic wellness and relaxation
+                techniques that contribute to a client's overall well-being.
               </p>
             </div>
             <router-link
@@ -102,11 +117,25 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+                Hair Dressing
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Definition: Hairdressing involves cutting, coloring, styling,
+                and treating hair to enhance a person’s appearance.
+              </p>
+              <p class="text-white py-3">
+                Hair Cutting: Techniques for various styles and lengths,
+                understanding face shapes, and personalizing cuts to suit
+                clients.
+              </p>
+              <p class="text-white py-3">
+                Coloring and Chemical Treatments: Knowledge of color theory,
+                application of dyes, and treatments like perming and
+                straightening.
+              </p>
+              <p class="text-white py-3">
+                Styling: Skills in creating different hairstyles for everyday
+                wear or special occasions.
               </p>
             </div>
             <router-link
@@ -128,11 +157,24 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+                Nail Technology
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Definition: Nail technology focuses on the care and decoration
+                of nails, including manicures, pedicures, and nail art.
+              </p>
+              <h1 class="text-bold text-white">Explanation:</h1>
+              <p class="text-white py-3">
+                Manicures and Pedicures: Techniques for shaping, cleaning, and
+                painting nails, as well as hand and foot care.
+              </p>
+              <p class="text-white py-3">
+                Nail Enhancements: Application of artificial nails, gel,
+                acrylic, and other nail enhancements.
+              </p>
+              <p class="text-white py-3">
+                Nail Art: Creative designs and decorations applied to nails,
+                requiring precision and artistic skills.
               </p>
             </div>
             <router-link
@@ -154,11 +196,24 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+                Barbering
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Definition: Barbering specializes in cutting, grooming, and
+                styling men's hair and facial hair.
+              </p>
+              <h1 class="text-bold text-white">Explanation:</h1>
+              <p class="text-white py-3">
+                Hair Cutting: Techniques specific to men's hairstyles, including
+                fades, undercuts, and classic cuts.
+              </p>
+              <p class="text-white py-3">
+                Shaving and Grooming: Proper methods for shaving, beard
+                trimming, and maintaining facial hair.
+              </p>
+              <p class="text-white py-3">
+                Client Interaction: Building rapport with clients and
+                understanding their grooming preferences.
               </p>
             </div>
             <router-link
@@ -180,11 +235,25 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
+                Hot Stone Massage
               </h1>
               <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
+                Definition: A hot stone massage is a type of massage therapy
+                that involves using heated stones to relax and ease tense
+                muscles.
+              </p>
+              <h1 class="text-bold text-white">Explanation:</h1>
+              <p class="text-white py-3">
+                Techniques: Proper placement of smooth, heated stones on the
+                body, combined with traditional massage techniques.
+              </p>
+              <p class="text-white py-3">
+                Benefits: Promotes relaxation, improves blood circulation, and
+                relieves muscle tension and pain.
+              </p>
+              <p class="text-white py-3">
+                Training: Learning the correct temperatures, stone types, and
+                safety measures to provide an effective and safe massage.
               </p>
             </div>
             <router-link
@@ -195,7 +264,7 @@
           </div>
         </div>
         <!-- card 6 -->
-        <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
+        <!-- <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
             src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Night Lights"
@@ -219,7 +288,7 @@
               >Read More</router-link
             >
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
