@@ -79,22 +79,23 @@
                 Beauty Therapy
               </h1>
               <p class="text-white py-3">
-                Definition: Beauty therapy involves treatments that enhance the
-                skin and overall appearance, including facials, waxing, and body
-                treatments
+                <span class="font-bold">Definition:</span> Beauty therapy
+                involves treatments that enhance the skin and overall
+                appearance, including facials, waxing, and body treatments
               </p>
               <p class="text-white py-3">
-                Skin Care: Training includes knowledge about different skin
-                types, conditions, and treatments to improve skin health and
-                appearance.
+                <span class="font-bold">Care:</span> Training includes knowledge
+                about different skin types, conditions, and treatments to
+                improve skin health and appearance.
               </p>
               <p class="text-white py-3">
-                Aesthetics: Techniques such as facials, exfoliation, and
-                anti-aging treatments are taught.
+                <span class="font-bold">Aesthetics:</span> Techniques such as
+                facials, exfoliation, and anti-aging treatments are taught.
               </p>
               <p class="text-white py-3">
-                Wellness: Emphasis on holistic wellness and relaxation
-                techniques that contribute to a client's overall well-being.
+                <span class="font-bold"> Wellness:</span> Emphasis on holistic
+                wellness and relaxation techniques that contribute to a client's
+                overall well-being.
               </p>
             </div>
             <router-link
@@ -120,22 +121,23 @@
                 Hair Dressing
               </h1>
               <p class="text-white py-3">
-                Definition: Hairdressing involves cutting, coloring, styling,
-                and treating hair to enhance a person’s appearance.
+                <span class="font-bold">Definition:</span> Hairdressing involves
+                cutting, coloring, styling, and treating hair to enhance a
+                person’s appearance.
               </p>
               <p class="text-white py-3">
-                Hair Cutting: Techniques for various styles and lengths,
-                understanding face shapes, and personalizing cuts to suit
-                clients.
+                <span class="font-bold">Hair Cutting:</span> Techniques for
+                various styles and lengths, understanding face shapes, and
+                personalizing cuts to suit clients.
               </p>
               <p class="text-white py-3">
-                Coloring and Chemical Treatments: Knowledge of color theory,
-                application of dyes, and treatments like perming and
-                straightening.
+                <span class="font-bold">Coloring and Chemical Treatments:</span>
+                Knowledge of color theory, application of dyes, and treatments
+                like perming and straightening.
               </p>
               <p class="text-white py-3">
-                Styling: Skills in creating different hairstyles for everyday
-                wear or special occasions.
+                <span class="font-bold"> Styling:</span> Skills in creating
+                different hairstyles for everyday wear or special occasions.
               </p>
             </div>
             <router-link
@@ -160,20 +162,21 @@
                 Nail Technology
               </h1>
               <p class="text-white py-3">
-                Definition: Nail technology focuses on the care and decoration
-                of nails, including manicures, pedicures, and nail art.
+                <span class="font-bold">Definition:</span> Nail technology
+                focuses on the care and decoration of nails, including
+                manicures, pedicures, and nail art.
               </p>
-              <h1 class="text-bold text-white">Explanation:</h1>
+              <h1 class="font-bold text-white">Explanation:</h1>
               <p class="text-white py-3">
-                Manicures and Pedicures: Techniques for shaping, cleaning, and
+                <span class="font-bold">Manicures and Pedicures:</span> Techniques for shaping, cleaning, and
                 painting nails, as well as hand and foot care.
               </p>
               <p class="text-white py-3">
-                Nail Enhancements: Application of artificial nails, gel,
+                <span class="font-bold">Nail Enhancements:</span> Application of artificial nails, gel,
                 acrylic, and other nail enhancements.
               </p>
               <p class="text-white py-3">
-                Nail Art: Creative designs and decorations applied to nails,
+                <span class="font-bold">Nail Art:</span> Creative designs and decorations applied to nails,
                 requiring precision and artistic skills.
               </p>
             </div>
@@ -199,20 +202,20 @@
                 Barbering
               </h1>
               <p class="text-white py-3">
-                Definition: Barbering specializes in cutting, grooming, and
-                styling men's hair and facial hair.
+                <span class="font-bold">Definition:</span> Barbering specializes
+                in cutting, grooming, and styling men's hair and facial hair.
               </p>
-              <h1 class="text-bold text-white">Explanation:</h1>
+              <h1 class="font-bold text-white">Explanation:</h1>
               <p class="text-white py-3">
-                Hair Cutting: Techniques specific to men's hairstyles, including
+                <span class="font-bold">Hair Cutting:</span> Techniques specific to men's hairstyles, including
                 fades, undercuts, and classic cuts.
               </p>
               <p class="text-white py-3">
-                Shaving and Grooming: Proper methods for shaving, beard
+                <span class="font-bold">Shaving and Grooming:</span> Proper methods for shaving, beard
                 trimming, and maintaining facial hair.
               </p>
               <p class="text-white py-3">
-                Client Interaction: Building rapport with clients and
+                <span class="fontsp">Client Interaction:</span> Building rapport with clients and
                 understanding their grooming preferences.
               </p>
             </div>
@@ -238,21 +241,21 @@
                 Hot Stone Massage
               </h1>
               <p class="text-white py-3">
-                Definition: A hot stone massage is a type of massage therapy
-                that involves using heated stones to relax and ease tense
-                muscles.
+                <span class="font-bold">Definition:</span> A hot stone massage
+                is a type of massage therapy that involves using heated stones
+                to relax and ease tense muscles.
               </p>
-              <h1 class="text-bold text-white">Explanation:</h1>
+              <h1 class="font-bold text-white">Explanation:</h1>
               <p class="text-white py-3">
-                Techniques: Proper placement of smooth, heated stones on the
+                <span class="font-bold">Techniques:</span> Proper placement of smooth, heated stones on the
                 body, combined with traditional massage techniques.
               </p>
               <p class="text-white py-3">
-                Benefits: Promotes relaxation, improves blood circulation, and
+                <span class="font-bold">Benefits:</span> Promotes relaxation, improves blood circulation, and
                 relieves muscle tension and pain.
               </p>
               <p class="text-white py-3">
-                Training: Learning the correct temperatures, stone types, and
+                <span class="font-bold">Training:</span> Learning the correct temperatures, stone types, and
                 safety measures to provide an effective and safe massage.
               </p>
             </div>
