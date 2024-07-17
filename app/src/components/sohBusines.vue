@@ -77,14 +77,14 @@
                 Food and Beverage Production:
               </h1>
               <p class="text-white py-3">
-                Description: This course focuses on the preparation and
-                production of food and beverages. Students learn culinary
-                techniques, kitchen management, menu planning, and food safety
-                standards.
+                <span class="font-bold">Description: </span> This course focuses
+                on the preparation and production of food and beverages.
+                Students learn culinary techniques, kitchen management, menu
+                planning, and food safety standards.
               </p>
               <p class="text-white py-3">
-                Outcome: Graduates can work as chefs, kitchen managers, or in
-                other food production roles.
+                <span class="font-bold">Outcome: </span> Graduates can work as
+                chefs, kitchen managers, or in other food production roles.
               </p>
             </div>
             <router-link
@@ -110,14 +110,15 @@
                 Food and Beverage Services:
               </h1>
               <p class="text-white py-3">
-                Description: This course trains students in the art of serving
-                food and beverages. It covers customer service, table setting,
-                order taking, and beverage preparation.
+                <span class="font-bold">Description: </span> This course trains
+                students in the art of serving food and beverages. It covers
+                customer service, table setting, order taking, and beverage
+                preparation.
               </p>
               <p class="text-white py-3">
-                Outcome: Graduates are equipped to work as waitstaff,
-                bartenders, or in other service roles within restaurants and
-                hotels.
+                <span class="font-bold">Outcome: </span> Graduates are equipped
+                to work as waitstaff, bartenders, or in other service roles
+                within restaurants and hotels.
               </p>
             </div>
             <router-link
@@ -142,15 +143,15 @@
                 Housekeeping:
               </h1>
               <p class="text-white py-3">
-                Description: This course covers the maintenance and upkeep of
-                guest rooms and public areas in hospitality establishments.
-                Students learn cleaning techniques, room setup, and guest
-                service standards.
+                <span class="font-bold">Description: </span> This course covers
+                the maintenance and upkeep of guest rooms and public areas in
+                hospitality establishments. Students learn cleaning techniques,
+                room setup, and guest service standards.
               </p>
               <p class="text-white py-3">
-                Outcome: Graduates can work as housekeepers, housekeeping
-                managers, or in other roles related to maintaining hospitality
-                facilities.
+                <span class="font-bold">Outcome: </span> Graduates can work as
+                housekeepers, housekeeping managers, or in other roles related
+                to maintaining hospitality facilities.
               </p>
             </div>
             <router-link
@@ -175,14 +176,15 @@
                 Baking and Pastry:
               </h1>
               <p class="text-white py-3">
-                Description: This course delves into the art and science of
-                baking and pastry making. Students learn to create a variety of
-                baked goods, from bread to intricate pastries, along with bakery
-                management.
+                <span class="font-bold">Description: </span> This course delves
+                into the art and science of baking and pastry making. Students
+                learn to create a variety of baked goods, from bread to
+                intricate pastries, along with bakery management.
               </p>
               <p class="text-white py-3">
-                Outcome: Graduates can work as bakers, pastry chefs, or in other
-                roles within the baking and pastry industry.
+                <span class="font-bold">Outcome: </span> Graduates can work as
+                bakers, pastry chefs, or in other roles within the baking and
+                pastry industry.
               </p>
             </div>
             <router-link
