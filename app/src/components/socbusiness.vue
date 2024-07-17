@@ -168,16 +168,18 @@
               </p>
               <h1 class="font-bold text-white">Explanation:</h1>
               <p class="text-white py-3">
-                <span class="font-bold">Manicures and Pedicures:</span> Techniques for shaping, cleaning, and
-                painting nails, as well as hand and foot care.
+                <span class="font-bold">Manicures and Pedicures:</span>
+                Techniques for shaping, cleaning, and painting nails, as well as
+                hand and foot care.
               </p>
               <p class="text-white py-3">
-                <span class="font-bold">Nail Enhancements:</span> Application of artificial nails, gel,
-                acrylic, and other nail enhancements.
+                <span class="font-bold">Nail Enhancements:</span> Application of
+                artificial nails, gel, acrylic, and other nail enhancements.
               </p>
               <p class="text-white py-3">
-                <span class="font-bold">Nail Art:</span> Creative designs and decorations applied to nails,
-                requiring precision and artistic skills.
+                <span class="font-bold">Nail Art:</span> Creative designs and
+                decorations applied to nails, requiring precision and artistic
+                skills.
               </p>
             </div>
             <router-link
@@ -207,16 +209,18 @@
               </p>
               <h1 class="font-bold text-white">Explanation:</h1>
               <p class="text-white py-3">
-                <span class="font-bold">Hair Cutting:</span> Techniques specific to men's hairstyles, including
-                fades, undercuts, and classic cuts.
+                <span class="font-bold">Hair Cutting:</span> Techniques specific
+                to men's hairstyles, including fades, undercuts, and classic
+                cuts.
               </p>
               <p class="text-white py-3">
-                <span class="font-bold">Shaving and Grooming:</span> Proper methods for shaving, beard
-                trimming, and maintaining facial hair.
+                <span class="font-bold">Shaving and Grooming:</span> Proper
+                methods for shaving, beard trimming, and maintaining facial
+                hair.
               </p>
               <p class="text-white py-3">
-                <span class="fontsp">Client Interaction:</span> Building rapport with clients and
-                understanding their grooming preferences.
+                <span class="fontsp">Client Interaction:</span> Building rapport
+                with clients and understanding their grooming preferences.
               </p>
             </div>
             <router-link
@@ -247,16 +251,19 @@
               </p>
               <h1 class="font-bold text-white">Explanation:</h1>
               <p class="text-white py-3">
-                <span class="font-bold">Techniques:</span> Proper placement of smooth, heated stones on the
-                body, combined with traditional massage techniques.
+                <span class="font-bold">Techniques:</span> Proper placement of
+                smooth, heated stones on the body, combined with traditional
+                massage techniques.
               </p>
               <p class="text-white py-3">
-                <span class="font-bold">Benefits:</span> Promotes relaxation, improves blood circulation, and
-                relieves muscle tension and pain.
+                <span class="font-bold">Benefits:</span> Promotes relaxation,
+                improves blood circulation, and relieves muscle tension and
+                pain.
               </p>
               <p class="text-white py-3">
-                <span class="font-bold">Training:</span> Learning the correct temperatures, stone types, and
-                safety measures to provide an effective and safe massage.
+                <span class="font-bold">Training:</span> Learning the correct
+                temperatures, stone types, and safety measures to provide an
+                effective and safe massage.
               </p>
             </div>
             <router-link
