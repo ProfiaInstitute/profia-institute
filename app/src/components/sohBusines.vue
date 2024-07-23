@@ -74,7 +74,7 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white flex items-center">
-                Food and Beverage Production:
+                Food and Beverage Production
               </h1>
               <p class="text-white py-3">
                 <span class="font-bold">Description: </span> This course focuses
@@ -82,16 +82,7 @@
                 Students learn culinary techniques, kitchen management, menu
                 planning, and food safety standards.
               </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Outcome: </span> Graduates can work as
-                chefs, kitchen managers, or in other food production roles.
-              </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
 
@@ -107,7 +98,7 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white flex items-center">
-                Food and Beverage Services:
+                Food and Beverage Services
               </h1>
               <p class="text-white py-3">
                 <span class="font-bold">Description: </span> This course trains
@@ -115,17 +106,7 @@
                 customer service, table setting, order taking, and beverage
                 preparation.
               </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Outcome: </span> Graduates are equipped
-                to work as waitstaff, bartenders, or in other service roles
-                within restaurants and hotels.
-              </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 3 -->
@@ -140,25 +121,14 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white flex items-center">
-                Housekeeping:
+                Housekeeping
               </h1>
               <p class="text-white py-3">
-                <span class="font-bold">Description: </span> This course covers
-                the maintenance and upkeep of guest rooms and public areas in
-                hospitality establishments. Students learn cleaning techniques,
-                room setup, and guest service standards.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Outcome: </span> Graduates can work as
-                housekeepers, housekeeping managers, or in other roles related
-                to maintaining hospitality facilities.
+                This course covers the maintenance and upkeep of guest rooms and
+                public areas in hospitality establishments. Students learn
+                cleaning techniques, room setup, and guest service standards.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 4 -->
@@ -173,25 +143,14 @@
           >
             <div>
               <h1 class="text-2xl font-semibold text-white flex items-center">
-                Baking and Pastry:
+                Baking and Pastry
               </h1>
               <p class="text-white py-3">
-                <span class="font-bold">Description: </span> This course delves
-                into the art and science of baking and pastry making. Students
-                learn to create a variety of baked goods, from bread to
-                intricate pastries, along with bakery management.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Outcome: </span> Graduates can work as
-                bakers, pastry chefs, or in other roles within the baking and
-                pastry industry.
+                This course delves into the art and science of baking and pastry
+                making. Students learn to create a variety of baked goods, from
+                bread to intricate pastries, along with bakery management.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 5 -->
