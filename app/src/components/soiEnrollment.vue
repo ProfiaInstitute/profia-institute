@@ -1,4 +1,3 @@
-
 <template>
     <div class="text-center bg-secondary-color mt-10 text-white">
       <h2 class="text-4xl font-bold mb-4">Enrollment</h2>
