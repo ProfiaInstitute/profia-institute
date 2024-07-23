@@ -10,7 +10,7 @@
       <div class="space-y-8">
         <div class="space-y-5">
           <h1 class="text-4xl font-semibold">Profia Institute of Technology</h1>
-          <p class="text-xl">gets you from zero to twedi</p>
+          <p class="text-xl"></p>
         </div>
 
         <button

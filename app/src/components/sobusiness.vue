@@ -77,22 +77,11 @@
                 Certified Public Accountant (CPA)
               </h1>
               <p class="text-white py-3">
-                Overview: CPA is a globally recognized certification for
-                accountants, focusing on skills in auditing, taxation, and
-                business management.
-              </p>
-              <p class="text-white py-3">Requirements:</p>
-              <p class="text-white py-3">
-                Outcome: CPAs can work in public accounting, corporate
-                accounting, government, and nonprofits, often taking roles such
-                as auditor, tax advisor, and financial analyst.
+                CPA is a globally recognized certification for accountants,
+                focusing on skills in auditing, taxation, and business
+                management.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
 
@@ -111,22 +100,10 @@
                 Chartered Secretary (CS)
               </h1>
               <p class="text-white py-3">
-                Overview: Chartered Secretary is a professional qualification
-                focusing on corporate governance, company law, and
-                administration.
-              </p>
-              <p class="text-white py-3">Requirements:</p>
-              <p class="text-white py-3">
-                CS professionals work in corporate governance, compliance, and
-                administration, often in roles such as company secretary,
-                compliance officer, and governance advisor.
+                Chartered Secretary is a professional qualification focusing on
+                corporate governance, company law, and administration.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 3 -->
@@ -144,22 +121,11 @@
                 Certified Investment and Financial Analyst (CIFA)
               </h1>
               <p class="text-white py-3">
-                Overview: CIFA is a certification for finance professionals
-                specializing in investment analysis, portfolio management, and
-                financial advisory.
-              </p>
-              <p class="text-white py-3">Requirements:</p>
-              <p class="text-white py-3">
-                Outcome: CIFAs work in investment banking, asset management,
-                financial consulting, and related areas, holding titles like
-                financial analyst, investment advisor, and portfolio manager.
+                CIFA is a certification for finance professionals specializing
+                in investment analysis, portfolio management, and financial
+                advisory.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 4 -->
@@ -177,21 +143,10 @@
                 Certified Credit Professional (CCP)
               </h1>
               <p class="text-white py-3">
-                Overview: CCP is a certification for professionals in credit
-                management and financial risk assessment.
-              </p>
-              <p class="text-white py-3">Requirements:</p>
-              <p class="text-white py-3">
-                Outcome: CCPs work in banking, financial services, and corporate
-                finance, in roles such as credit analyst, risk manager, and
-                collections manager.
+                CCP is a certification for professionals in credit management
+                and financial risk assessment.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 5 -->
@@ -209,22 +164,10 @@
                 Accounting Technician Diploma
               </h1>
               <p class="text-white py-3">
-                Overview: This diploma provides foundational knowledge in
-                accounting, preparing individuals for entry-level accounting
-                roles.
-              </p>
-              <p class="text-white py-3">Requirements:</p>
-              <p class="text-white py-3">
-                Outcome: Graduates work as accounting technicians, bookkeepers,
-                accounts assistants, and payroll clerks, supporting the
-                accounting functions of businesses.
+                This diploma provides foundational knowledge in accounting,
+                preparing individuals for entry-level accounting roles.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 6 -->
@@ -242,24 +185,11 @@
                 Certificate in Accounting and Management Skills
               </h1>
               <p class="text-white py-3">
-                Overview: This certificate program offers training in both
-                accounting principles and basic management skills, ideal for
-                those looking to enhance their competency in business
-                administration.
-              </p>
-              <p class="text-white py-3">Requirements:</p>
-              <p class="text-white py-3">
-                Outcome: Holders of this certificate can pursue roles such as
-                accounts clerk, administrative assistant, office manager, and
-                junior accountant, providing support in both accounting and
-                managerial tasks.
+                This certificate program offers training in both accounting
+                principles and basic management skills, ideal for those looking
+                to enhance their competency in business administration.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
       </div>
