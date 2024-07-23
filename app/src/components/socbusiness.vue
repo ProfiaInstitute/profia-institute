@@ -79,30 +79,11 @@
                 Beauty Therapy
               </h1>
               <p class="text-white py-3">
-                <span class="font-bold">Definition:</span> Beauty therapy
-                involves treatments that enhance the skin and overall
-                appearance, including facials, waxing, and body treatments
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Care:</span> Training includes knowledge
-                about different skin types, conditions, and treatments to
-                improve skin health and appearance.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Aesthetics:</span> Techniques such as
-                facials, exfoliation, and anti-aging treatments are taught.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold"> Wellness:</span> Emphasis on holistic
-                wellness and relaxation techniques that contribute to a client's
-                overall well-being.
+                Beauty therapy involves treatments that enhance the skin and
+                overall appearance, including facials, waxing, and body
+                treatments
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
 
@@ -121,30 +102,10 @@
                 Hair Dressing
               </h1>
               <p class="text-white py-3">
-                <span class="font-bold">Definition:</span> Hairdressing involves
-                cutting, coloring, styling, and treating hair to enhance a
-                person’s appearance.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Hair Cutting:</span> Techniques for
-                various styles and lengths, understanding face shapes, and
-                personalizing cuts to suit clients.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Coloring and Chemical Treatments:</span>
-                Knowledge of color theory, application of dyes, and treatments
-                like perming and straightening.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold"> Styling:</span> Skills in creating
-                different hairstyles for everyday wear or special occasions.
+                Hairdressing involves cutting, coloring, styling, and treating
+                hair to enhance a person's appearance.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 3 -->
@@ -162,31 +123,10 @@
                 Nail Technology
               </h1>
               <p class="text-white py-3">
-                <span class="font-bold">Definition:</span> Nail technology
-                focuses on the care and decoration of nails, including
-                manicures, pedicures, and nail art.
-              </p>
-              <h1 class="font-bold text-white">Explanation:</h1>
-              <p class="text-white py-3">
-                <span class="font-bold">Manicures and Pedicures:</span>
-                Techniques for shaping, cleaning, and painting nails, as well as
-                hand and foot care.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Nail Enhancements:</span> Application of
-                artificial nails, gel, acrylic, and other nail enhancements.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Nail Art:</span> Creative designs and
-                decorations applied to nails, requiring precision and artistic
-                skills.
+                Nail technology focuses on the care and decoration of nails,
+                including manicures, pedicures, and nail art.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 4 -->
@@ -207,27 +147,7 @@
                 <span class="font-bold">Definition:</span> Barbering specializes
                 in cutting, grooming, and styling men's hair and facial hair.
               </p>
-              <h1 class="font-bold text-white">Explanation:</h1>
-              <p class="text-white py-3">
-                <span class="font-bold">Hair Cutting:</span> Techniques specific
-                to men's hairstyles, including fades, undercuts, and classic
-                cuts.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Shaving and Grooming:</span> Proper
-                methods for shaving, beard trimming, and maintaining facial
-                hair.
-              </p>
-              <p class="text-white py-3">
-                <span class="fontsp">Client Interaction:</span> Building rapport
-                with clients and understanding their grooming preferences.
-              </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
         <!-- card 5 -->
@@ -245,60 +165,12 @@
                 Hot Stone Massage
               </h1>
               <p class="text-white py-3">
-                <span class="font-bold">Definition:</span> A hot stone massage
-                is a type of massage therapy that involves using heated stones
-                to relax and ease tense muscles.
-              </p>
-              <h1 class="font-bold text-white">Explanation:</h1>
-              <p class="text-white py-3">
-                <span class="font-bold">Techniques:</span> Proper placement of
-                smooth, heated stones on the body, combined with traditional
-                massage techniques.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Benefits:</span> Promotes relaxation,
-                improves blood circulation, and relieves muscle tension and
-                pain.
-              </p>
-              <p class="text-white py-3">
-                <span class="font-bold">Training:</span> Learning the correct
-                temperatures, stone types, and safety measures to provide an
-                effective and safe massage.
+                A hot stone massage is a type of massage therapy that involves
+                using heated stones to relax and ease tense muscles.
               </p>
             </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
           </div>
         </div>
-        <!-- card 6 -->
-        <!-- <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
-          <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Night Lights"
-            class="w-full h-1/2 object-cover"
-          />
-          <div
-            class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
-          >
-            <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
-              </h1>
-              <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
-              </p>
-            </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
-          </div>
-        </div> -->
       </div>
     </section>
   </div>
