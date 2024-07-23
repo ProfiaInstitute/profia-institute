@@ -8,7 +8,7 @@
           class="w-full sm:w-96 h-96 border border-white rounded-full flex items-center justify-center mb-8 sm:mb-0"
         >
           <div class="text-center">
-            <h3 class="text-lg font-bold mb-2">strt</h3>
+            <h3 class="text-lg font-bold mb-2">Start</h3>
             <p class="mb-2 font-bold text-lg">05 Jan</p>
             <p class="mb-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
