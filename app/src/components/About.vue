@@ -9,7 +9,7 @@
         The Core Values: &rarr;
       </nav>
       <div
-        class="relative bg-secondary-900 h-16 flex justify-end items-center text-white mx-auto"
+        class="relative bg-quaternary-color h-16 flex justify-end items-center text-white mx-auto"
       >
         <span class="mr-48 text-3xl ">Who we are</span>
         <div class="absolute right-[600px] w-96 h-7642 bg-gray-300">
