@@ -10,11 +10,11 @@
       <div class="space-y-8">
         <div class="space-y-5">
           <h1 class="text-4xl font-semibold">Profia Institute of Technology</h1>
-          <p class="text-xl">gets you from zero to twedi</p>
+          <p class="text-xl"></p>
         </div>
 
         <button
-          class="text-lg border-[2px] border-black py-2 px-4 hover:bg-quaternary-color rounded-xl duration-500 ease-in-out hover:text-white"
+          class="text-lg border-[2px] border-gray-500 py-2 px-4 hover:bg-quaternary-color rounded-xl duration-500 ease-in-out hover:text-white"
         >
           Join Us
         </button>

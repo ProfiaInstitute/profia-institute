@@ -1,6 +1,6 @@
 <template>
   <section class="mx-auto max-w-7xl">
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+    <div class="">
       <div class="rounded-2xl p-6 border-2 border-gray-200 md:col-span-8">
         <h1
           class="mb-3 font-bold text-gray-900 text-2xl md:text-3xl text-center"
@@ -8,28 +8,30 @@
           Faculty Staff
         </h1>
         <div class="carousel-container">
-          <transition name="slide">
+          <div
+            class="carousel-track"
+            :style="{
+              transform: `translateX(-${currentPosition}px)`,
+              transition: isTransitioning ? 'transform 0.5s ease' : 'none',
+            }"
+            @transitionend="handleTransitionEnd"
+          >
             <div
-              class="carousel-track"
-              :style="{ transform: `translateX(-${currentItem * 100}%)` }"
+              v-for="(item, index) in extendedCarouselItems"
+              :key="index"
+              class="carousel-item"
             >
-              <div
-                v-for="(item, index) in carouselItems"
-                :key="index"
-                class="carousel-item"
-              >
-                <img
-                  :src="item.image"
-                  :alt="item.alt"
-                  class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-2xl"
-                  loading="lazy"
-                />
-                <p class="text-lg text-gray-900 text-center">
-                  {{ item.text }}
-                </p>
-              </div>
+              <img
+                :src="item.image"
+                :alt="item.alt"
+                class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-2xl"
+                loading="lazy"
+              />
+              <p class="text-lg text-gray-900 text-center">
+                {{ item.text }}
+              </p>
             </div>
-          </transition>
+          </div>
         </div>
       </div>
     </div>
@@ -39,7 +41,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
-// Carousel items data 
+// Carousel items data
 const carouselItems = ref([
   {
     image:
@@ -67,14 +69,24 @@ const carouselItems = ref([
   },
 ]);
 
-// Reactive variable for current item index
-const currentItem = ref(0);
+// Duplicate the carousel items to create a seamless loop
+const extendedCarouselItems = ref([
+  ...carouselItems.value,
+  ...carouselItems.value,
+]);
+
+// Variables for carousel position and transition
+const currentPosition = ref(0);
+const isTransitioning = ref(true);
+const itemWidth = ref(0); // Width of each carousel item
 
 // Auto-slide logic
 let interval;
 const slideInterval = 3000;
 
 onMounted(() => {
+  // Calculate the width of each carousel item
+  itemWidth.value = document.querySelector(".carousel-item").offsetWidth;
   startCarousel();
 });
 
@@ -91,26 +103,23 @@ const stopCarousel = () => {
   clearInterval(interval);
 };
 
-const prevItem = () => {
-  stopCarousel();
-  if (currentItem.value === 0) {
-    currentItem.value = carouselItems.value.length - 1;
-  } else {
-    currentItem.value--;
-  }
-  startCarousel();
+const nextItem = () => {
+  currentPosition.value += itemWidth.value;
+  isTransitioning.value = true;
 };
 
-const nextItem = () => {
-  stopCarousel();
-  currentItem.value = (currentItem.value + 1) % carouselItems.value.length;
-  startCarousel();
+const handleTransitionEnd = () => {
+  if (currentPosition.value >= itemWidth.value * carouselItems.value.length) {
+    currentPosition.value = 0;
+    isTransitioning.value = false;
+  }
 };
 </script>
 
 <style scoped>
 .carousel-container {
   overflow: hidden;
+  width: 100%;
 }
 
 .carousel-track {
@@ -119,7 +128,8 @@ const nextItem = () => {
 }
 
 .carousel-item {
-  flex: 0 0 100%;
+  flex: 0 0 auto;
+  width: 100%;
 }
 
 .slide-enter-active,

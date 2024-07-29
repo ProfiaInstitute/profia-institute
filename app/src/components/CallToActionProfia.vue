@@ -10,7 +10,7 @@
           href="https://docs.google.com/forms/d/e/1FAIpQLScMpwjvMblufTl-aLDPacOiPc1eD2OtH86z9kV6GaEU6TdM0w/viewform"
         >
           <button
-            class="border-[2px] border-gray-900 px-4 py-3 hover:bg-quaternary-color rounded-xl hover:text-white delay-100 ease-in-out"
+            class="border-[1px] border-gray-900 px-4 py-3 hover:bg-quaternary-color rounded-xl hover:text-white delay-100 ease-in-out"
           >
             Apply Now
           </button></a
