@@ -17,8 +17,8 @@
               SCHOOL OF BUSINESS
             </h1>
             <p class="text-white py-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              excepturi odio pariatur cum corrupti dolorum tenetur...
+              offers a diverse range of undergraduate and graduate programs
+              designed to meet the needs of aspiring business professionals.
             </p>
           </div>
           <router-link
@@ -44,8 +44,9 @@
               SCHOOL OF HOSPITALITY
             </h1>
             <p class="text-white py-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              excepturi odio pariatur cum corrupti dolorum tenetur...
+              Offers specialized education in various facets of the hospitality
+              industry, equipping students with both theoretical and practical
+              skills.
             </p>
           </div>
           <router-link
@@ -69,8 +70,8 @@
           <div>
             <h1 class="text-2xl font-semibold text-white">SCHOOL OF ICT</h1>
             <p class="text-white py-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              excepturi odio pariatur cum corrupti dolorum tenetur...
+              Committed to equipping our students with the skills and knowledge
+              needed to excel in the fast-paced and ever-evolving world of ICT.
             </p>
           </div>
           <router-link
@@ -96,8 +97,8 @@
               SCHOOL OF ENGINEERING
             </h1>
             <p class="text-white py-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              excepturi odio pariatur cum corrupti dolorum tenetur...
+              Programs dedicated to providing high-quality education in the
+              fields of plumbing and electrical engineering.
             </p>
           </div>
           <router-link
@@ -120,11 +121,12 @@
         >
           <div>
             <h1 class="text-2xl font-semibold text-white">
-              SCHOOL OF BEAUTY/COSMETOLOGY
+              SCHOOL OF COSMETOLOGY
             </h1>
             <p class="text-white py-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-              excepturi odio pariatur cum corrupti dolorum tenetur...
+              Programs that blend creativity, technical skills, and business
+              acumen, preparing our students for successful careers in the
+              beauty industry.
             </p>
           </div>
           <router-link
