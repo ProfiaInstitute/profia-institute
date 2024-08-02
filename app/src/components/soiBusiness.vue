@@ -10,20 +10,21 @@
       <div
         class="bg-gray-100 rounded-lg p-4 mb-4 md:mb-0 md:w-1/2 flex flex-col"
       >
-        <div class="text-black flex-grow">
-          The School of ICT is a premier institution dedicated to fostering
-          excellence in the field of Information and Communication Technology.
-          Our mission is to equip students with cutting-edge skills and
-          knowledge essential for navigating and thriving in today’s fast-paced
-          digital world. We offer a diverse range of programs, from foundational
-          courses like Computer Foundation Skills to software development. Our
-          curriculum is designed to be both comprehensive and practical,
-          incorporating the latest industry trends and technologies. With a team
-          of experienced faculty, state-of-the-art facilities, and a strong
-          emphasis on hands-on learning, the School of ICT is committed to
-          producing innovative, skilled, and adaptable professionals ready to
-          meet the demands of the global ICT landscape. Join us and be part of a
-          community that is shaping the future of technology.
+        <div class="text-black flex-grow space-y-6">
+          <p>
+            The School of Information and Communication Technology (ICT) is at
+            the forefront of technological education and innovation.
+          </p>
+          <p>
+            We are committed to equipping our students with the skills and
+            knowledge needed to excel in the fast-paced and ever-evolving world
+            of ICT.
+          </p>
+          <p>
+            Our comprehensive programs, expert faculty, and cutting-edge
+            facilities create a dynamic learning environment that fosters
+            creativity, critical thinking, and technological advancement.
+          </p>
         </div>
       </div>
       <div class="md:w-1/2 flex flex-col">
@@ -53,15 +54,16 @@
 
     <div class="flex flex-col md:flex-row justify-center gap-8 md:gap-20 mt-12">
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Aliquam nulla corrupti quas libero architecto, <br />
-        soluta veritatis totam recusandae modi tenetur.
+        Our mission is to provide world-class education in <br />
+        information and communication technology, <br />
+        preparing students to become leaders and innovators in their fields.
       </div>
 
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Quas sed id tempora reiciendis rerum, <br />
-        debitis est inventore voluptas labore eos.
+        We aim to develop not only <br />
+        technical expertise but also ethical and responsible professionals
+        <br />
+        who can drive positive change in society through technology.
       </div>
     </div>
 
@@ -87,8 +89,7 @@
                 This course is designed to provide students with a solid
                 grounding in essential computer skills, ensuring they have the
                 knowledge and capabilities required to succeed in today's
-                digital world. Whether you are a beginner or looking to skills
-                needed for effective computer use.
+                digital world.
               </p>
             </div>
           </div>
@@ -111,10 +112,7 @@
               <p class="text-white py-3">
                 The Certificate in ICT is an immersive and practical course
                 meticulously designed to furnish students with a robust
-                foundation in Information and Communication Technology. Ideal
-                for beginners aiming to enter the ICT field or professionals
-                seeking to bolster their skills, the program covers a diverse
-                array of fundamental topics.
+                foundation in Information and Communication Technology.
               </p>
             </div>
           </div>
@@ -138,9 +136,7 @@
                 skills and knowledge in ICT. This diploma bridges the gap
                 between foundational understanding and specialized expertise,
                 preparing graduates for a wide range of professional roles in
-                the ICT sector. With a balanced mix of theoretical concepts and
-                practical applications, this program is ideal for those aspiring
-                to become proficient ICT professionals.
+                the ICT sector.
               </p>
             </div>
           </div>
@@ -184,12 +180,11 @@
                 AI & Machine Learning
               </h1>
               <p class="text-white py-3">
-                The Course in AI & Machine Learning is an advanced program aimed
-                at equipping students with a deep understanding of artificial
-                intelligence and machine learning technologies. It covers
-                essential theories, tools, and practical applications, preparing
-                students for dynamic roles in the rapidly evolving tech
-                industry.
+                An advanced program aimed at equipping students with a deep
+                understanding of artificial intelligence and machine learning
+                technologies. It covers essential theories, tools, and practical
+                applications, preparing students for dynamic roles in the
+                rapidly evolving tech industry.
               </p>
             </div>
           </div>
@@ -209,14 +204,11 @@
                 Statistical Languages
               </h1>
               <p class="text-white py-3">
-                The Course in Statistical Languages is a specialized program
-                designed to empower students with skills in utilizing
-                statistical programming languages for data analysis, modeling,
-                and visualization. Tailored for aspiring professionals in data
-                science, analytics, and research, the curriculum provides a
+                A specialized program designed to empower students with skills
+                in utilizing statistical programming languages for data
+                analysis, modeling, and visualization. The curriculum provides a
                 comprehensive understanding of statistical methods and their
-                practical application using widely adopted languages such as R
-                and Python.
+                practical applications.
               </p>
             </div>
           </div>
@@ -235,13 +227,11 @@
                 Diploma in Data Management and Analytics.
               </h1>
               <p class="text-white py-3">
-                The Diploma in Data Management and Analytics is an intensive and
-                comprehensive program tailored to equip students with the
-                essential skills and knowledge in data management, analysis, and
-                business intelligence.
+                An intensive and comprehensive program tailored to equip
+                students with the essential skills and knowledge in data
+                management, analysis, and business intelligence.
               </p>
             </div>
-            
           </div>
         </div>
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
