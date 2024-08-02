@@ -85,7 +85,10 @@
               >
                 <div class="grid grid-cols-3 lg:gap-4">
                   <div>
-                    <h3 class="font-semibold">School of Business</h3>
+                    <router-link to="/sob">
+                      <h3 class="font-semibold">School of Business</h3>
+                    </router-link>
+                    
                     <!-- <ul class="ml-4">
                       <li>
                         <router-link
@@ -114,7 +117,10 @@
                     </ul> -->
                   </div>
                   <div>
-                    <h3 class="font-semibold">School of ICT</h3>
+                    <router-link to="/soi">
+                      <h3 class="font-semibold">School of ICT</h3>
+                    </router-link>
+
                     <!-- <ul class="ml-4">
                       <li>
                         <router-link
@@ -143,7 +149,10 @@
                     </ul> -->
                   </div>
                   <div>
-                    <h3 class="font-semibold">School of Hospitality</h3>
+                    <router-link to="/soh">
+                      <h3 class="font-semibold">School of Hospitality</h3>
+                    </router-link>
+                    
                     <!-- <ul class="ml-4">
                       <li>
                         <router-link
@@ -172,10 +181,16 @@
                     </ul> -->
                   </div>
                   <div>
-                    <h3 class="font-semibold">School of Engineering</h3>
+                    <router-link to="/soe">
+                      <h3 class="font-semibold">School of Engineering</h3>
+                    </router-link>
+                    
                   </div>
                   <div>
-                    <h3 class="font-semibold">School of Beauty/Cosmetology</h3>
+                    <router-link to="/soc">
+                      <h3 class="font-semibold">School of Beauty/Cosmetology</h3>
+                    </router-link>
+                    
                   </div>
                 </div>
               </div>

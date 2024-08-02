@@ -10,13 +10,17 @@
       <div
         class="bg-gray-100 rounded-lg p-4 mb-4 md:mb-0 md:w-1/2 flex flex-col"
       >
-        <div class="text-black flex-grow">
-          The School of Hospitality offers specialized education in various
-          facets of the hospitality industry, equipping students with both
-          theoretical knowledge and practical skills. The curriculum is designed
-          to ensure that graduates are well-prepared for diverse roles in the
-          hospitality sector, fostering professional growth and career
-          readiness. Here's an overview of the courses provided:
+        <div class="text-black flex-grow space-y-6">
+          <p>
+            The School of Hospitality offers specialized education in various
+            facets of the hospitality industry, equipping students with both
+            theoretical knowledge and practical skills.
+          </p>
+          <p>
+            The curriculum is designed to ensure that graduates are
+            well-prepared for diverse roles in the hospitality sector, fostering
+            professional growth and career readiness.
+          </p>
         </div>
       </div>
       <div class="md:w-1/2 flex flex-col">
@@ -46,14 +50,15 @@
 
     <div class="flex flex-col md:flex-row justify-center gap-8 md:gap-20 mt-12">
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Aliquam nulla corrupti quas libero architecto, <br />
-        soluta veritatis totam recusandae modi tenetur.
+        Our mission is to provide exceptional education in hospitality
+        <br />
+        managementempowering students to become innovative leaders <br />
+        and professionals in the global hospitality industry.
       </div>
 
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Quas sed id tempora reiciendis rerum, <br />
+        We are committed to fostering a passion for service <br />
+        leadership, and ethical business practices. <br />
         debitis est inventore voluptas labore eos.
       </div>
     </div>
