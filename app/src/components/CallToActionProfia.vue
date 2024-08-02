@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-tertiary-color">
+  <section class="bg-primary-color rounded-2xl">
     <div class="w-full py-5 flex justify-between">
       <div class="px-4">
         <h3 class="text-4xl">Profia Institute of Professionals</h3>

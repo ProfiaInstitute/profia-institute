@@ -48,6 +48,11 @@
               >Academics</router-link
             >
             <router-link
+              to="/soi"
+              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >School of ICT</router-link
+            >
+            <router-link
               to="/sob"
               class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >School of Business</router-link
@@ -56,6 +61,16 @@
               to="/soh"
               class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
               >School of Hospitality</router-link
+            >
+            <router-link
+              to="/soe"
+              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >School of Engineering</router-link
+            >
+            <router-link
+              to="/soc"
+              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              >School of Beauty/Cosmetology</router-link
             >
           </div>
         </div>

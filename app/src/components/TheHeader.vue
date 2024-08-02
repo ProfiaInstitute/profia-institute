@@ -85,8 +85,8 @@
               >
                 <div class="grid grid-cols-3 lg:gap-4">
                   <div>
-                    <h3 class="font-bold">School of Business</h3>
-                    <ul class="ml-4">
+                    <h3 class="font-semibold">School of Business</h3>
+                    <!-- <ul class="ml-4">
                       <li>
                         <router-link
                           to="#"
@@ -111,11 +111,11 @@
                           >link 3</router-link
                         >
                       </li>
-                    </ul>
+                    </ul> -->
                   </div>
                   <div>
-                    <h3 class="font-bold">School of ICT</h3>
-                    <ul class="ml-4">
+                    <h3 class="font-semibold">School of ICT</h3>
+                    <!-- <ul class="ml-4">
                       <li>
                         <router-link
                           to="#"
@@ -140,11 +140,11 @@
                           >link 3</router-link
                         >
                       </li>
-                    </ul>
+                    </ul> -->
                   </div>
                   <div>
-                    <h3 class="font-bold">School of Hospitality</h3>
-                    <ul class="ml-4">
+                    <h3 class="font-semibold">School of Hospitality</h3>
+                    <!-- <ul class="ml-4">
                       <li>
                         <router-link
                           to="#"
@@ -169,7 +169,13 @@
                           >link 3</router-link
                         >
                       </li>
-                    </ul>
+                    </ul> -->
+                  </div>
+                  <div>
+                    <h3 class="font-semibold">School of Engineering</h3>
+                  </div>
+                  <div>
+                    <h3 class="font-semibold">School of Beauty/Cosmetology</h3>
                   </div>
                 </div>
               </div>
