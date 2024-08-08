@@ -20,7 +20,7 @@
           </li>
           <li>
             <router-link
-              to="/enquiries"
+              to="/contact"
               class="text-white hover:text-gray-400"
               @click.native="closeMenu"
               >Enquiries</router-link
