@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div>
+        <!-- <div>
           <div class="flex flex-col items-center mt-5 space-y-2">
             <router-link
               to="/staff"
@@ -98,7 +98,7 @@
               >Administration</router-link
             >
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="bg-white rounded-lg m-4">
