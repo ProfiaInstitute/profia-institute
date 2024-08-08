@@ -37,8 +37,8 @@
     >
       <a href="#" class="mb-2 md:mb-0">Overview</a>
       <a href="#" class="mb-2 md:mb-0">Syllabus</a>
-      <a href="#" class="mb-2 md:mb-0">Enrollment</a>
-      <a href="#" class="mb-2 md:mb-0">FAQs</a>
+      <a href="#enrollment" class="mb-2 md:mb-0">Enrollment</a>
+      <a href="#faqs" class="mb-2 md:mb-0">FAQs</a>
     </nav>
 
     <div class="flex flex-col items-center justify-center mt-12">

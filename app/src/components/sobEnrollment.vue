@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center bg-secondary-color mt-10 text-white">
+  <div class="text-center bg-secondary-color mt-10 text-white scroll-mt-28" id="enrollment">
     <h2 class="text-4xl font-bold mb-4">Enrollment</h2>
     <div
       class="flex flex-wrap justify-center gap-8 sm:space-x-0 sm:flex-nowrap lg:space-x-48"

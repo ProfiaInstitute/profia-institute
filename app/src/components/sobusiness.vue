@@ -37,8 +37,8 @@
     >
       <a href="#" class="mb-2 md:mb-0">Overview</a>
       <a href="#" class="mb-2 md:mb-0">Courses</a>
-      <a href="#" class="mb-2 md:mb-0">Enrollment</a>
-      <a href="#" class="mb-2 md:mb-0">FAQs</a>
+      <a href="#enrollment" class="mb-2 md:mb-0">Enrollment</a>
+      <a href="#faqs" class="mb-2 md:mb-0">FAQs</a>
     </nav>
 
     <div class="flex flex-col items-center justify-center mt-12">
@@ -66,6 +66,7 @@
     <hr class="h-0.5 bg-black my-3" />
 
     <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
+      <!-- <h2 class="text-3xl py-5">Courses</h2> -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
