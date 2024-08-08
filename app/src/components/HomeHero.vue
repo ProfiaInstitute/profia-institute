@@ -19,20 +19,25 @@
             <p
               class="antialiased font-sans text-xl font-normal leading-relaxed text-inherit mb-10 mt-6 !text-gray-900"
             >
-              First business college of choice
+               Your First business college of choice
             </p>
             <div class="flex justify-center gap-4 mb-8 lg:justify-start">
+              <router-link to="/contact">
               <button
                 class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-primary-color text-white shadow-md shadow-primary-color/10 hover:shadow-lg hover:shadow-primary-color/10 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none"
                 type="button"
               >
-                contact us</button
-              ><button
+                contact us
+                </button>
+              </router-link>
+              <router-link to="/academics">
+                <button
                 class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border border-primary-color text-primary-color hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
                 type="button"
               >
                 read more
               </button>
+            </router-link>
             </div>
           </div>
         </div>

@@ -13,11 +13,13 @@
           <p class="text-xl"></p>
         </div>
 
+        <a href="https://forms.gle/jhYs5qUqxH336RgT9" target="_blank">
         <button
           class="text-lg border-[2px] border-gray-500 py-2 px-4 hover:bg-quaternary-color rounded-xl duration-500 ease-in-out hover:text-white"
         >
           Join Us
         </button>
+      </a>
       </div>
       <div>
         <img
