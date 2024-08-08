@@ -34,7 +34,7 @@
         class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
       >
         <!-- Logo and menu toggle button -->
-        <div class="flex items-center gap-6 font-mono">
+        <div class="flex items-center gap-6">
           <button
             class="text-2xl p-1 text-black hover:text-blue-500 lg:hidden"
             @click="toggleMenu2"
@@ -57,11 +57,11 @@
         <!-- Navigation menu -->
         <nav
           :class="{ hidden: close2, flex: !close2 }"
-          class="bg-black lg:bg-white lg:static lg:flex lg:items-center font-mono flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
+          class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
           <!-- Navigation items -->
           <ul
-            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black font-mono mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
+            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
           >
             <li>
               <router-link
@@ -85,7 +85,10 @@
               >
                 <div class="grid grid-cols-3 lg:gap-4">
                   <div>
-                    <h3 class="font-semibold">School of Business</h3>
+                    <router-link to="/sob">
+                      <h3 class="font-semibold">School of Business</h3>
+                    </router-link>
+                    
                     <!-- <ul class="ml-4">
                       <li>
                         <router-link
@@ -114,7 +117,10 @@
                     </ul> -->
                   </div>
                   <div>
-                    <h3 class="font-semibold">School of ICT</h3>
+                    <router-link to="/soi">
+                      <h3 class="font-semibold">School of ICT</h3>
+                    </router-link>
+
                     <!-- <ul class="ml-4">
                       <li>
                         <router-link
@@ -143,7 +149,10 @@
                     </ul> -->
                   </div>
                   <div>
-                    <h3 class="font-semibold">School of Hospitality</h3>
+                    <router-link to="/soh">
+                      <h3 class="font-semibold">School of Hospitality</h3>
+                    </router-link>
+                    
                     <!-- <ul class="ml-4">
                       <li>
                         <router-link
@@ -172,10 +181,16 @@
                     </ul> -->
                   </div>
                   <div>
-                    <h3 class="font-semibold">School of Engineering</h3>
+                    <router-link to="/soe">
+                      <h3 class="font-semibold">School of Engineering</h3>
+                    </router-link>
+                    
                   </div>
                   <div>
-                    <h3 class="font-semibold">School of Beauty/Cosmetology</h3>
+                    <router-link to="/soc">
+                      <h3 class="font-semibold">School of Beauty/Cosmetology</h3>
+                    </router-link>
+                    
                   </div>
                 </div>
               </div>
@@ -183,7 +198,7 @@
             <li>
               <router-link
                 to="/aboutus"
-                class="hover:text-primary-color hover:font-bold"
+                class="hover:text-primary-color"
                 @click.native="closeMenu"
                 >About Us</router-link
               >
@@ -221,7 +236,7 @@
           </ul>
         </nav>
 
-        <div class="flex items-center gap-6 font-mono"></div>
+        <div class="flex items-center gap-6"></div>
       </div>
     </header>
   </div>

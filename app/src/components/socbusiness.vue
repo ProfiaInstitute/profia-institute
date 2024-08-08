@@ -48,15 +48,15 @@
 
     <div class="flex flex-col md:flex-row justify-center gap-8 md:gap-20 mt-12">
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Aliquam nulla corrupti quas libero architecto, <br />
-        soluta veritatis totam recusandae modi tenetur.
+        Our mission is to provide top-tier cosmetology education <br />
+        that empowers students to excel as professionals <br />
+        and entrepreneurs in the beauty industry.
       </div>
 
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Quas sed id tempora reiciendis rerum, <br />
-        debitis est inventore voluptas labore eos.
+        We are committed to fostering creativity, confidence, <br />
+        and a passion for beauty while instilling the highest <br />
+        standards of professionalism and ethics.
       </div>
     </div>
 

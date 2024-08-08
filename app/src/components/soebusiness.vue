@@ -10,12 +10,17 @@
       <div
         class="bg-gray-100 rounded-lg p-4 mb-4 md:mb-0 md:w-1/2 flex flex-col"
       >
-        <div class="text-black flex-grow">
-          Get ready to power up your future with the School of Engineering! Our
-          cutting-edge Plumbing and Electrical Programs are designed to give you
-          the skills and hands-on experience you need to crush it in these
-          high-demand fields. Whether you want to become a master plumber or an
-          electrical whiz, we've got the perfect program for you.
+        <div class="text-black flex-grow space-y-6">
+          <p>
+            Get ready to power up your future with the School of Engineering!
+            Our cutting-edge Plumbing and Electrical Programs are designed to
+            give you the skills and hands-on experience you need to crush it in
+            these high-demand fields.
+          </p>
+          <p>
+            Whether you want to become a master plumber or an electrical whiz,
+            we've got the perfect program for you.
+          </p>
         </div>
       </div>
       <div class="md:w-1/2 flex flex-col">
@@ -45,15 +50,16 @@
 
     <div class="flex flex-col md:flex-row justify-center gap-8 md:gap-20 mt-12">
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Aliquam nulla corrupti quas libero architecto, <br />
-        soluta veritatis totam recusandae modi tenetur.
+        Our mission is to deliver exceptional education in plumbing and
+        electrical <br />
+        engineering, equipping students with the expertise and <br />
+        hands-on experience needed to succeed in their careers.
       </div>
 
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Quas sed id tempora reiciendis rerum, <br />
-        debitis est inventore voluptas labore eos.
+        We aim to develop skilled professionals who can contribute <br />
+        to the advancement of the engineering field and meet the <br />
+        demands of modern infrastructure and technology.
       </div>
     </div>
 

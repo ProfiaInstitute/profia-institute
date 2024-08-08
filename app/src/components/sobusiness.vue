@@ -10,13 +10,17 @@
       <div
         class="bg-gray-100 rounded-lg p-4 mb-4 md:mb-0 md:w-1/2 flex flex-col"
       >
-        <div class="text-black flex-grow">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /><br />
-          Non rerum dolorem totam voluptatum nihil excepturi <br /><br />
-          odio itaque maiores laboriosam quia explicabo <br /><br />
-          dolores velit quae blanditiis porro, a pariatur! <br /><br />
-          Molestiae voluptates temporibus reiciendis fugiat <br /><br />
-          maiores corrupti eos modi autem quasi id!
+        <div class="text-black flex-grow space-y-6">
+          <p>
+            The School of Business is a dynamic and innovative institution
+            dedicated to providing top-tier education and fostering the next
+            generation of business leaders.
+          </p>
+          <p>
+            Our comprehensive programs, expert faculty, and state-of-the-art
+            facilities create an ideal environment for students to excel and
+            thrive in the ever-evolving world of business.
+          </p>
         </div>
       </div>
       <div class="md:w-1/2 flex flex-col">
@@ -46,15 +50,16 @@
 
     <div class="flex flex-col md:flex-row justify-center gap-8 md:gap-20 mt-12">
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Aliquam nulla corrupti quas libero architecto, <br />
-        soluta veritatis totam recusandae modi tenetur.
+        Our mission is to deliver exceptional business education that empowers
+        <br />
+        students with the knowledge, skills, and ethical foundation <br />
+        necessary to succeed in today's global marketplace.
       </div>
 
       <div class="text-center md:text-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-        Quas sed id tempora reiciendis rerum, <br />
-        debitis est inventore voluptas labore eos.
+        We are committed to nurturing critical thinking, <br />
+        leadership, and entrepreneurial <br />
+        spirit in our students.
       </div>
     </div>
 
