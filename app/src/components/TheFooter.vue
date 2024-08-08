@@ -23,7 +23,7 @@
               >Contact</router-link
             >
             <router-link
-              to="/events"
+              to="/news"
               class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >Events</router-link
             >
@@ -33,7 +33,7 @@
               >Tech hub</router-link
             >
             <router-link
-              to="/enquiries"
+              to="/contact"
               class="text-gray-600 transition-colors duration-300 hover:text-primary-500"
               >Enquiries</router-link
             >
