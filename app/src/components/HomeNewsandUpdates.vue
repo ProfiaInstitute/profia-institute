@@ -1,18 +1,18 @@
 <template>
   <div>
     <body class="bg-gray-100 p-4">
-      <div class="container mx-auto">
-        <div class="bg-white p-4 border mb-4">
+      <div class="container mx-auto space-y-10">
+        <div class="bg-white p-4 border mb-4 max-w-6xl mx-auto">
 
           <h2 class="text-lg font-semibold mb-2">News and Updates</h2>
           
           <hr />
 
-          <p>hhhhhhhhhhhhhhh</p>
+          <p></p>
 
         </div>
 
-        <div class="bg-orange-100 p-4 border mb-4">
+        <div class="bg-orange-100 p-4 border mb-4 max-w-6xl mx-auto">
           <h2 class="text-lg font-semibold mb-2">Notice</h2>
           <p>
             ATTENTION CPA, ATD AND CAMS STUDENTS RE: FEE CLEARANCE You are
