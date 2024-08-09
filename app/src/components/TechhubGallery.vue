@@ -13,37 +13,37 @@
     </p>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
       <img
-        src="../assets/images/techhub-1.avif"
+        src="../assets/images/image1.jpg"
         loading="lazy"
         alt="pic1"
         class="aspect-square w-full rounded-3xl h-auto object-cover"
       />
       <img
-        src="../assets/images/techhub-2.avif"
+        src="../assets/images/image2.jpg"
         loading="lazy"
         alt="pic1"
         class="aspect-square w-full rounded-3xl h-auto object-cover"
       />
       <img
-        src="../assets/images/techhub-3.avif"
+        src="../assets/images/image3.jpg"
         loading="lazy"
         alt="pic1"
         class="aspect-square w-full rounded-3xl h-auto object-cover"
       />
       <img
-        src="../assets/images/techhub-4.avif"
+        src="../assets/images/image4.jpg"
         loading="lazy"
         alt="pic1"
         class="aspect-square w-full rounded-3xl h-auto object-cover"
       />
       <img
-        src="../assets/images/techhub-5.avif"
+        src="../assets/images/image5.jpg"
         loading="lazy"
         alt="pic1"
         class="aspect-square w-full rounded-3xl h-auto object-cover"
       />
       <img
-        src="../assets/images/techhub-6.avif"
+        src="../assets/images/image6.jpg"
         loading="lazy"
         alt="pic1"
         class="aspect-square w-full rounded-3xl h-auto object-cover"
