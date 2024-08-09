@@ -70,7 +70,7 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/plumbing.avif"
             alt="Night Lights"
             class="w-full object-cover"
           />
@@ -93,7 +93,7 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/electrical.avif"
             alt="Night Lights"
             class="w-full object-cover"
           />
@@ -115,25 +115,30 @@
     </section>
 
     <!-- Fees Table -->
-    <section class="max-w-7xl overflow-x-auto">
+    <section class="max-w-7xl mx-auto">
       <div>
-        <h1 class="text-secondary-color text-3xl font-bold mb-8 text-center">Fees Structure</h1>
+        <h1 class="text-secondary-color text-3xl font-bold mb-8 text-center">
+          Fees Structure
+        </h1>
       </div>
-
-      <table class="shadow-lg bg-white border-collapse mx-auto w-full">
-        <tr>
-          <th class="bg-gray-300 border text-left px-8 py-4">Course Name</th>
-          <th class="bg-gray-300 border text-left px-8 py-4">
-            Minimum Requirement
-          </th>
-          <th class="bg-gray-300 border text-left px-8 py-4">Tution Fee</th>
-        </tr>
-        <tr class="hover:bg-gray-100">
-          <td class="border px-8 py-4">Plumbing and Elecricals</td>
-          <td class="border px-8 py-4">KCPE/ KCSE Certificate</td>
-          <td class="border px-8 py-4">15,000</td>
-        </tr>
-      </table>
+      <div class="overflow-x-auto">
+        <table
+          class="shadow-lg bg-white border-collapse mx-auto w-full text-lg"
+        >
+          <tr>
+            <th class="bg-gray-300 border text-left px-8 py-4">Course Name</th>
+            <th class="bg-gray-300 border text-left px-8 py-4">
+              Minimum Requirements
+            </th>
+            <th class="bg-gray-300 border text-left px-8 py-4">Tution Fee</th>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">Plumbing and Elecricals</td>
+            <td class="border px-8 py-4">KCPE/ KCSE Certificate</td>
+            <td class="border px-8 py-4">15,000</td>
+          </tr>
+        </table>
+      </div>
     </section>
   </div>
 </template>
