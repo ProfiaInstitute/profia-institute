@@ -202,5 +202,143 @@
     </section>
 
     <!-- Fees Table -->
+    <section class="max-w-7xl mx-auto">
+      <div>
+        <h1 class="text-secondary-color text-3xl font-bold mb-8 text-center">
+          Fees Structure
+        </h1>
+      </div>
+      <div class="overflow-x-auto">
+        <table
+          class="shadow-lg bg-white border-collapse mx-auto w-full text-lg"
+        >
+          <tr>
+            <th class="bg-gray-300 border text-left px-8 py-4">Course Name</th>
+            <th class="bg-gray-300 border text-left px-8 py-4">
+              Minimum Requirements
+            </th>
+            <th class="bg-gray-300 border text-left px-8 py-4">Tution Fee</th>
+            <th class="bg-gray-300 border text-left px-8 py-4">
+              1st Installment
+            </th>
+            <th class="bg-gray-300 border text-left px-8 py-4">
+              2nd Installment
+            </th>
+            <th class="bg-gray-300 border text-left px-8 py-4">
+              3rd Installment
+            </th>
+            <th class="bg-gray-300 border text-left px-8 py-4">Single Paper</th>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">CAMS Level 1</td>
+            <td class="border px-8 py-4">D+</td>
+            <td class="border px-8 py-4">17,000</td>
+            <td class="border px-8 py-4">9250</td>
+            <td class="border px-8 py-4">6650</td>
+            <td class="border px-8 py-4">2100</td>
+            <td class="border px-8 py-4">5000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">CAMS Level 2</td>
+            <td class="border px-8 py-4">D+</td>
+            <td class="border px-8 py-4">17,000</td>
+            <td class="border px-8 py-4">9250</td>
+            <td class="border px-8 py-4">6650</td>
+            <td class="border px-8 py-4">2100</td>
+            <td class="border px-8 py-4">5000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">ATD Level 1</td>
+            <td class="border px-8 py-4">C-</td>
+            <td class="border px-8 py-4">17,000</td>
+            <td class="border px-8 py-4">9250</td>
+            <td class="border px-8 py-4">6650</td>
+            <td class="border px-8 py-4">2100</td>
+            <td class="border px-8 py-4">5000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">ATD Level 2</td>
+            <td class="border px-8 py-4">C-</td>
+            <td class="border px-8 py-4">17,000</td>
+            <td class="border px-8 py-4">9,250</td>
+            <td class="border px-8 py-4">6,650</td>
+            <td class="border px-8 py-4">2,100</td>
+            <td class="border px-8 py-4">5,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">ATD Level 3</td>
+            <td class="border px-8 py-4">C-</td>
+            <td class="border px-8 py-4">17,000</td>
+            <td class="border px-8 py-4">9,250</td>
+            <td class="border px-8 py-4">6,650</td>
+            <td class="border px-8 py-4">2,100</td>
+            <td class="border px-8 py-4">5,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">CPA Foundation Level 1</td>
+            <td class="border px-8 py-4">C+</td>
+            <td class="border px-8 py-4">17,000</td>
+            <td class="border px-8 py-4">9,250</td>
+            <td class="border px-8 py-4">6,650</td>
+            <td class="border px-8 py-4">2,100</td>
+            <td class="border px-8 py-4">7,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">CPA Foundation Level 2</td>
+            <td class="border px-8 py-4"></td>
+            <td class="border px-8 py-4">17,000</td>
+            <td class="border px-8 py-4">9,250</td>
+            <td class="border px-8 py-4">6,650</td>
+            <td class="border px-8 py-4">2,100</td>
+            <td class="border px-8 py-4">7,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">CPA Intermediate Level 1</td>
+            <td class="border px-8 py-4"></td>
+            <td class="border px-8 py-4">18,000</td>
+            <td class="border px-8 py-4">9,500</td>
+            <td class="border px-8 py-4">7,300</td>
+            <td class="border px-8 py-4">2,200</td>
+            <td class="border px-8 py-4">7,500</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">CPA Intermediate Level 2</td>
+            <td class="border px-8 py-4"></td>
+            <td class="border px-8 py-4">18,000</td>
+            <td class="border px-8 py-4">9,500</td>
+            <td class="border px-8 py-4">7,300</td>
+            <td class="border px-8 py-4">2,200</td>
+            <td class="border px-8 py-4">7,500</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">CPA Advanced Level 1</td>
+            <td class="border px-8 py-4"></td>
+            <td class="border px-8 py-4">19,000</td>
+            <td class="border px-8 py-4">10,000</td>
+            <td class="border px-8 py-4">7,700</td>
+            <td class="border px-8 py-4">2,300</td>
+            <td class="border px-8 py-4">8,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">CPA Advanced Level 2</td>
+            <td class="border px-8 py-4"></td>
+            <td class="border px-8 py-4">19,000</td>
+            <td class="border px-8 py-4">10,000</td>
+            <td class="border px-8 py-4">7,700</td>
+            <td class="border px-8 py-4">2,300</td>
+            <td class="border px-8 py-4">8,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">Business Analytics(Practical Paper)</td>
+            <td class="border px-8 py-4"></td>
+            <td class="border px-8 py-4">8,000</td>
+            <td class="border px-8 py-4">5,000</td>
+            <td class="border px-8 py-4">3,000</td>
+            <td class="border px-8 py-4">1,000</td>
+            <td class="border px-8 py-4">9,000</td>
+          </tr>
+        </table>
+      </div>
+    </section>
   </div>
 </template>
