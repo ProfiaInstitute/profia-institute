@@ -57,7 +57,7 @@
         <h2 class="font-bold text-3xl md:text-5xl text-secondary-color">
           Our History
         </h2>
-        <p class="max-w-4xl mx-auto">
+        <p class="max-w-4xl mx-auto text-left">
           Cultivating Potential in Homa Bay , Nyanza Region and beyond. Profia
           Institution, established in October 2018, is a testament to the power
           of virtue-driven education in Homa Bay County. With a resolute focus
@@ -68,7 +68,7 @@
         </p>
 
         <h3 class="text-2xl text-secondary-color">From Humble Beginnings to Flourishing Institution:</h3>
-        <p class="max-w-4xl mx-auto">
+        <p class="max-w-4xl mx-auto text-left">
           Profia's journey began in 2018 as a business school, catering to the
           growing demand for business acumen within the region. Recognizing the
           need for a well-rounded educational experience, Profia has steadily

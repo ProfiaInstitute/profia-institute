@@ -45,21 +45,21 @@ import { ref } from "vue";
 
 const faqs = ref([
   {
-    question: "How do you stay current in your field?",
+    question: "What is the campus culture like?",
     answer:
-      "I stay current by regularly reading academic journals, attending conferences, and collaborating with other researchers. I also participate in professional organizations and keep an eye on the latest developments in the industry.",
+      "Campus culture can vary greatly. Some colleges have a strong sense of community, with lots of school spirit and traditions, while others may be more diverse and cosmopolitan. It’s a good idea to visit the campus or talk to current students to get a feel for the atmosphere.",
     open: false,
   },
   {
-    question: "What are the core subjects in the ICT curriculum?",
+    question: "How safe is the campus?",
     answer:
-      "Core subjects typically include programming, database management, networking, cybersecurity, web development, and information systems. You may also study mathematics and communications as foundational courses.",
+      "Campus safety is a top priority for colleges. Many have campus security, emergency alert systems, and policies to ensure student safety. It’s helpful to review the college’s annual security report or ask about safety measures.",
     open: false,
   },
   {
-    question: "What are the admission requirements for the engineering program?",
+    question: "What support services are available for students?",
     answer:
-      "Admission requirements typically include a strong academic record with a focus on math and science subjects, particularly calculus and physics. We also look for high SAT or ACT scores, letters of recommendation, a personal statement, and involvement in extracurricular activities related to engineering or problem-solving.",
+      "Support services may include academic advising, tutoring, counseling services, disability services, and health services. These resources are designed to help students succeed academically and personally.",
     open: false,
   },
 ]);

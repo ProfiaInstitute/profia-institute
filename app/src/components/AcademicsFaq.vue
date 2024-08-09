@@ -44,22 +44,22 @@
 import { ref } from "vue";
 
 const faqs = ref([
-  {
-    question: "What programming languages are most in-demand?",
+{
+    question: "How do you stay current in your field?",
     answer:
-      "The most in-demand programming languages often include Python, JavaScript, Java, C++, and others. However, the specific demand can vary depending on industry and region.",
+      "I stay current by regularly reading academic journals, attending conferences, and collaborating with other researchers. I also participate in professional organizations and keep an eye on the latest developments in the industry.",
     open: false,
   },
   {
-    question: "How can I improve my cybersecurity skills?",
+    question: "What are the core subjects in the ICT curriculum?",
     answer:
-      "Improving cybersecurity skills involves staying updated with the latest security threats and technologies, participating in relevant training courses, practicing hands-on exercises like ethical hacking, and joining cybersecurity communities for knowledge sharing.",
+      "Core subjects typically include programming, database management, networking, cybersecurity, web development, and information systems. You may also study mathematics and communications as foundational courses.",
     open: false,
   },
   {
-    question: "What are the emerging trends in artificial intelligence?",
+    question: "What are the admission requirements for the engineering program?",
     answer:
-      "Emerging trends in artificial intelligence include deep learning, natural language processing, reinforcement learning, and the convergence of AI with other technologies like edge computing and blockchain.",
+      "Admission requirements typically include a strong academic record with a focus on math and science subjects, particularly calculus and physics. We also look for high SAT or ACT scores, letters of recommendation, a personal statement, and involvement in extracurricular activities related to engineering or problem-solving.",
     open: false,
   },
 ]);
