@@ -279,5 +279,47 @@
         </div>
       </div>
     </section>
+
+    <!-- Fees Table -->
+    <section class="max-w-7xl mx-auto">
+      <div>
+        <h1 class="text-secondary-color text-3xl font-bold mb-8 text-center">
+          Fees Structure
+        </h1>
+      </div>
+      <div class="overflow-x-auto">
+        <table
+          class="shadow-lg bg-white border-collapse mx-auto w-full text-lg"
+        >
+          <tr>
+            <th class="bg-gray-300 border text-left px-8 py-4">Course Name</th>
+
+            <th class="bg-gray-300 border text-left px-8 py-4">Tution Fee</th>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">Computer Packages</td>
+            <td class="border px-8 py-4">3,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">
+              Computer Accounting Packages: (Quickbooks, Sage, Odoo)
+            </td>
+            <td class="border px-8 py-4">4,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">
+              Advanced Computer (POwer Bi, Advanced Excel)
+            </td>
+            <td class="border px-8 py-4">5,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">
+              Programming Langueges (Java, Python, C#, C++, Javascript)
+            </td>
+            <td class="border px-8 py-4">10,000</td>
+          </tr>
+        </table>
+      </div>
+    </section>
   </div>
 </template>

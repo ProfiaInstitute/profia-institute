@@ -113,5 +113,27 @@
         </div>
       </div>
     </section>
+
+    <!-- Fees Table -->
+    <section class="max-w-7xl overflow-x-auto">
+      <div>
+        <h1 class="text-secondary-color text-3xl font-bold mb-8 text-center">Fees Structure</h1>
+      </div>
+
+      <table class="shadow-lg bg-white border-collapse mx-auto w-full">
+        <tr>
+          <th class="bg-gray-300 border text-left px-8 py-4">Course Name</th>
+          <th class="bg-gray-300 border text-left px-8 py-4">
+            Minimum Requirement
+          </th>
+          <th class="bg-gray-300 border text-left px-8 py-4">Tution Fee</th>
+        </tr>
+        <tr class="hover:bg-gray-100">
+          <td class="border px-8 py-4">Plumbing and Elecricals</td>
+          <td class="border px-8 py-4">KCPE/ KCSE Certificate</td>
+          <td class="border px-8 py-4">15,000</td>
+        </tr>
+      </table>
+    </section>
   </div>
 </template>

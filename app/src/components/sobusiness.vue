@@ -200,5 +200,7 @@
         </div>
       </div>
     </section>
+
+    <!-- Fees Table -->
   </div>
 </template>
