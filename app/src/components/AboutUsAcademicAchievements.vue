@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-800 bg-primary-900">
+  <div class="text-gray-800 ">
     <section class="max-w-7xl mx-auto py-5">
       <h1
         class="text-secondary-color text-center text-3xl md:text-5xl font-bold sm:mb-16 mb-28 pb-6"
@@ -49,11 +49,15 @@
           />
         </div>
       </div>
-      <div class="text-center mx-auto space-y-5 py-10 mt-24 lg:mt-0 md:mt-0">
+      
+    </section>
+
+    <div class="text-center max-w-full mx-auto space-y-5 py-10 mt-24 lg:mt-0 md:mt-0 bg-gray-200
+      ">
         <h2 class="font-bold text-3xl md:text-5xl text-secondary-color">
           Our History
         </h2>
-        <p class="max-w-2xl mx-auto">
+        <p class="max-w-4xl mx-auto">
           Cultivating Potential in Homa Bay , Nyanza Region and beyond. Profia
           Institution, established in October 2018, is a testament to the power
           of virtue-driven education in Homa Bay County. With a resolute focus
@@ -64,7 +68,7 @@
         </p>
 
         <h3 class="text-2xl text-secondary-color">From Humble Beginnings to Flourishing Institution:</h3>
-        <p class="max-w-2xl mx-auto">
+        <p class="max-w-4xl mx-auto">
           Profia's journey began in 2018 as a business school, catering to the
           growing demand for business acumen within the region. Recognizing the
           need for a well-rounded educational experience, Profia has steadily
@@ -75,7 +79,7 @@
           (Technical and Vocational Education and Training).
         </p>
         <h3 class="text-2xl text-secondary-color">A Spectrum of Opportunity:</h3>
-        <p class="max-w-2xl mx-auto text-left">
+        <p class="max-w-4xl mx-auto text-left">
           Profia's course catalogue boasts a variety of options, catering to a
           wide range of aspirations. Individuals seeking careers in finance can
           delve into the intricacies of accounting through the CPA (Certified
@@ -88,7 +92,7 @@
           crucial to the community's infrastructure.
         </p>
         <h3 class="text-2xl text-secondary-color">Investing in the Future:</h3>
-        <p class="max-w-2xl mx-auto text-left">
+        <p class="max-w-4xl mx-auto text-left">
           Profia's commitment to excellence extends beyond its curriculum. The
           institution boasts a state-of-the-art ICT lab, ensuring students have
           access to the latest technology and fostering a dynamic learning
@@ -103,7 +107,6 @@
           own success.
         </p>
       </div>
-    </section>
   </div>
 </template>
 
