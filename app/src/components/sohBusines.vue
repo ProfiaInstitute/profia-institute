@@ -212,5 +212,70 @@
         </div> -->
       </div>
     </section>
+
+    <!-- Fees Table -->
+    <section class="max-w-7xl mx-auto">
+      <div>
+        <h1 class="text-secondary-color text-3xl font-bold mb-8 text-center">
+          Fees Structure
+        </h1>
+      </div>
+      <div class="overflow-x-auto">
+        <table
+          class="shadow-lg bg-white border-collapse mx-auto w-full text-lg"
+        >
+          <tr>
+            <th class="bg-gray-300 border text-left px-8 py-4">Course Name</th>
+            <th class="bg-gray-300 border text-left px-8 py-4">Exam Body</th>
+            <th class="bg-gray-300 border text-left px-8 py-4">
+              Duration(months)
+            </th>
+            <th class="bg-gray-300 border text-left px-8 py-4">
+              Minimum Requirements
+            </th>
+            <th class="bg-gray-300 border text-left px-8 py-4">Monthly Fee</th>
+            <th class="bg-gray-300 border text-left px-8 py-4">Term Fee</th>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">
+              Food and beverage Production (grade I-III)
+            </td>
+            <td class="border px-8 py-4">NITA</td>
+            <td class="border px-8 py-4">3 months</td>
+            <td class="border px-8 py-4">KCPE/KCSE Certificate</td>
+            <td class="border px-8 py-4">5,500</td>
+            <td class="border px-8 py-4">15,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">
+              Food and beverage services (grade I-III)
+            </td>
+            <td class="border px-8 py-4">NITA</td>
+            <td class="border px-8 py-4">3 months</td>
+            <td class="border px-8 py-4">KCPE/KCSE Certificate</td>
+            <td class="border px-8 py-4">5,500</td>
+            <td class="border px-8 py-4">15,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">
+              Housekeeping & accommodation (grade I-III)
+            </td>
+            <td class="border px-8 py-4">NITA</td>
+            <td class="border px-8 py-4">3 months</td>
+            <td class="border px-8 py-4">KCPE/KCSE Certificate</td>
+            <td class="border px-8 py-4">5,500</td>
+            <td class="border px-8 py-4">15,000</td>
+          </tr>
+          <tr class="hover:bg-gray-100">
+            <td class="border px-8 py-4">Baking and Pastry (grade I-III)</td>
+            <td class="border px-8 py-4">NITA</td>
+            <td class="border px-8 py-4">3 months</td>
+            <td class="border px-8 py-4">KCPE/KCSE Certificate</td>
+            <td class="border px-8 py-4">5,500</td>
+            <td class="border px-8 py-4">15,000</td>
+          </tr>
+        </table>
+      </div>
+    </section>
   </div>
 </template>
