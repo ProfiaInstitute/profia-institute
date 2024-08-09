@@ -67,7 +67,7 @@
           job market.
         </p>
 
-        <h3 class="text-2xl text-secondary-color">From Humble Beginnings to Flourishing Institution:</h3>
+        <h3 class="text-2xl text-secondary-color pt-6">From Humble Beginnings to Flourishing Institution:</h3>
         <p class="max-w-4xl mx-auto text-left">
           Profia's journey began in 2018 as a business school, catering to the
           growing demand for business acumen within the region. Recognizing the
@@ -78,7 +78,7 @@
           Board), NITA (National Industrial Training Authority), and TVET
           (Technical and Vocational Education and Training).
         </p>
-        <h3 class="text-2xl text-secondary-color">A Spectrum of Opportunity:</h3>
+        <h3 class="text-2xl text-secondary-color pt-6">A Spectrum of Opportunity:</h3>
         <p class="max-w-4xl mx-auto text-left">
           Profia's course catalogue boasts a variety of options, catering to a
           wide range of aspirations. Individuals seeking careers in finance can
@@ -91,7 +91,7 @@
           cosmetology, and plumbing cater to specialised vocations that are
           crucial to the community's infrastructure.
         </p>
-        <h3 class="text-2xl text-secondary-color">Investing in the Future:</h3>
+        <h3 class="text-2xl text-secondary-color pt-6 ">Investing in the Future:</h3>
         <p class="max-w-4xl mx-auto text-left">
           Profia's commitment to excellence extends beyond its curriculum. The
           institution boasts a state-of-the-art ICT lab, ensuring students have
