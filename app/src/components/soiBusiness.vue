@@ -29,7 +29,7 @@
       </div>
       <div class="md:w-1/2 flex flex-col">
         <img
-          src="https://media.istockphoto.com/id/2007398242/photo/businessman-uses-computer-with-pen-financial-graph-analysis-concepts-stock-market-information.webp?b=1&s=170667a&w=0&k=20&c=oxvPVTAPJvZ9B9apdYihCHC4k3fJT-0OUGYR7o3gYng="
+          src="../assets/images/image4.jpg"
           alt=""
           class="w-full h-full object-cover rounded-lg"
         />
