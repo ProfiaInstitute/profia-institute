@@ -71,9 +71,9 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.jpg"
             alt="Night Lights"
-            class="w-full h-1/2 object-cover"
+            class="w-full h-2/3 object-cover"
           />
           <div
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
@@ -94,9 +94,9 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Accounts/Accounts.jpg"
             alt="Night Lights"
-            class="w-full h-1/2 object-cover"
+            class="w-full h-2/3 object-cover"
           />
           <div
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
@@ -115,9 +115,9 @@
         <!-- card 3 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Accounts/lukas-blazek-mcSDtbWXUZU-unsplash.jpg"
             alt="Night Lights"
-            class="w-full h-1/2 object-cover"
+            class="w-full h-2/3 object-cover"
           />
           <div
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
@@ -137,9 +137,9 @@
         <!-- card 4 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Accounts/microsoft-365-7mBictB_urk-unsplash.jpg"
             alt="Night Lights"
-            class="w-full h-1/2 object-cover"
+            class="w-full h-2/3 object-cover"
           />
           <div
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
@@ -158,9 +158,10 @@
         <!-- card 5 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Accounts/northfolk-Ok76F6yW2iA-unsplash.jpg"
             alt="Night Lights"
-            class="w-full h-1/2 object-cover"
+            class="w-full h-2/3
+             object-cover"
           />
           <div
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
@@ -179,9 +180,9 @@
         <!-- card 6 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Accounts/stellrweb-djb1whucfBY-unsplash.jpg"
             alt="Night Lights"
-            class="w-full h-1/2 object-cover"
+            class="w-full h-2/3 object-cover"
           />
           <div
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"

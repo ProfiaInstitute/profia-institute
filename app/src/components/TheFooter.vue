@@ -112,7 +112,7 @@
             class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0 gap-5"
           >
             <li>
-              <img src="../assets/icons/twitter.svg" class="w-5 h-5" alt="" />
+              <img src="../assets/icons/twitter.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
               <!-- <a
                 href="#"
                 class="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 bg-pink-300 border-3 border-black hover:bg-gray-900 hover:text-white me-4 md:me-6"
@@ -120,7 +120,7 @@
               > -->
             </li>
             <li>
-              <img src="../assets/icons/whatsapp.svg" class="w-5 h-5" alt="" />
+              <img src="../assets/icons/whatsapp.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
 
               <!-- <a
                 href="#"
@@ -129,7 +129,7 @@
               > -->
             </li>
             <li>
-              <img src="../assets/icons/instagram.svg" class="w-5 h-5" alt="" />
+              <img src="../assets/icons/instagram.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
               <!-- 
               <a
                 href="#"
@@ -138,8 +138,9 @@
               > -->
             </li>
             <li>
-              <img src="../assets/icons/facebook.svg" class="w-5 h-5" alt="" />
-
+              <a href="https://www.facebook.com/profiainstitute/" target="_blank">
+              <img src="../assets/icons/facebook.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
+            </a>
               <!-- <a
                 href="#"
                 class="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 bg-pink-300 border-3 border-black hover:bg-gray-900 hover:text-white me-4 md:me-6"
