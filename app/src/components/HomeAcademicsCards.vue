@@ -5,7 +5,7 @@
       <!-- Card 1 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.jpg"
           alt="Night Lights"
           class="w-full h-1/2 object-cover"
         />
@@ -60,7 +60,7 @@
       <!-- Card 3 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../assets/images/school-of-ict/web-design.avif"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
@@ -85,7 +85,7 @@
       <!-- Card 4 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../assets/images/electrical.avif"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
@@ -112,7 +112,7 @@
       <!-- Card 5 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../assets/images/beauty/pexels-rdne-7697401.jpg"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />

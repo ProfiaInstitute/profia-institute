@@ -74,7 +74,7 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/comp-foundation.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -98,7 +98,7 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/cert-of-ict.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -120,7 +120,7 @@
         <!-- card 3 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/diploma-of-ict.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -144,7 +144,7 @@
         <!-- card 4 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/web-design-2.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -168,7 +168,7 @@
         <!-- card 5 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/ai.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -192,7 +192,7 @@
         <!-- card 6 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/statistical-lang.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -215,7 +215,7 @@
         </div>
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/data-mngmnt-analytics.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -236,7 +236,7 @@
         </div>
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/web-design-1.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -258,7 +258,7 @@
         </div>
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/school-of-ict/software-dev.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
