@@ -74,7 +74,7 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src=""
+            src="../assets/images/school-of-ict/comp-foundation.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -98,7 +98,7 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src=""
+            src="../assets/images/school-of-ict/cert-of-ict.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -120,7 +120,7 @@
         <!-- card 3 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src=""
+            src="../assets/images/school-of-ict/diploma-of-ict.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
