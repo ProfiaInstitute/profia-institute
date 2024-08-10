@@ -32,7 +32,7 @@
       <!-- Card 2 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.jpg"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
