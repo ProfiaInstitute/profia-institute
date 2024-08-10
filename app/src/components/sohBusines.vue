@@ -25,7 +25,7 @@
       </div>
       <div class="md:w-1/2 flex flex-col">
         <img
-          src="https://media.istockphoto.com/id/2007398242/photo/businessman-uses-computer-with-pen-financial-graph-analysis-concepts-stock-market-information.webp?b=1&s=170667a&w=0&k=20&c=oxvPVTAPJvZ9B9apdYihCHC4k3fJT-0OUGYR7o3gYng="
+          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.jpg"
           alt=""
           class="w-full h-full object-cover rounded-lg"
         />
@@ -70,9 +70,9 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Hospitality/pexels-meruyert-gonullu-6243688.jpg"
             alt="Night Lights"
-            class="w-full h-1/2 object-cover"
+            class="w-full h-2/3 object-cover"
           />
           <div
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
@@ -94,9 +94,9 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Hospitality/pexels-rdne-7363123.jpg"
             alt="Night Lights"
-            class="w-full h-1/2 object-cover"
+            class="w-full h-2/3 object-cover"
           />
           <div
             class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
@@ -117,7 +117,7 @@
         <!-- card 3 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.jpg"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -139,7 +139,7 @@
         <!-- card 4 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="../assets/images/Hospitality/pexels-andres-ayrton-6578868.jpg"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
