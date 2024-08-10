@@ -22,7 +22,7 @@ export default {
         "slide-left-infinite": "slide-left 40s linear infinite",
       },
       backgroundImage: {
-        "people-img" : "url('./src/assets/images/students.avif')",
+        "people-img" : "url('./src/assets/images/profiaimg.jpg')",
         "dove" : "url('./src/assets/images/waterdove.avif')",
       },
 
