@@ -14,16 +14,16 @@
         </div>
 
         <a href="https://forms.gle/jhYs5qUqxH336RgT9" target="_blank">
-        <button
-          class="text-lg border-[2px] border-gray-500 py-2 px-4 hover:bg-quaternary-color rounded-xl duration-500 ease-in-out hover:text-white"
-        >
-          Join Us
-        </button>
-      </a>
+          <button
+            class="text-lg border-[2px] border-gray-500 py-2 px-4 hover:bg-quaternary-color rounded-xl duration-500 ease-in-out hover:text-white"
+          >
+            Join Us
+          </button>
+        </a>
       </div>
       <div>
         <img
-          src="../assets/images/claudio-schwarz (1).avif"
+          src="@/assets/images/claudio.avif"
           class="h-64 w-64 rounded-3xl hover:scale-105 transition duration-200 ease-in-out hidden sm:block"
           alt=""
         />
