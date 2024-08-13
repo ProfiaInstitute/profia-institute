@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import Admission from "../components/Admission.vue";
+import Admission from "@/components/Admission.vue";
 </script>
 
 
