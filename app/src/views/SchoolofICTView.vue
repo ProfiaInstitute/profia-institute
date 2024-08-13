@@ -8,8 +8,8 @@
 </template>
 
 <script setup>
-import soiBusiness from "@/components/soibusiness.vue";
+import soiBusiness from "@/components/soiBusiness.vue";
 // import Whatyouearn from "@/components/Whatyouearn.vue";
-import soienrollment from "@/components/soienrollment.vue";
+import soienrollment from "@/components/soiEnrollment.vue";
 import Faqs from "@/components/Faqs.vue";
 </script>
