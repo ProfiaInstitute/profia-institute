@@ -25,7 +25,7 @@
       </div>
       <div class="md:w-1/2 flex flex-col">
         <img
-          src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.jpg"
+          src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.avif"
           alt=""
           class="w-full h-full object-cover rounded-lg"
         />
@@ -71,7 +71,7 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.jpg"
+            src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -94,7 +94,7 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Accounts/Accounts.jpg"
+            src="../assets/images/Accounts/Accounts.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -115,7 +115,7 @@
         <!-- card 3 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Accounts/lukas-blazek-mcSDtbWXUZU-unsplash.jpg"
+            src="../assets/images/Accounts/lukas-blazek-mcSDtbWXUZU-unsplash.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -137,7 +137,7 @@
         <!-- card 4 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Accounts/microsoft-365-7mBictB_urk-unsplash.jpg"
+            src="../assets/images/Accounts/microsoft-365-7mBictB_urk-unsplash.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -158,7 +158,7 @@
         <!-- card 5 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Accounts/northfolk-Ok76F6yW2iA-unsplash.jpg"
+            src="../assets/images/Accounts/northfolk-Ok76F6yW2iA-unsplash.avif"
             alt="Night Lights"
             class="w-full h-2/3
              object-cover"
@@ -180,7 +180,7 @@
         <!-- card 6 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Accounts/stellrweb-djb1whucfBY-unsplash.jpg"
+            src="../assets/images/Accounts/stellrweb-djb1whucfBY-unsplash.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
