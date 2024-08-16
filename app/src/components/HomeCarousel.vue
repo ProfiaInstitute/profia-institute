@@ -32,27 +32,31 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import tree from "../assets/images/Home/bOvf94dPRxWu0u3QsPjF_tree.avif"
+import bird from "../assets/images/Home/bird-8788491_1280.avif"
+import mountain from "../assets/images/Home/painting-mountain-lake-with-mountain-background_188544-9126.avif"
+import leaf from "../assets/images/Home/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.avif"
 
 // Carousel items data
 const carouselItems = ref([
   {
     image:
-    "../assets/images/Home/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.avif",
+    leaf,
     alt: "staff",
   },
   {
     image:
-      "../assets/images/Home/bird-8788491_1280.avif",
+      bird,
     alt: "staff",
   },
   {
     image:
-      "../assets/images/Home/bOvf94dPRxWu0u3QsPjF_tree.avif",
+      tree,
     alt: "staff",
   },
   {
     image:
-      "../assets/images/Home/painting-mountain-lake-with-mountain-background_188544-9126.avif",
+      mountain,
     alt: "staff",
   },
 ]);
