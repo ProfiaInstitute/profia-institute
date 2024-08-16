@@ -12,23 +12,22 @@
         <div class="flex justify-end items-center list-none px-5 space-x-10">
           <ul>
             <li>
-            <router-link
-              to="/techhub"
-              class="text-white hover:text-gray-400"
-              @click.native="closeMenu"
-              >Tech-hub</router-link
-            >
-          </li>
-          <li>
-            <router-link
-              to="/contact"
-              class="text-white hover:text-gray-400"
-              @click.native="closeMenu"
-              >Enquiries</router-link
-            >
-          </li>
+              <router-link
+                to="/techhub"
+                class="text-white hover:text-gray-400"
+                @click.native="closeMenu"
+                >Tech-hub</router-link
+              >
+            </li>
+            <li>
+              <router-link
+                to="/contact"
+                class="text-white hover:text-gray-400"
+                @click.native="closeMenu"
+                >Enquiries</router-link
+              >
+            </li>
           </ul>
-         
         </div>
       </section>
 
