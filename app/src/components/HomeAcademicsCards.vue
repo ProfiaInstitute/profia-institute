@@ -22,7 +22,7 @@
             </p>
           </div>
           <router-link
-            to="/sob"
+            to="/schoolofbusiness"
             class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -50,7 +50,7 @@
             </p>
           </div>
           <router-link
-            to="/soh"
+            to="/schoolofhospitality"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -75,7 +75,7 @@
             </p>
           </div>
           <router-link
-            to="/soi"
+            to="/schoolofict"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -102,7 +102,7 @@
             </p>
           </div>
           <router-link
-            to="/soe"
+            to="/schoolofengineering"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -130,7 +130,7 @@
             </p>
           </div>
           <router-link
-            to="/soc"
+            to="/schoolofcosmetology"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
