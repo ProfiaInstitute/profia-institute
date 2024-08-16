@@ -26,7 +26,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8">
       <!-- Card 1 -->
       <div
-        class="w-full h-[400px] relative bg-[url('https://media.istockphoto.com/id/1949346122/photo/artificial-intelligence-ai-learning-machine-learning-internet-technology-networking-concept.webp?b=1&s=170667a&w=0&k=20&c=rdYc5mwfZqUHypqvzYvWLl0XKmrTkgNO0CiTqa8RjF4=')] bg-no-repeat bg-cover rounded-2xl"
+        class="w-full h-[400px] relative bg-[url('../assets/images/tech-hub/our-services-1.avif')] bg-no-repeat bg-cover rounded-2xl"
       >
         <!-- Background color -->
         <div class="absolute inset-0 bg-gray-900 bg-opacity-30 rounded-2xl">
@@ -46,7 +46,7 @@
       </div>
       <!-- Card 2 -->
       <div
-        class="w-full h-[400px] relative bg-[url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?q=80&w=2120&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover rounded-2xl"
+        class="w-full h-[400px] relative bg-[url('../assets/images/tech-hub/our-services-2.avif')] bg-no-repeat bg-cover rounded-2xl"
       >
         <div class="absolute inset-0 bg-gray-900 bg-opacity-30 rounded-2xl">
           <div class="absolute inset-x-0 bottom-0 p-6">
@@ -66,7 +66,7 @@
       </div>
       <!-- Card 3 -->
       <div
-        class="w-full h-[400px] relative bg-[url('https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGFpJTIwaW1hZ2VzfGVufDB8fDB8fHww')] bg-no-repeat bg-cover rounded-2xl"
+        class="w-full h-[400px] relative bg-[url('../assets/images/tech-hub/our-services-3.avif')] bg-no-repeat bg-cover rounded-2xl"
       >
         <div class="absolute inset-0 bg-gray-900 bg-opacity-25 rounded-2xl">
           <div class="absolute inset-x-0 bottom-0 p-6">
@@ -86,7 +86,7 @@
       </div>
       <!-- card 4 -->
       <div
-        class="w-full h-[450px] relative bg-[url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover rounded-2xl sm:h-[400px]"
+        class="w-full h-[450px] relative bg-[url('../assets/images/tech-hub/our-services-4.avif')] bg-no-repeat bg-cover rounded-2xl sm:h-[400px]"
       >
         <div class="absolute inset-0 bg-gray-900 bg-opacity-25 rounded-2xl">
           <div class="absolute inset-x-0 bottom-0 p-6">
