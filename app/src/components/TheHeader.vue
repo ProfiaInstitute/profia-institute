@@ -10,7 +10,8 @@
       <!-- Navigation specific to homepage -->
       <section v-if="isHomePage" class="bg-secondary-color py-4">
         <div class="flex justify-end items-center list-none px-5 space-x-10">
-          <li>
+          <ul>
+            <li>
             <router-link
               to="/techhub"
               class="text-white hover:text-gray-400"
@@ -26,6 +27,8 @@
               >Enquiries</router-link
             >
           </li>
+          </ul>
+         
         </div>
       </section>
 
