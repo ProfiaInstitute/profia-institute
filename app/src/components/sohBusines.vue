@@ -25,7 +25,7 @@
       </div>
       <div class="md:w-1/2 flex flex-col">
         <img
-          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.jpg"
+          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.avif"
           alt=""
           class="w-full h-full object-cover rounded-lg"
         />
@@ -70,7 +70,7 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Hospitality/pexels-meruyert-gonullu-6243688.jpg"
+            src="../assets/images/Hospitality/pexels-meruyert-gonullu-6243688.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -94,7 +94,7 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Hospitality/pexels-rdne-7363123.jpg"
+            src="../assets/images/Hospitality/pexels-rdne-7363123.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -117,7 +117,7 @@
         <!-- card 3 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.jpg"
+            src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
@@ -139,7 +139,7 @@
         <!-- card 4 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/Hospitality/pexels-andres-ayrton-6578868.jpg"
+            src="../assets/images/Hospitality/pexels-andres-ayrton-6578868.avif"
             alt="Night Lights"
             class="w-full h-1/2 object-cover"
           />
