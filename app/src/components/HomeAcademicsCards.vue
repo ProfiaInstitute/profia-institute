@@ -85,7 +85,7 @@
       <!-- Card 4 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/electrical.avif"
+          src="../assets/images/school-of-engineering/electrical.avif"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />

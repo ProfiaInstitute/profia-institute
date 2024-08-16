@@ -70,7 +70,7 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/plumbing.avif"
+            src="../assets/images/school-of-engineering/plumbing.avif"
             alt="Night Lights"
             class="w-full object-cover"
           />
@@ -93,7 +93,7 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/electrical.avif"
+            src="../assets/images/school-of-engineering/electrical.avif"
             alt="Night Lights"
             class="w-full object-cover"
           />
