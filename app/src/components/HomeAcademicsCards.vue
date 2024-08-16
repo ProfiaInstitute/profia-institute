@@ -5,7 +5,7 @@
       <!-- Card 1 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.jpg"
+          src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.avif"
           alt="Night Lights"
           class="w-full h-1/2 object-cover"
         />
@@ -32,7 +32,7 @@
       <!-- Card 2 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.jpg"
+          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.avif"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
