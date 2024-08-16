@@ -23,8 +23,8 @@
       </div>
       <div>
         <img
-          src="@/assets/images/claudio.avif"
-          class="h-64 w-64 rounded-3xl hover:scale-105 transition duration-200 ease-in-out hidden sm:block"
+          src="@/assets/images/profiaimg.avif"
+          class="h-64 w-64 object-cover rounded-3xl hover:scale-105 transition duration-200 ease-in-out hidden sm:block"
           alt=""
         />
       </div>

@@ -7,8 +7,8 @@
       <!-- div that holds the image  -->
       <div class="rounded-3xl h-[35vh] px-4 sm:h-[32vh] lg:h-[60vh] lg:w-11/12">
         <img
-          class="h-full w-full rounded-3xl shadow-2xl lg:shadow-blue-200"
-          src="../assets/images/image1.jpg"
+          class="h-full w-full object-cover rounded-3xl shadow-2xl lg:shadow-blue-200"
+          src="../assets/images/tech-hub/image1.avif"
           alt=""
         />
       </div>
@@ -17,12 +17,12 @@
         class="p-4 bg-slate-50 rounded-xl -bottom-5 right-3 w-full lg:w-1/2 lg:absolute lg:shadow-2xl shadow-blue-200"
       >
         <h1
-          class="text-3xl text-secondary-color font-serif text-center tracking-tighter sm:text-4xl font-bold mb-4"
+          class="text-3xl text-secondary-color text-center tracking-tighter sm:text-4xl font-bold mb-4"
         >
           Profia Tech Hub
         </h1>
         <p
-          class="text-justify text-xl tracking-tighter font-serif sm:text-xl xl:text-2xl p-1"
+          class="text-justify text-xl tracking-tighter sm:text-xl xl:text-2xl p-1"
         >
           Profia Institute's Tech Hub is central to our focus on innovation and
           technology. We explore AI, Data Categorization, 3D & 2D Annotation,
