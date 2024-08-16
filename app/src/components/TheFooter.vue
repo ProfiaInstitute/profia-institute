@@ -138,7 +138,7 @@
               > -->
             </li>
             <li>
-              <a href="https://www.facebook.com/profiainstitute/" target="_blank">
+              <a href="https://www.facebook.com/profiainstitute/" aria-labell="facebook link" target="_blank">
               <img src="../assets/icons/facebook.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
             </a>
               <!-- <a
