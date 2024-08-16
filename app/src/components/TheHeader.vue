@@ -87,7 +87,7 @@
               >
                 <div class="grid grid-cols-3 lg:gap-4">
                   <div>
-                    <router-link to="/sob">
+                    <router-link to="/schoolofbusiness">
                       <h3 class="font-semibold">School of Business</h3>
                     </router-link>
 
@@ -119,7 +119,7 @@
                     </ul> -->
                   </div>
                   <div>
-                    <router-link to="/soi">
+                    <router-link to="/schoolofict">
                       <h3 class="font-semibold">School of ICT</h3>
                     </router-link>
 
@@ -151,7 +151,7 @@
                     </ul> -->
                   </div>
                   <div>
-                    <router-link to="/soh">
+                    <router-link to="/schoolofhospitality">
                       <h3 class="font-semibold">School of Hospitality</h3>
                     </router-link>
 
@@ -183,12 +183,12 @@
                     </ul> -->
                   </div>
                   <div>
-                    <router-link to="/soe">
+                    <router-link to="/schoolofengineering">
                       <h3 class="font-semibold">School of Engineering</h3>
                     </router-link>
                   </div>
                   <div>
-                    <router-link to="/soc">
+                    <router-link to="/schoolofcosmetology">
                       <h3 class="font-semibold">
                         School of Beauty/Cosmetology
                       </h3>
