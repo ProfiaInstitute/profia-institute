@@ -112,7 +112,7 @@
       <!-- Card 5 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/beauty/pexels-rdne-7697401.jpg"
+          src="../assets/images/beauty/pexels-rdne-7697401.avif"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
