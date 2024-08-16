@@ -2,7 +2,7 @@
   <div class="py-5">
     <div class="!flex h-[90vh] w-full items-center justify-between px-10">
       <img
-        src="https://bucket.material-tailwind.com/magic-ai/3f24080b2fa162ec33033ec532f2d727ad79b2ca73ccb0f0ab67f99d2e56c096.jpg"
+        src="../assets/images/Home/3f24080b2fa162ec33033ec532f2d727ad79b2ca73ccb0f0ab67f99d2e56c096.avif"
         alt="bg-img"
         class="absolute inset-0 ml-auto h-full lg:rounded-bl-[100px] object-cover object-center"
       />
