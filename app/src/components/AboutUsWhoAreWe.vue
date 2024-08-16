@@ -12,11 +12,11 @@
         class="relative bg-secondary-color py-3 md:py-5 flex justify-start md:justify-end items-center text-white mx-auto"
       >
         <span class="text-3xl px-5 md:text-5xl">About Us</span>
-        <div class="absolute right-[600px] w-96 bg-gray-300 hidden md:block">
+        <div class="absolute right-[600px] w-96 bg-gray-300 hidden md:block rounded-xl">
           <img
-            src="../assets/images/students.avif"
+            src="../assets/images/profia1img.jpg"
             alt="Image Description"
-            class="w-full"
+            class="w-full rounded-xl"
           />
         </div>
       </div>

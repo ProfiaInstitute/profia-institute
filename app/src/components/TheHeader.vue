@@ -67,6 +67,7 @@
               <router-link
                 to="/"
                 class="hover:text-primary-color"
+                active-class="text-primary-color"
                 @click.native="closeMenu"
                 >Home</router-link
               >
@@ -75,6 +76,7 @@
               <router-link
                 to="/academics"
                 class="hover:text-primary-color flex items-center"
+                active-class="text-primary-color"
                 @click.native="closeMenu"
               >
                 <span>Academics</span>
@@ -88,7 +90,7 @@
                     <router-link to="/sob">
                       <h3 class="font-semibold">School of Business</h3>
                     </router-link>
-                    
+
                     <!-- <ul class="ml-4">
                       <li>
                         <router-link
@@ -152,7 +154,7 @@
                     <router-link to="/soh">
                       <h3 class="font-semibold">School of Hospitality</h3>
                     </router-link>
-                    
+
                     <!-- <ul class="ml-4">
                       <li>
                         <router-link
@@ -184,13 +186,13 @@
                     <router-link to="/soe">
                       <h3 class="font-semibold">School of Engineering</h3>
                     </router-link>
-                    
                   </div>
                   <div>
                     <router-link to="/soc">
-                      <h3 class="font-semibold">School of Beauty/Cosmetology</h3>
+                      <h3 class="font-semibold">
+                        School of Beauty/Cosmetology
+                      </h3>
                     </router-link>
-                    
                   </div>
                 </div>
               </div>
@@ -199,6 +201,7 @@
               <router-link
                 to="/aboutus"
                 class="hover:text-primary-color"
+                active-class="text-primary-color"
                 @click.native="closeMenu"
                 >About Us</router-link
               >
@@ -215,6 +218,7 @@
               <router-link
                 to="/contact"
                 class="hover:text-primary-color"
+                active-class="text-primary-color"
                 @click.native="closeMenu"
                 >Contact Us</router-link
               >
@@ -223,6 +227,7 @@
               <router-link
                 to="/admission"
                 class="hover:text-primary-color relative"
+                active-class="text-primary-color"
                 @click.native="closeMenu"
               >
                 Admission

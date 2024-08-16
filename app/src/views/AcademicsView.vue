@@ -19,10 +19,10 @@
 </template>
 
 <script setup>
-import AcademicsCallToAction from "../components/AcademicsCallToAction.vue";
-import AcademicsFacultyStaff from "../components/AcademicsFacultyStaff.vue";
-import AcademicsPrincipal from "../components/AcademicsPrincipal.vue";
-import AcademicsSchools from "../components/AcademicsSchools.vue";
-import AcademicsSchoolsList from "../components/AcademicsSchoolsList.vue";
-import AcademicsFaq from "../components/AcademicsFaq.vue";
+import AcademicsCallToAction from "@/components/AcademicsCallToAction.vue";
+import AcademicsFacultyStaff from "@/components/AcademicsFacultyStaff.vue";
+import AcademicsPrincipal from "@/components/AcademicsPrincipal.vue";
+import AcademicsSchools from "@/components/AcademicsSchools.vue";
+import AcademicsSchoolsList from "@/components/AcademicsSchoolsList.vue";
+import AcademicsFaq from "@/components/AcademicsFaq.vue";
 </script>
