@@ -14,7 +14,7 @@
         <span class="text-3xl px-5 md:text-5xl">About Us</span>
         <div class="absolute right-[600px] w-96 bg-gray-300 hidden md:block rounded-xl">
           <img
-            src="../assets/images/profia1img.jpg"
+            src="../assets/images/profia1img.avif"
             alt="Image Description"
             class="w-full rounded-xl"
           />
