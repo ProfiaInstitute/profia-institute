@@ -33,7 +33,7 @@
 
       <!-- Header content -->
       <div
-        class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
+        class="flex items-center justify-between mx-auto max-w-7xl px-4 lg:px-0"
       >
         <!-- Logo and menu toggle button -->
         <div class="flex items-center gap-6">
@@ -85,7 +85,7 @@
                 <span class="ml-1">&#9662;</span>
               </router-link>
               <div
-                class="absolute hidden group-hover:block lg:bg-gray-50 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
+                class="absolute hidden group-hover:block lg:bg-gray-100 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
               >
                 <div class="grid grid-cols-2 lg:gap-4">
                   <div>
@@ -107,7 +107,7 @@
                       <h3 class="font-semibold">School of Hospitality</h3>
                     </router-link>
 
-                   
+                    
                   </div>
                   <div>
                     <router-link to="/schoolofengineering">
@@ -167,8 +167,6 @@
             </li>
           </ul>
         </nav>
-
-        <div class="flex items-center gap-6"></div>
       </div>
     </header>
   </div>

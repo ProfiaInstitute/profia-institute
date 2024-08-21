@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5">
+  <div class="py-5 ">
     <div class="!flex h-[90vh] w-full items-center justify-between px-10">
       <img
         src="../assets/images/Home/3f24080b2fa162ec33033ec532f2d727ad79b2ca73ccb0f0ab67f99d2e56c096.avif"
