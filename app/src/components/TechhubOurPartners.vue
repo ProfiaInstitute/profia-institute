@@ -13,27 +13,27 @@
           <!-- Ensure that the images cover entire screen width for a smooth transition -->
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/kasneb-logo.png"
+            src="@/assets/images/partners/kasneb-logo.avif"
             alt="acfat"
           />
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/lish-logo.png"
+            src="@/assets/images/partners/lish-logo.avif"
             alt="acfat"
           />
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/nita-logo.png"
+            src="@/assets/images/partners/nita-logo.avif"
             alt="acfat"
           />
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/TVETA-LOGO.png"
+            src="@/assets/images/partners/TVETA-LOGO.avif"
             alt="acfat"
           />
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/wmf-logo.png"
+            src="@/assets/images/partners/wmf-logo.avif"
             alt="acfat"
           />
         </div>
@@ -43,27 +43,27 @@
           <!-- Ensure that the images cover entire screen width for a smooth transition -->
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/kasneb-logo.png"
+            src="@/assets/images/partners/kasneb-logo.avif"
             alt="acfat"
           />
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/lish-logo.png"
+            src="@/assets/images/partners/lish-logo.avif"
             alt="acfat"
           />
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/nita-logo.png"
+            src="@/assets/images/partners/nita-logo.avif"
             alt="acfat"
           />
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/TVETA-LOGO.png"
+            src="@/assets/images/partners/TVETA-LOGO.avif"
             alt="acfat"
           />
           <img
             class="inline h-32 w-32 object-contain ml-5"
-            src="@/assets/images/partners/wmf-logo.png"
+            src="@/assets/images/partners/wmf-logo.avif"
             alt="acfat"
           />
         </div>

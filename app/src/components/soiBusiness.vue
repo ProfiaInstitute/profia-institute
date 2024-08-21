@@ -29,7 +29,7 @@
       </div>
       <div class="md:w-1/2 flex flex-col">
         <img
-          src="../assets/images/image4.jpg"
+          src="../assets/images/tech-hub/image4.avif"
           alt=""
           class="w-full h-full object-cover rounded-lg"
         />

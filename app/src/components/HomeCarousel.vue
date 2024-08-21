@@ -32,27 +32,31 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import tree from "../assets/images/Home/bOvf94dPRxWu0u3QsPjF_tree.avif"
+import bird from "../assets/images/Home/bird-8788491_1280.avif"
+import mountain from "../assets/images/Home/painting-mountain-lake-with-mountain-background_188544-9126.avif"
+import leaf from "../assets/images/Home/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.avif"
 
 // Carousel items data
 const carouselItems = ref([
   {
     image:
-      "https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg",
+    leaf,
     alt: "staff",
   },
   {
     image:
-      "https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHx8fDE3MTk4NTM4MzN8MA&ixlib=rb-4.0.3",
+      bird,
     alt: "staff",
   },
   {
     image:
-      "https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg",
+      tree,
     alt: "staff",
   },
   {
     image:
-      "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1719792000&semt=ais_user",
+      mountain,
     alt: "staff",
   },
 ]);

@@ -10,22 +10,24 @@
       <!-- Navigation specific to homepage -->
       <section v-if="isHomePage" class="bg-secondary-color py-4">
         <div class="flex justify-end items-center list-none px-5 space-x-10">
-          <li>
-            <router-link
-              to="/techhub"
-              class="text-white hover:text-gray-400"
-              @click.native="closeMenu"
-              >Tech-hub</router-link
-            >
-          </li>
-          <li>
-            <router-link
-              to="/contact"
-              class="text-white hover:text-gray-400"
-              @click.native="closeMenu"
-              >Enquiries</router-link
-            >
-          </li>
+          <ul class="flex gap-5">
+            <li>
+              <router-link
+                to="/techhub"
+                class="text-white hover:text-gray-400"
+                @click.native="closeMenu"
+                >Tech-hub</router-link
+              >
+            </li>
+            <li>
+              <router-link
+                to="/contact"
+                class="text-white hover:text-gray-400"
+                @click.native="closeMenu"
+                >Enquiries</router-link
+              >
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -49,7 +51,7 @@
             <img
               src="@/assets/images/logo.png"
               alt="Logo"
-              class="h-8 lg:h-12"
+              class="h-8 lg:h-12 mb-2"
             />
           </router-link>
         </div>
@@ -87,108 +89,33 @@
               >
                 <div class="grid grid-cols-3 lg:gap-4">
                   <div>
-                    <router-link to="/sob">
+                    <router-link to="/schoolofbusiness">
                       <h3 class="font-semibold">School of Business</h3>
                     </router-link>
 
-                    <!-- <ul class="ml-4">
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 1</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 2</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 3</router-link
-                        >
-                      </li>
-                    </ul> -->
+                    
                   </div>
                   <div>
-                    <router-link to="/soi">
+                    <router-link to="/schoolofict">
                       <h3 class="font-semibold">School of ICT</h3>
                     </router-link>
 
-                    <!-- <ul class="ml-4">
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 1</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 2</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 3</router-link
-                        >
-                      </li>
-                    </ul> -->
+                   
                   </div>
                   <div>
-                    <router-link to="/soh">
+                    <router-link to="/schoolofhospitality">
                       <h3 class="font-semibold">School of Hospitality</h3>
                     </router-link>
 
-                    <!-- <ul class="ml-4">
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 1</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 2</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 3</router-link
-                        >
-                      </li>
-                    </ul> -->
+                    
                   </div>
                   <div>
-                    <router-link to="/soe">
+                    <router-link to="/schoolofengineering">
                       <h3 class="font-semibold">School of Engineering</h3>
                     </router-link>
                   </div>
                   <div>
-                    <router-link to="/soc">
+                    <router-link to="/schoolofcosmetology">
                       <h3 class="font-semibold">
                         School of Beauty/Cosmetology
                       </h3>
@@ -231,17 +158,11 @@
                 @click.native="closeMenu"
               >
                 Admission
-                <!-- <img
-                  src="@/assets/Search.png"
-                  alt="Search"
-                  class="absolute left-48 top-0 h-6 w-6 cursor-pointer"
-                /> -->
+               
               </router-link>
             </li>
           </ul>
         </nav>
-
-        <div class="flex items-center gap-6"></div>
       </div>
     </header>
   </div>

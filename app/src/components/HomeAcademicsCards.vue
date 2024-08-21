@@ -5,7 +5,7 @@
       <!-- Card 1 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.jpg"
+          src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.avif"
           alt="Night Lights"
           class="w-full h-1/2 object-cover"
         />
@@ -22,7 +22,7 @@
             </p>
           </div>
           <router-link
-            to="/sob"
+            to="/schoolofbusiness"
             class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -32,7 +32,7 @@
       <!-- Card 2 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.jpg"
+          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.avif"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
@@ -50,7 +50,7 @@
             </p>
           </div>
           <router-link
-            to="/soh"
+            to="/schoolofhospitality"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -75,7 +75,7 @@
             </p>
           </div>
           <router-link
-            to="/soi"
+            to="/schoolofict"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -85,7 +85,7 @@
       <!-- Card 4 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/electrical.avif"
+          src="../assets/images/school-of-engineering/electrical.avif"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
@@ -102,7 +102,7 @@
             </p>
           </div>
           <router-link
-            to="/soe"
+            to="/schoolofengineering"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >
@@ -112,7 +112,7 @@
       <!-- Card 5 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/beauty/pexels-rdne-7697401.jpg"
+          src="../assets/images/beauty/pexels-rdne-7697401.avif"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
@@ -130,7 +130,7 @@
             </p>
           </div>
           <router-link
-            to="/soc"
+            to="/schoolofcosmetology"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
           >

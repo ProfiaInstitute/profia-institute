@@ -30,28 +30,13 @@
           </h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            <!-- <div
-              class="w-full relative rounded-2xl overflow-hidden flex flex-col"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Night Lights"
-                class="w-full h-1/2 object-cover"
-              />
-              <div
-                class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
-              >
-                <div>
-                  <h1 class="text-2xl font-semibold text-white">Sports</h1>
-                </div>
-              </div>
-            </div> -->
+          
 
             <div
               class=""
             >
               <img
-                src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../assets/images/Home/photo-1716968921433-835ec227f847.avif"
                 alt="Welcome Aboard"
                 class="rounded-t-lg hover:bg-secondary-color/20"
               />
@@ -66,28 +51,13 @@
               </div>
             </div>
 
-            <!-- <div
-              class="w-full relative rounded-2xl overflow-hidden flex flex-col"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Welcome Aboard"
-                class="w-full h-1/2 object-cover"
-              />
-              <div
-                class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
-              >
-                <div>
-                  <h1 class="text-2xl font-semibold text-white">Mess</h1>
-                </div>
-              </div>
-            </div> -->
+           
 
             <div
               class=""
             >
               <img
-                src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../assets/images/Home/photo-1716968921433-835ec227f847.avif"
                 alt="Welcome Aboard"
                 class="rounded-t-lg hover:bg-secondary-color/20"
               />
@@ -102,30 +72,13 @@
               </div>
             </div>
 
-            <!-- <div
-              class="w-full relative rounded-2xl overflow-hidden flex flex-col"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Welcome Aboard"
-                class="w-full h-1/2 object-cover"
-              />
-              <div
-                class="bg-gray-900 bg-opacity-30 p-8 flex-grow rounded-b-2xl flex flex-col justify-between"
-              >
-                <div>
-                  <h1 class="text-2xl font-semibold text-white">
-                    Student center
-                  </h1>
-                </div>
-              </div>
-            </div> -->
+           
 
             <div
               class=""
             >
               <img
-                src="https://images.unsplash.com/photo-1716968921433-835ec227f847?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../assets/images/Home/photo-1716968921433-835ec227f847.avif"
                 alt="Welcome Aboard"
                 class="rounded-t-lg hover:bg-secondary-color/20"
               />

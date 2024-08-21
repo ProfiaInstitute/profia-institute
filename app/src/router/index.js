@@ -22,27 +22,27 @@ const routes = [
   { path: "/techhub", name: "techhub", component: TechHubView },
   { path: "/academics", name: "academics", component: AcademicsView },
   {
-    path: "/sob",
+    path: "/schoolofbusiness",
     name: "schoolofbusiness",
     component: SchoolofBusiness,
   },
   {
-    path: "/soh",
+    path: "/schoolofhospitality",
     name: "schoolofhospitality",
     component: SchoolofHospitalityView,
   },
   {
-    path: "/soc",
+    path: "/schoolofcosmetology",
     name: "schoolofcosmetology",
     component: SchoolofCosmetologyView,
   },
   {
-    path: "/soe",
+    path: "/schoolofengineering",
     name: "schoolofengineering",
     component: SchoolofEngineeringView,
   },
   {
-    path: "/soi",
+    path: "/schoolofict",
     name: "schoolofict",
     component: SchoolofICTView,
   },

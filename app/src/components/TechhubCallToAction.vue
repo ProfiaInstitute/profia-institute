@@ -1,7 +1,5 @@
 <template>
-  <!-- <div class="flex justify-center py-5 px-48 border-black border-4 rounded-xl w-full">
-        <p class="text-black-500 text-5xl font-bold">Lets go</p>
-    </div> -->
+
 
   <section class="max-w-7xl mx-auto px-4">
     <div
@@ -23,8 +21,8 @@
       </div>
       <div>
         <img
-          src="@/assets/images/claudio.avif"
-          class="h-64 w-64 rounded-3xl hover:scale-105 transition duration-200 ease-in-out hidden sm:block"
+          src="@/assets/images/profiaimg.avif"
+          class="h-64 w-64 object-cover rounded-3xl hover:scale-105 transition duration-200 ease-in-out hidden sm:block"
           alt=""
         />
       </div>
