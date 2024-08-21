@@ -10,7 +10,7 @@
       <!-- Navigation specific to homepage -->
       <section v-if="isHomePage" class="bg-secondary-color py-4">
         <div class="flex justify-end items-center list-none px-5 space-x-10">
-          <ul>
+          <ul class="flex gap-5">
             <li>
               <router-link
                 to="/techhub"
@@ -33,7 +33,7 @@
 
       <!-- Header content -->
       <div
-        class="flex items-center justify-between mx-auto max-w-7xl px-4 lg:px-0"
+        class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
       >
         <!-- Logo and menu toggle button -->
         <div class="flex items-center gap-6">
@@ -51,7 +51,7 @@
             <img
               src="@/assets/images/logo.png"
               alt="Logo"
-              class="h-8 lg:h-12"
+              class="h-8 lg:h-12 mb-2"
             />
           </router-link>
         </div>
@@ -87,7 +87,7 @@
               <div
                 class="absolute hidden group-hover:block lg:bg-gray-100 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
               >
-                <div class="grid grid-cols-2 lg:gap-4">
+                <div class="grid grid-cols-3 lg:gap-4">
                   <div>
                     <router-link to="/schoolofbusiness">
                       <h3 class="font-semibold">School of Business</h3>
@@ -158,11 +158,7 @@
                 @click.native="closeMenu"
               >
                 Admission
-                <!-- <img
-                  src="@/assets/Search.png"
-                  alt="Search"
-                  class="absolute left-48 top-0 h-6 w-6 cursor-pointer"
-                /> -->
+               
               </router-link>
             </li>
           </ul>
