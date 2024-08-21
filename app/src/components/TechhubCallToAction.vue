@@ -1,7 +1,5 @@
 <template>
-  <!-- <div class="flex justify-center py-5 px-48 border-black border-4 rounded-xl w-full">
-        <p class="text-black-500 text-5xl font-bold">Lets go</p>
-    </div> -->
+
 
   <section class="max-w-7xl mx-auto px-4">
     <div

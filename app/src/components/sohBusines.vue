@@ -158,58 +158,8 @@
             </div>
           </div>
         </div>
-        <!-- card 5 -->
-        <!-- <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
-          <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Night Lights"
-            class="w-full h-1/2 object-cover"
-          />
-          <div
-            class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
-          >
-            <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
-              </h1>
-              <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
-              </p>
-            </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
-          </div>
-        </div> -->
-        <!-- card 6 -->
-        <!-- <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
-          <img
-            src="https://images.unsplash.com/photo-1716276590903-f7703efa9177?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Night Lights"
-            class="w-full h-1/2 object-cover"
-          />
-          <div
-            class="bg-gray-900 bg-opacity-30 p-6 flex-grow rounded-b-2xl flex flex-col justify-between"
-          >
-            <div>
-              <h1 class="text-2xl font-semibold text-white justify-start">
-                CPA
-              </h1>
-              <p class="text-white py-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-                excepturi odio pariatur cum corrupti dolorum tenetur...
-              </p>
-            </div>
-            <router-link
-              to="#"
-              class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-start"
-              >Read More</router-link
-            >
-          </div>
-        </div> -->
+       
+       
       </div>
     </section>
 

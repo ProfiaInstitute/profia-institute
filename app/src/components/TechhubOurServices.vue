@@ -11,9 +11,7 @@
           Our Services
         </h1>
       </div>
-      <!-- <h1 class="text-center sm:text-2xl lg:text-2xl tracking-tighter">
-        We offer variety of Services that includes
-      </h1> -->
+      
       <p class="text-center px-2 sm:text-xl lg:text-2xl tracking-tighter">
         Profia Institute's Tech Hub drives innovation in AI, Data
         Categorization, 3D & 2D Annotation, Autonomous Driving Training Data,

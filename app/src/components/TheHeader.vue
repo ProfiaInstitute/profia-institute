@@ -85,104 +85,29 @@
                 <span class="ml-1">&#9662;</span>
               </router-link>
               <div
-                class="absolute hidden group-hover:block lg:bg-gray-100 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
+                class="absolute hidden group-hover:block lg:bg-gray-50 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
               >
-                <div class="grid grid-cols-3 lg:gap-4">
+                <div class="grid grid-cols-2 lg:gap-4">
                   <div>
                     <router-link to="/schoolofbusiness">
                       <h3 class="font-semibold">School of Business</h3>
                     </router-link>
 
-                    <!-- <ul class="ml-4">
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 1</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 2</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 3</router-link
-                        >
-                      </li>
-                    </ul> -->
+                    
                   </div>
                   <div>
                     <router-link to="/schoolofict">
                       <h3 class="font-semibold">School of ICT</h3>
                     </router-link>
 
-                    <!-- <ul class="ml-4">
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 1</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 2</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 3</router-link
-                        >
-                      </li>
-                    </ul> -->
+                   
                   </div>
                   <div>
                     <router-link to="/schoolofhospitality">
                       <h3 class="font-semibold">School of Hospitality</h3>
                     </router-link>
 
-                    <!-- <ul class="ml-4">
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 1</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 2</router-link
-                        >
-                      </li>
-                      <li>
-                        <router-link
-                          to="#"
-                          class="block py-1 hover:bg-white"
-                          @click.native="closeMenu"
-                          >link 3</router-link
-                        >
-                      </li>
-                    </ul> -->
+                   
                   </div>
                   <div>
                     <router-link to="/schoolofengineering">

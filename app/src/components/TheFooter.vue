@@ -75,30 +75,7 @@
           </div>
         </div>
 
-        <!-- <div>
-          <div class="flex flex-col items-center mt-5 space-y-2">
-            <router-link
-              to="/staff"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Staff</router-link
-            >
-            <router-link
-              to="/students"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Students</router-link
-            >
-            <router-link
-              to="/admission"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Admission</router-link
-            >
-            <router-link
-              to="/administration"
-              class="text-gray-600 transition-colors duration-300 hover:text-blue-500"
-              >Administration</router-link
-            >
-          </div>
-        </div> -->
+       
       </div>
 
       <div class="bg-white rounded-lg m-4">
@@ -113,39 +90,22 @@
           >
             <li>
               <img src="../assets/icons/twitter.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
-              <!-- <a
-                href="#"
-                class="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 bg-pink-300 border-3 border-black hover:bg-gray-900 hover:text-white me-4 md:me-6"
-                >T</a
-              > -->
+              
             </li>
             <li>
               <img src="../assets/icons/whatsapp.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
 
-              <!-- <a
-                href="#"
-                class="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 bg-pink-300 border-3 border-black hover:bg-gray-900 hover:text-white me-4 md:me-6"
-                >W</a
-              > -->
+              
             </li>
             <li>
               <img src="../assets/icons/instagram.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
-              <!-- 
-              <a
-                href="#"
-                class="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 bg-pink-300 border-3 border-black hover:bg-gray-900 hover:text-white me-4 md:me-6"
-                >I</a
-              > -->
+             
             </li>
             <li>
               <a href="https://www.facebook.com/profiainstitute/" aria-label="facebook link" target="_blank">
               <img src="../assets/icons/facebook.svg" class="w-5 h-5 hover:w-6 hover:h-6" alt="" />
             </a>
-              <!-- <a
-                href="#"
-                class="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 bg-pink-300 border-3 border-black hover:bg-gray-900 hover:text-white me-4 md:me-6"
-                >F</a
-              > -->
+              
             </li>
           </ul>
         </div>
