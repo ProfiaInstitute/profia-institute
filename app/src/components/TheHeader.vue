@@ -87,7 +87,7 @@
               <div
                 class="absolute hidden group-hover:block lg:bg-gray-100 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
               >
-                <div class="grid grid-cols-3 lg:gap-4">
+                <div class="grid grid-cols-2 lg:gap-4">
                   <div>
                     <router-link to="/schoolofbusiness">
                       <h3 class="font-semibold">School of Business</h3>
