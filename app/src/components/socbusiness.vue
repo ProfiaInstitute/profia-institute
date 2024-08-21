@@ -23,7 +23,7 @@
       </div>
       <div class="md:w-1/2 flex flex-col">
         <img
-          src="../assets/images/beauty/pexels-rdne-7697401.jpg"
+          src="../assets/images/beauty/pexels-rdne-7697401.avif"
           alt=""
           class="w-full h-full object-cover rounded-lg"
         />
@@ -67,7 +67,7 @@
         <!-- card 1 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/beauty/pexels-shvetsa-5069432.jpg"
+            src="../assets/images/beauty/pexels-shvetsa-5069432.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -90,7 +90,7 @@
         <!-- card 2 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/beauty/pexels-barbara-olsen-7879492.jpg"
+            src="../assets/images/beauty/pexels-barbara-olsen-7879492.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -111,7 +111,7 @@
         <!-- card 3 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/beauty/pexels-cottonbro-3997391.jpg"
+            src="../assets/images/beauty/pexels-cottonbro-3997391.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -132,7 +132,7 @@
         <!-- card 4 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/beauty/pexels-rdne-7697401.jpg"
+            src="../assets/images/beauty/pexels-rdne-7697401.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />
@@ -153,7 +153,7 @@
         <!-- card 5 -->
         <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
           <img
-            src="../assets/images/beauty/pexels-enginakyurt-5378219.jpg"
+            src="../assets/images/beauty/pexels-enginakyurt-5378219.avif"
             alt="Night Lights"
             class="w-full h-2/3 object-cover"
           />

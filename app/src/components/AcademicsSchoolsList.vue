@@ -3,29 +3,29 @@
     class="border-[2px] border-gray-200 rounded-lg w-auto h-auto px-5 space-y-4 py-3"
   >
     <div class="">
-      <router-link to="/sob">
+      <router-link to="/schoolofbusiness">
         <h1 class="text-xl font-semibold underline">School of Business</h1>
       </router-link>
     </div>
     <div class="">
-      <router-link to="/soi">
+      <router-link to="/schoolofict">
         <h1 class="text-xl font-semibold underline">School of ICT</h1>
       </router-link>
     </div>
     <div class="">
-      <router-link to="/soh">
+      <router-link to="/schoolofhospitality">
         <h1 class="text-xl font-semibold underline">School of Hospitality</h1>
       </router-link>
     </div>
     <div class="">
-      <router-link to="/soc">
+      <router-link to="/schoolofcosmetology">
         <h1 class="text-xl font-semibold underline">
           School of Beauty/Cosmetology
         </h1>
       </router-link>
     </div>
     <div class="">
-      <router-link to="/soe"
+      <router-link to="/schoolofengineering"
         ><h1 class="text-xl font-semibold underline">School of Engineering</h1>
       </router-link>
     </div>

@@ -10,10 +10,11 @@
             href="https://docs.google.com/forms/d/e/1FAIpQLScMpwjvMblufTl-aLDPacOiPc1eD2OtH86z9kV6GaEU6TdM0w/viewform"
             target="_blank"
           >
-            <Button
+            <button
               class="border-[1px] border-black bg-tertiary-color px-5 py-3 rounded-xl transition duration-500 ease-in-out hover:bg-black hover:rounded-full hover:text-white"
-              >Click to Apply</Button
             >
+              Click to Apply
+            </button>
           </a>
         </div>
       </div>
@@ -67,34 +68,6 @@
                 Intermediate education is a level of education that bridges the
                 gap between primary and higher education.
               </p>
-              <!-- <div class="absolute -left-40 top-48">
-                <div class="flex">
-                  <img
-                    src="../assets/images/techhub-1.avif"
-                    alt=""
-                    class="w-24 h-36"
-                  />
-                  <img
-                    src="../assets/images/techhub-2.avif"
-                    alt=""
-                    class="w-24 h-28"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="../assets/images/techhub-3.avif"
-                    alt=""
-                    class="w-48 h-28"
-                  />
-                </div>
-                <div class="">
-                  <img
-                    src="../assets/images/techhub-4.avif"
-                    alt=""
-                    class="w-36 h-28"
-                  />
-                </div>
-              </div> -->
             </div>
             <div
               class="py-10 w-72 px-6 space-y-6 border border-black bg-gray-300 rounded-3xl hover:rounded-none"
