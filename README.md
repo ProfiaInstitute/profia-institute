@@ -1,6 +1,6 @@
 # Profia-Institute
 
-Institution Website with Vue
+Institution Website with Nextjs
 
 ## Initialising the repository
 
